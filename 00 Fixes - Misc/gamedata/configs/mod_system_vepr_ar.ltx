@@ -1,0 +1,342 @@
+;=============================================================
+;=================== VEPR ar =====================
+;=============================================================
+[wpn_vepr_ar]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection     = spawn_group
+$npc                    = on
+$prefetch               = 8
+$spawn               	= "weapons\vepr_ar"         
+scheduled               = off                                
+cform                   = skeleton
+icons_texture           = ui\ui_icon_mwp
+parent_section          = wpn_vepr_ar
+
+class                   = WP_AK74
+slot                    = 2
+animation_slot          = 8             
+ef_main_weapon_type     = 2
+ef_weapon_type          = 6
+hand_dependence         = 1
+single_handed           = 0
+
+default_to_ruck         = false
+sprint_allowed       	= true
+
+inv_grid_width          = 5
+inv_grid_height         = 2
+inv_grid_x              = 11
+inv_grid_y              = 5
+inv_name          		= st_wpn_vepr_ar
+inv_name_short       	= st_wpn_vepr_ar
+description          	= st_wpn_vepr_ar_descr
+
+kind                    = w_rifle 
+inv_weight           	= 3.45
+cost                    = 38320
+repair_type             = rifle_7
+weapon_class            = assault_rifle
+
+hud                     = wpn_vepr_ar_hud 
+visual                  = dynamics\weapons\wpn_vepr_ar\wpn_vepr_ar.ogf
+position                = -0.026, -0.135, 0.0
+orientation             = 0, 0, 0
+fire_point              = 0.0,0.186,0.435
+fire_point2             = 0.0, 0.106, 0.468
+strap_bone0             = bip01_spine2
+strap_bone1             = bip01_spine1
+strap_position         	= -0.15,-0.36,0.25			    
+strap_orientation      	= -10,-5,10	    
+ph_mass                 = 5
+
+smoke_particles         = weapons\generic_weapon05
+flame_particles		   	= weapons\generic_shoot_00
+grenade_flame_particles = weapons\generic_weapon01
+
+shell_point             = -0.020000,0.167000,0.082000
+shell_dir               = 0.0, 0.0, 0.4
+shell_particles         = weapons\762x39
+
+light_disabled		    = false
+light_color             = 0.6,0.5,0.3
+light_range             = 5
+light_time              = 0.2
+light_var_color         = 0.05
+light_var_range         = 0.5
+
+upgrades                = up_gr_firstab_rpk, up_gr_seconab_rpk, up_gr_thirdab_rpk, up_gr_fourtab_rpk, up_gr_fifthab_rpk, up_gr_fifthcd_rpk
+installed_upgrades      =
+upgrade_scheme          = upgrade_scheme_ak74
+upgr_icon_x             = 1450
+upgr_icon_y             = 800
+upgr_icon_width         = 300
+upgr_icon_height        = 100
+
+fire_modes              = 1, -1
+ammo_class              = ammo_7.62x39_fmj, ammo_7.62x39_fmj_bad, ammo_7.62x39_fmj_verybad, ammo_7.62x39_ap, ammo_7.62x39_ap_bad, ammo_7.62x39_ap_verybad
+ammo_elapsed            = 30
+ammo_mag_size           = 30
+startup_ammo            = 90
+
+scopes  		        = ps01
+scope_status            = 0
+scope_zoom_factor       = 0
+
+silencer_name           = wpn_sil_pbs4
+silencer_status         = 0
+silencer_x 			    = 170
+silencer_y 			    = 11
+silencer_light_color    = 0.6,0.5,0.3
+silencer_light_range    = 0.01
+silencer_light_time     = 0.2
+silencer_light_var_color    = 0.05
+silencer_light_var_range    = 0.5
+silencer_smoke_particles    = weapons\generic_shoot_00
+silencer_flame_particles  = 
+
+grenade_class           = ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name 	= wpn_addon_grenade_launcher
+grenade_launcher_status = 0
+grenade_launcher_x 	    = 128
+grenade_launcher_y 	    = 28
+launch_speed            = 0
+
+hit_impulse             = 34       
+hit_power               = 0.58, 0.58, 0.58, 0.58
+hit_type                = fire_wound           
+fire_distance           = 1000              
+bullet_speed            = 715           
+rpm                     = 650       
+rpm_empty_click         = 200
+
+use_aim_bullet          = false 
+time_to_aim             = 3.0
+zoom_dof		        = 0.5, 1.0, 180             
+zoom_enabled            = true  
+zoom_rotate_time		= 0.25
+reload_dof			    = 0.0, 0.5, 5, 2
+control_inertion_factor = 1.35f
+crosshair_inertion		= 6.3
+fire_dispersion_base    = 0.33
+fire_dispersion_condition_factor = 0.001
+
+misfire_probability        	= 0.005
+misfire_start_condition		= 0.7
+misfire_start_prob          = 0.0075
+misfire_end_condition		= 0.14
+misfire_end_prob            = 0.12
+
+condition_queue_shot_dec	= 0.0009
+condition_shot_dec      	= 0.0009
+
+cam_return              	= 0
+cam_relax_speed         	= 10
+cam_dispersion          	= 0.762
+cam_dispersion_frac     	= 1.0
+cam_dispersion_inc      	= 0.0725
+cam_max_angle           	= 50.0
+cam_max_angle_horz      	= 50.0
+cam_step_angle_horz     	= 1.38
+zoom_cam_relax_speed    	= 10
+zoom_cam_dispersion     	= 0.732
+zoom_cam_dispersion_frac	= 0.7
+zoom_cam_dispersion_inc 	= 0.0625
+zoom_cam_max_angle      	= 50.0
+zoom_cam_max_angle_horz 	= 50.0
+zoom_cam_step_angle_horz	= 1.28
+
+PDM_disp_accel_factor 		= 2.5
+PDM_disp_base 				= 1.0
+PDM_disp_crouch             = 1.0   
+PDM_disp_crouch_no_acc      = 1.0   
+PDM_disp_vel_factor 		= 2.5
+
+cam_relax_speed_ai      	= 360
+zoom_cam_relax_speed_ai     = 360
+holder_fov_modifier         = 1.0 
+holder_range_modifier       = 1.85  
+min_radius                  = 0
+max_radius                  = 500
+hit_probability_gd_novice   = 1.00    
+hit_probability_gd_stalker  = 1.00   
+hit_probability_gd_veteran  = 1.00   
+hit_probability_gd_master   = 1.00    
+
+kill_msg_x           	= 84
+kill_msg_y           	= 28
+kill_msg_width       	= 73
+kill_msg_height         = 30
+
+snd_draw                = weapons\vepr_ar\vepr_ar_deploy
+snd_holster             = weapons\vepr_ar\vepr_ar_holster
+snd_shoot				= weapons\vepr_ar\vepr_ar1
+snd_shoot1				= weapons\vepr_ar\vepr_ar2
+snd_shoot2				= weapons\vepr_ar\vepr_ar3
+snd_shoot3				= weapons\vepr_ar\vepr_ar4
+snd_empty               = weapons\vepr_ar\vepr_ar_empty
+snd_reload				= weapons\vepr_ar\vepr_ar_reload
+snd_shoot_grenade       = weapons\explo\grenade_launch_explo
+snd_reload_grenade		= weapons\l85\l85_grenload
+snd_switch				= weapons\groza_switch, 1.0, 0.5
+snd_bore 				= weapons\draw_silent
+
+snd_silncer_shot        = weapons\vepr_ar\ak74u_sil1
+snd_silncer_shot1       = weapons\vepr_ar\ak74u_sil2
+snd_silncer_shot2       = weapons\vepr_ar\ak74u_sil3
+snd_silncer_shot3       = weapons\vepr_ar\ak74u_sil4
+
+[wpn_vepr_ar_hud]:hud_base
+item_visual			    = dynamics\weapons\wpn_vepr_ar\wpn_vepr_ar_hud.ogf
+attach_place_idx	    = 0
+zoom_hide_crosshair	    = true
+
+item_position			= 0,0.005,0
+item_orientation		= 0,0,0
+
+hands_position			= 0.005,-0.007,0.16
+hands_position_16x9		= 0.005,-0.007,0.16
+hands_orientation		= 2,2,0
+hands_orientation_16x9	= 2,2,0
+
+aim_hud_offset_pos 		= -0.065000,0.045000,-0.04
+aim_hud_offset_pos_16x9 = -0.065000,0.045000,-0.04
+aim_hud_offset_rot 		= 0.003000,0.034900,0.000000
+aim_hud_offset_rot_16x9 = 0.003000,0.034900,0.000000
+
+gl_hud_offset_pos		= -0.12025,-0.2,-0.05
+gl_hud_offset_pos_16x9	= -0.12025,-0.2,-0.05
+gl_hud_offset_rot		= -0.255,0.0349,0
+gl_hud_offset_rot_16x9	= -0.255,0.0349,0
+
+lean_hud_offset_pos		= 0,0,0
+lean_hud_offset_rot		= 0,0,0
+
+anm_show             	= comradebear_vepr_draw
+anm_hide             	= comradebear_vepr_holster
+anm_idle             	= comradebear_vepr_idle
+anm_idle_sprint         = comradebear_vepr_sprinting
+anm_idle_moving 		= comradebear_vepr_moving
+anm_idle_moving_crouch	= comradebear_vepr_moving
+anm_shots               = comradebear_vepr_shoot1
+anm_reload              = comradebear_vepr_reload, reload
+anm_reload_empty        = comradebear_vepr_reload, reload
+anm_idle_aim           	= comradebear_vepr_aim_idle
+anm_bore				= comradebear_vepr_idle
+
+shell_point				= 0.0,0.0,0.0
+shell_dir               = 0.0, 1.0, 0.0
+shell_bone				= gilza
+
+fire_point				= 0,0,-0.5
+fire_bone      	      	= muzzle
+fire_point2				= 0,0,0
+fire_bone2				= wpn_body
+
+[wpn_vepr_ar_ps01]:wpn_vepr_ar
+1icon_layer 		    = ps01
+1icon_layer_x 	        = 70
+1icon_layer_y 	        = -12
+
+inv_weight              = 4.075
+
+hud                     = wpn_vepr_ar_ps01_hud
+
+scope_status            = 1
+scope_dynamic_zoom      = off
+scope_texture           = wpn_crosshair_pso1
+scope_zoom_factor       = 15
+
+[wpn_vepr_ar_ps01_hud]:wpn_vepr_ar_hud
+aim_hud_offset_pos 		= -0.065000,0.025000,-0.2
+aim_hud_offset_pos_16x9 = -0.065000,0.025000,-0.2
+
+;=============================================================================
+
+[wpn_vepr_ar_cus]:wpn_vepr_ar
+icons_texture           = ui\ui_icon_mwp
+parent_section          = wpn_vepr_ar_cus
+
+inv_name          		= st_wpn_vepr_ar_custom
+inv_name_short       	= st_wpn_vepr_ar_custom
+description          	= st_wpn_vepr_ar_custom_descr
+
+cost                    = 36320
+
+ammo_class				= ammo_5.45x39_fmj, ammo_5.45x39_fmj_bad, ammo_5.45x39_fmj_verybad, ammo_5.45x39_ep, ammo_5.45x39_ep_bad, ammo_5.45x39_ep_verybad, ammo_5.45x39_ap, ammo_5.45x39_ap_bad, ammo_5.45x39_ap_verybad
+
+hit_impulse             = 25
+hit_power               = 0.5, 0.5, 0.5, 0.5
+fire_distance           = 1000
+bullet_speed            = 880
+
+silencer_status			= 2
+
+silencer_name           = wpn_sil_pbs4
+silencer_x              = 190              ; offset in inventory icon
+silencer_y              = 0
+
+inv_grid_width 			= 5
+inv_grid_height			= 2
+inv_grid_x     			= 11
+inv_grid_y     			= 7
+
+hud						= wpn_vepr_ar_cus_hud
+
+visual					= dynamics\weapons\wpn_vepr_ar\wpn_vepr_ar_custom.ogf
+
+fire_dispersion_base	= 0.31
+
+shell_point             = -0.020000,0.167000,0.082000
+shell_dir               = 0.0, 0.0, 0.4
+shell_particles         = weapons\545x39
+
+cam_return              	= 0
+cam_relax_speed         	= 10
+cam_dispersion          	= 0.545
+cam_dispersion_frac     	= 1.1
+cam_dispersion_inc      	= 0.0625
+cam_max_angle           	= 50.0
+cam_max_angle_horz      	= 50.0
+cam_step_angle_horz     	= 1.15
+zoom_cam_relax_speed    	= 10
+zoom_cam_dispersion     	= 0.515
+zoom_cam_dispersion_frac	= 0.7
+zoom_cam_dispersion_inc 	= 0.0525
+zoom_cam_max_angle      	= 50.0
+zoom_cam_max_angle_horz 	= 50.0
+zoom_cam_step_angle_horz	= 1.05
+
+[wpn_vepr_ar_cus_hud]:wpn_vepr_ar_hud
+
+item_position			= 0,0.008,0
+item_orientation		= 0,0,0
+
+item_visual				= dynamics\weapons\wpn_vepr_ar\wpn_vepr_ar_custom_hud.ogf
+
+aim_hud_offset_pos 		= -0.065000,0.038000,-0.04000
+aim_hud_offset_pos_16x9 = -0.065000,0.038000,-0.04000
+aim_hud_offset_rot 		= 0.036000,0.034900,0.000000
+aim_hud_offset_rot_16x9 = 0.036000,0.034900,0.000000
+
+fire_point				= 0,-0.02,-0.4
+
+shell_point				= 0.0,0.0,0.0
+shell_dir               = 0.0, 1.0, 0.0
+shell_bone				= gilza
+
+[wpn_vepr_ar_cus_ps01]:wpn_vepr_ar_cus
+1icon_layer 		    = ps01
+1icon_layer_x 	        = 70
+1icon_layer_y 	        = -12
+
+inv_weight              = 4.075
+
+hud                     = wpn_vepr_ar_cus_ps01_hud
+
+scope_status            = 1
+scope_dynamic_zoom      = off
+scope_texture           = wpn_crosshair_pso1
+scope_zoom_factor       = 15
+
+[wpn_vepr_ar_cus_ps01_hud]:wpn_vepr_ar_cus_hud
+aim_hud_offset_pos 		= -0.065000,0.025000,-0.16
+aim_hud_offset_pos_16x9 = -0.065000,0.025000,-0.16
