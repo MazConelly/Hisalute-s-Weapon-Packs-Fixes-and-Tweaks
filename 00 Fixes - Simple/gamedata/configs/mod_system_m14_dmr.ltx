@@ -5,13 +5,13 @@
 GroupControlSection		= spawn_group
 $npc			 		= on
 $prefetch 		 		= 8
-$spawn                  = "weapons\mk14"		    
+$spawn                  = "weapons\mk14"
 scheduled               = off
 cform                   = skeleton
 icons_texture           = ui\ui_icon_swp
 
 class                   = WP_SVU
-slot                    = 2         
+slot                    = 2
 animation_slot          = 2
 ef_main_weapon_type		= 3
 ef_weapon_type			= 11
@@ -30,9 +30,9 @@ inv_name_short          = st_wpn_m14dmr
 description				= st_wpn_m14dmr_descr
 
 kind                    = w_sniper
-inv_weight				= 5.9
-cost					= 40380    
-repair_type             = rifle_7 
+inv_weight				= 4.654 ;5.9
+cost					= 40380
+repair_type             = rifle_7
 weapon_class			= sniper_rifle
 
 hud                     = wpn_m14_dmr_hud
@@ -62,13 +62,13 @@ light_time 		 	    = 0.2
 light_var_color		 	= 0.05
 light_var_range		 	= 0.5
 
-upgrades                                 = up_gr_firstab_lr300_alt, up_gr_seconab_lr300_alt, up_gr_thirdab_lr300_alt, up_gr_fourtab_lr300_alt, up_gr_fifthab_lr300_alt
-installed_upgrades                       =
-upgrade_scheme                           = upgrade_scheme_lr300
-upgr_icon_x                              = 300
-upgr_icon_y                              = 1350
-upgr_icon_width                          = 300
-upgr_icon_height                         = 100
+upgrades                = up_gr_firstab_lr300_alt, up_gr_seconab_lr300_alt, up_gr_thirdab_lr300_alt, up_gr_fourtab_lr300_alt, up_gr_fifthab_lr300_alt
+installed_upgrades      =
+upgrade_scheme          = upgrade_scheme_lr300
+upgr_icon_x             = 300
+upgr_icon_y             = 1350
+upgr_icon_width         = 300
+upgr_icon_height        = 100
 
 fire_modes		  	    = 1
 ammo_class              = ammo_7.62x51_fmj, ammo_7.62x51_fmj_bad, ammo_7.62x51_fmj_verybad, ammo_7.62x51_ap, ammo_7.62x51_ap_bad, ammo_7.62x51_ap_verybad
@@ -79,12 +79,12 @@ startup_ammo            = 10
 scope_status		    = 1
 scope_dynamic_zoom      = on
 scope_texture           = wpn_crosshair_mark4
-;scope_texture				= wpn_crosshair_m14  ; wpn_crosshair_m16a1
-scope_zoom_factor			= 12.5  
+;scope_texture			= wpn_crosshair_m14  ; wpn_crosshair_m16a1
+scope_zoom_factor		= 12.5
 
-;scope_name 					= wpn_addon_scope
-;scope_x 						= 60
-;scope_y 						= -2
+;scope_name 			= wpn_addon_scope
+;scope_x 				= 60
+;scope_y 				= -2
 
 silencer_status				= 0
 silencer_light_color	    = 0.6,0.5,0.3
@@ -99,12 +99,12 @@ grenade_launcher_status     = 0
 hit_impulse				    = 38
 hit_power           		= 0.9, 0.9, 0.9, 0.9
 hit_type				    = fire_wound
-fire_distance               = 1000
-bullet_speed                = 1000          
-rpm                         = 270
+fire_distance               = 875 ;1000
+bullet_speed                = 853 ;1000
+rpm                         = 725 ;270
 rpm_empty_click             = 200
 
-use_aim_bullet				= false		    
+use_aim_bullet				= false
 time_to_aim					= 1.0
 ;zoom_dof				    = 0.5, 1.0, 350
 zoom_enabled				= true
@@ -113,7 +113,7 @@ reload_dof				    = 0.0, 0.5, 5, 2.2
 control_inertion_factor	    = 1.94f
 crosshair_inertion          = 8.8
 fire_dispersion_base	    = 0.2
-fire_dispersion_condition_factor = 0.001    
+fire_dispersion_condition_factor = 0.001
 
 misfire_probability        	= 0.005
 misfire_start_condition		= 0.75
@@ -129,8 +129,8 @@ cam_relax_speed             = 5.5
 cam_dispersion              = 2.0
 cam_dispersion_frac		    = 1.2
 cam_dispersion_inc		    = 2.0
-cam_max_angle			    = 50.0  
-cam_max_angle_horz		    = 50.0	    
+cam_max_angle			    = 50.0
+cam_max_angle_horz		    = 50.0
 cam_step_angle_horz		    = 1.98
 zoom_cam_relax_speed        = 0.85
 zoom_cam_dispersion         = 2.35

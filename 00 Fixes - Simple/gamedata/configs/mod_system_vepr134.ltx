@@ -1,17 +1,17 @@
 ;=============================================================
 ;================== Vepr 134 normie and camo =================
 ;=============================================================
-[wpn_vepr134]:identity_immunities,weapon_probability,default_weapon_params 
+[wpn_vepr134]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection		= spawn_group
-$npc			 		= on				    
+$npc			 		= on
 $prefetch 		 		= 8
 $spawn                  = "weapons\vepr134"
-scheduled               = off               
+scheduled               = off
 cform                   = skeleton
 icons_texture           = ui\ui_icon_swp
 
 class                   = WP_SVD
-slot                    = 2                 
+slot                    = 2
 animation_slot          = 2
 ef_main_weapon_type		= 3
 ef_weapon_type			= 11
@@ -40,11 +40,11 @@ visual					= dynamics\weapons\wpn_vepr134\wpn_vepr_134.ogf
 position        	    = -0.026, -0.180, 0.0
 orientation             = 0, 0, 0
 fire_point              = 0.000000, 0.174, 0.562
-fire_point2             = 0.0, 0.097, 0.722 
+fire_point2             = 0.0, 0.097, 0.722
 strap_bone0				= bip01_spine2
 strap_bone1				= bip01_spine1
-strap_position         	= -0.15,-0.15,0.45			
-strap_orientation      	= -25,-189,65	
+strap_position         	= -0.15,-0.15,0.45
+strap_orientation      	= -25,-189,65
 ph_mass			 		= 3
 
 flame_particles         = weapons\generic_weapon06
@@ -90,15 +90,15 @@ silencer_smoke_particles    = weapons\generic_shoot_00
 
 grenade_launcher_status		= 0
 
-hit_impulse        		    = 25 
+hit_impulse        		    = 25
 hit_power          		    = 0.605, 0.605, 0.605, 0.605
-hit_type            	    = fire_wound        
-fire_distance               = 1040              
-bullet_speed                = 770               
-rpm                         = 450   
+hit_type            	    = fire_wound
+fire_distance               = 1040
+bullet_speed                = 770
+rpm                         = 450
 rpm_empty_click 			= 200
 
-use_aim_bullet				= false	    
+use_aim_bullet				= false
 time_to_aim					= 1.0
 ;zoom_dof				    = 0.5, 1.0, 350
 zoom_enabled				= true
@@ -107,7 +107,7 @@ reload_dof				    = 0.0, 0.5, 5, 2.2
 control_inertion_factor    	= 1.7f
 crosshair_inertion		    = 7.1
 fire_dispersion_base	    = 0.215
-fire_dispersion_condition_factor = 0.001    
+fire_dispersion_condition_factor = 0.001
 
 misfire_probability        	= 0.005
 misfire_start_condition		= 0.7 ; 0.8
@@ -118,13 +118,13 @@ misfire_end_prob    	    = 0.045
 condition_queue_shot_dec	= 0.0008
 condition_shot_dec      	= 0.0007
 
-cam_return                  = 0  
+cam_return                  = 0
 cam_relax_speed				= 10
 cam_dispersion	         	= 1.0
 cam_dispersion_frac			= 1.0
 cam_dispersion_inc         	= 1.0
-cam_max_angle				= 50.0	    
-cam_max_angle_horz			= 50.0  
+cam_max_angle				= 50.0
+cam_max_angle_horz			= 50.0
 cam_step_angle_horz			= 1.5
 zoom_cam_relax_speed		= 10
 zoom_cam_dispersion         = 1.1
@@ -142,14 +142,14 @@ PDM_disp_vel_factor 		= 2.5
 
 cam_relax_speed_ai			= 360
 zoom_cam_relax_speed_ai		= 360
-holder_fov_modifier		    = 1.0  
-holder_range_modifier	    = 2.15 
-min_radius                  = 0 
+holder_fov_modifier		    = 1.0
+holder_range_modifier	    = 2.15
+min_radius                  = 0
 max_radius                  = 500
-hit_probability_gd_novice   = 1.00    
-hit_probability_gd_stalker  = 1.00   
-hit_probability_gd_veteran  = 1.00   
-hit_probability_gd_master   = 1.00    
+hit_probability_gd_novice   = 1.00
+hit_probability_gd_stalker  = 1.00
+hit_probability_gd_veteran  = 1.00
+hit_probability_gd_master   = 1.00
 
 kill_msg_x				= 0
 kill_msg_y				= 0
@@ -184,76 +184,75 @@ hands_orientation		= -0.75,1.7,-4.199999
 hands_orientation_16x9	= -0.75,1.7,-4.199999
 
 aim_hud_offset_pos		= -0.0865,0.041,-0.19
-aim_hud_offset_pos_16x9 	= -0.0865,0.041,-0.19
+aim_hud_offset_pos_16x9	= -0.0865,0.041,-0.19
 aim_hud_offset_rot		= 0.022,0.000,-0.006
-aim_hud_offset_rot_16x9 	= 0.022,0.000,-0.006
+aim_hud_offset_rot_16x9	= 0.022,0.000,-0.006
 
-gl_hud_offset_pos				= -0.05,-0.03,-0.005
-gl_hud_offset_pos_16x9 			= -0.05,-0.03,-0.005
-gl_hud_offset_rot				= -0.095,-0.004,-0.02
-gl_hud_offset_rot_16x9 			= -0.095,-0.004,-0.02
+gl_hud_offset_pos		= -0.05,-0.03,-0.005
+gl_hud_offset_pos_16x9	= -0.05,-0.03,-0.005
+gl_hud_offset_rot		= -0.095,-0.004,-0.02
+gl_hud_offset_rot_16x9	= -0.095,-0.004,-0.02
 
-lean_hud_offset_pos        = 0,0,0
-lean_hud_offset_rot        = 0,0,0
+lean_hud_offset_pos	= 0,0,0
+lean_hud_offset_rot	= 0,0,0
 
-anm_show					= lancew_aks74_draw
-anm_hide                				= lancew_aks74_holster
-anm_idle                				= lancew_aks74_idle
-anm_idle_sprint         				= lancew_aks74_sprint
-anm_idle_moving        		 		= lancew_aks74_moving
-anm_shots               				= lancew_aks74_shoot, shoot
-anm_reload              				= lancew_aks74_reload, reload
-anm_idle_aim            				= lancew_aks74_idle_aim, idle_aim
-anm_bore                				= lancew_aks74_no_reload
+anm_show		= lancew_aks74_draw
+anm_hide		= lancew_aks74_holster
+anm_idle		= lancew_aks74_idle
+anm_idle_sprint	= lancew_aks74_sprint
+anm_idle_moving	= lancew_aks74_moving
+anm_shots		= lancew_aks74_shoot, shoot
+anm_reload		= lancew_aks74_reload, reload
+anm_idle_aim	= lancew_aks74_idle_aim, idle_aim
+anm_bore		= lancew_aks74_no_reload
 
+shell_bone	= wpn_body
+shell_dir	= 0.0, 1.0, 0.0
+shell_point	= 0.0,0.064,0.19
 
-shell_bone					= wpn_body
-shell_dir					= 0.0, 1.0, 0.0
-shell_point					= 0.0,0.064,0.19
-
-fire_point					= -0.005,0.05,0.8
-fire_bone					= wpn_body
-fire_point2					= 0.0,-0.011,0.553
-fire_bone2					= wpn_body
-
+fire_point	= -0.005,0.05,0.8
+fire_bone	= wpn_body
+fire_point2	= 0.0,-0.011,0.553
+fire_bone2	= wpn_body
 
 ;=====================================================================================================================================================
 [wpn_vepr134_camo]:wpn_vepr134
+$spawn			= "weapons\vepr134_camo"
 
-icons_texture               = ui\ui_icon_swp
-inv_name                    = st_wpn_vepr134_camo
-inv_name_short              = st_wpn_vepr134_camo
-description				    = st_wpn_vepr134_camo_descr
+icons_texture       = ui\ui_icon_swp
+inv_name            = st_wpn_vepr134_camo
+inv_name_short      = st_wpn_vepr134_camo
+description			= st_wpn_vepr134_camo_descr
 
-cost                        = 43190
+cost                = 43190
 
-hud	                        = wpn_vepr134_camo_hud
-visual					    = dynamics\weapons\wpn_vepr134\wpn_vepr_134_camo.ogf
+hud	                = wpn_vepr134_camo_hud
+visual				= dynamics\weapons\wpn_vepr134\wpn_vepr_134_camo.ogf
 
-upgrades                    = up_gr_firstab_rpk74, up_gr_seconab_rpk74, up_gr_thirdab_rpk74, up_gr_fourtab_rpk74, up_gr_fifthab_rpk74, up_gr_fifthcd_rpk74
-inv_grid_x			        = 0
-inv_grid_y			        = 3
-upgr_icon_x                 = 0
-upgr_icon_y                 = 200
-upgr_icon_width             = 300
-upgr_icon_height            = 100
+upgrades            = up_gr_firstab_rpk74, up_gr_seconab_rpk74, up_gr_thirdab_rpk74, up_gr_fourtab_rpk74, up_gr_fifthab_rpk74, up_gr_fifthcd_rpk74
+inv_grid_x			= 0
+inv_grid_y			= 3
+upgr_icon_x         = 0
+upgr_icon_y         = 200
+upgr_icon_width     = 300
+upgr_icon_height    = 100
 
-ammo_class                  = ammo_5.45x39_fmj, ammo_5.45x39_fmj_bad, ammo_5.45x39_fmj_verybad, ammo_5.45x39_ep, ammo_5.45x39_ep_bad, ammo_5.45x39_ep_verybad, ammo_5.45x39_ap, ammo_5.45x39_ap_bad, ammo_5.45x39_ap_verybad
+ammo_class          = ammo_5.45x39_fmj, ammo_5.45x39_fmj_bad, ammo_5.45x39_fmj_verybad, ammo_5.45x39_ep, ammo_5.45x39_ep_bad, ammo_5.45x39_ep_verybad, ammo_5.45x39_ap, ammo_5.45x39_ap_bad, ammo_5.45x39_ap_verybad
 
-hit_power                   = 0.53, 0.53, 0.53, 0.53
-fire_distance               = 1140
-bullet_speed                = 1010
-rpm                         = 500
+hit_power           = 0.53, 0.53, 0.53, 0.53
+fire_distance       = 600 ;1140
+bullet_speed        = 1010
+rpm                 = 500
 
-fire_dispersion_base	    = 0.20
+fire_dispersion_base= 0.20
 
-cam_return                  = 0  
+cam_return                  = 0
 cam_relax_speed				= 10
 cam_dispersion	         	= 1.0
 cam_dispersion_frac			= 1.0
 cam_dispersion_inc         	= 0.9
-cam_max_angle				= 50.0	    
-cam_max_angle_horz			= 50.0  
+cam_max_angle				= 50.0
+cam_max_angle_horz			= 50.0
 cam_step_angle_horz			= 1.3
 zoom_cam_relax_speed		= 10
 zoom_cam_dispersion         = 1.1
@@ -264,5 +263,4 @@ zoom_cam_max_angle_horz		= 50.0
 zoom_cam_step_angle_horz	= 1.5
 
 [wpn_vepr134_camo_hud]:wpn_vepr134_hud
-
 item_visual                = dynamics\weapons\wpn_vepr134\wpn_vepr_134_camo_hud.ogf

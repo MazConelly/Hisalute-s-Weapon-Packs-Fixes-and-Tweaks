@@ -1,6 +1,7 @@
 ;=============================================================
 ;======================== M1A1 carbine ======================
 ;=============================================================
+;The M2 would be the selective fire version with full auto. The M3 had an integrated night vision scope that was let off as surplus.
 [wpn_m1a1]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection		= spawn_group
 $npc			 		= on
@@ -87,13 +88,16 @@ silencer_status		    = 0
 
 grenade_launcher_status = 0
 
-hit_impulse				= 28
-hit_power               = 0.46, 0.46, 0.46, 0.46
+;its supposed to be a custom using .357. LEt's raise the damage to that of the DEagle.
+; hit_impulse				= 28
+; hit_power               = 0.46, 0.46, 0.46, 0.46
+hit_impulse                 = 45
+hit_power                   = 0.6, 0.6, 0.6, 0.6
 hit_type 				= fire_wound
-fire_distance           = 300 ;600
-bullet_speed		 	= 600
+fire_distance           = 200 ;600
+bullet_speed			= 440
 rpm                     = 70 ;750
-rpm_empty_click 	    = 20 ;200
+rpm_empty_click 	    = 200
 
 use_aim_bullet		    = false
 time_to_aim		        = 1.0   
@@ -256,11 +260,14 @@ hud						= wpn_m1carbine_hud
 
 ammo_class                  = ammo_357_hp_mag, ammo_357_hp_mag_bad, ammo_357_hp_mag_verybad
 
-hit_impulse                 = 45
-hit_power                   = 0.65, 0.65, 0.65, 0.65
+;it is a custom in 5.7mm so P90 it is
+hit_impulse					= 28
+hit_power					= 0.46, 0.46, 0.46, 0.46
+; hit_impulse                 = 45
+; hit_power                   = 0.65, 0.65, 0.65, 0.65
 hit_type                    = fire_wound
-fire_distance               = 200 ;500
-bullet_speed                = 440
+fire_distance               = 400 ;500
+bullet_speed                = 715 ;440
 
 misfire_probability        	= 0.005
 misfire_start_condition		= 0.75

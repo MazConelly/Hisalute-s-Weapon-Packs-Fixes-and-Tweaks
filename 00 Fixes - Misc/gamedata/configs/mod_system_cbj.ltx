@@ -1,6 +1,7 @@
 ;=============================================================
 ;========================= CBJ who? ==========================
 ;=============================================================
+;add a cheaper 9x19 alternative?
 [wpn_cbj]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection     = spawn_group
 $npc                    = on
@@ -62,13 +63,13 @@ light_time              = 0.2
 light_var_color         = 0.05
 light_var_range         = 0.5
 
-upgrades                                 = up_gr_firstab_bizon, up_gr_seconab_bizon, up_gr_thirdab_bizon, up_gr_fourtab_bizon, up_gr_fifthab_bizon, up_gr_fifthcd_bizon
-installed_upgrades                       =
-upgrade_scheme                           = upgrade_scheme_mp5
-upgr_icon_x                              = 900
-upgr_icon_y                              = 300
-upgr_icon_width                          = 250
-upgr_icon_height                         = 100
+upgrades                = up_gr_firstab_bizon, up_gr_seconab_bizon, up_gr_thirdab_bizon, up_gr_fourtab_bizon, up_gr_fifthab_bizon, up_gr_fifthcd_bizon
+installed_upgrades      =
+upgrade_scheme          = upgrade_scheme_mp5
+upgr_icon_x             = 900
+upgr_icon_y             = 300
+upgr_icon_width         = 250
+upgr_icon_height        = 100
 
 fire_modes	            = 1, -1
 ammo_class		 	    = ammo_5.7x28_ss190, ammo_5.7x28_ss190_bad, ammo_5.7x28_ss190_verybad, ammo_5.7x28_ss195, ammo_5.7x28_ss195_bad, ammo_5.7x28_ss195_verybad
@@ -93,7 +94,7 @@ silencer_light_range    = 0.01
 silencer_light_time     = 0.2
 silencer_light_var_color= 0.05
 silencer_light_var_range= 0.5
-silencer_smoke_particles   = weapons\generic_shoot_00
+silencer_smoke_particles= weapons\generic_shoot_00
 
 grenade_class           = ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
 grenade_launcher_name   = wpn_addon_grenade_launcher    

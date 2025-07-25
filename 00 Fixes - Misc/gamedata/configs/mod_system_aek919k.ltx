@@ -1,6 +1,7 @@
 ;=============================================================
 ;=========================== AEK-919k ========================
 ;=============================================================
+;We could possible also add an AEK-918 or AEK-918V as a 9x19 variant
 [wpn_aek919k]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection			= spawn_group
 $npc                        = on
@@ -52,7 +53,7 @@ grenade_flame_particles = weapons\generic_weapon01
 
 shell_point		 		= 0.0, 0.133, 0.047
 shell_dir		 		= 0.0, 0.0, 0.4
-shell_particles	 					= weapons\9x18
+shell_particles	 		= weapons\9x18
 
 light_disabled          = false
 light_color		 		= 0.6,0.5,0.3
@@ -61,16 +62,16 @@ light_time 		 		= 0.2
 light_var_color		 	= 0.05
 light_var_range		 	= 0.5
 
-upgrades                                 = up_gr_firstab_bizon, up_gr_seconab_bizon, up_gr_thirdab_bizon, up_gr_fourtab_bizon, up_gr_fifthab_bizon, up_gr_fifthcd_bizon
-installed_upgrades                       =
-upgrade_scheme                           = upgrade_scheme_mp5
-upgr_icon_x                              = 900
-upgr_icon_y                              = 300
-upgr_icon_width                          = 250
-upgr_icon_height                         = 100
+upgrades                = up_gr_firstab_bizon, up_gr_seconab_bizon, up_gr_thirdab_bizon, up_gr_fourtab_bizon, up_gr_fifthab_bizon, up_gr_fifthcd_bizon
+installed_upgrades      =
+upgrade_scheme          = upgrade_scheme_mp5
+upgr_icon_x             = 900
+upgr_icon_y             = 300
+upgr_icon_width         = 250
+upgr_icon_height        = 100
 
 fire_modes		        = 1, -1
-ammo_class                               = ammo_9x18_fmj, ammo_9x18_fmj_bad, ammo_9x18_fmj_verybad, ammo_9x18_pmm, ammo_9x18_pmm_bad, ammo_9x18_pmm_verybad, ammo_9x18_ap, ammo_9x18_ap_bad, ammo_9x18_ap_verybad
+ammo_class              = ammo_9x18_fmj, ammo_9x18_fmj_bad, ammo_9x18_fmj_verybad, ammo_9x18_pmm, ammo_9x18_pmm_bad, ammo_9x18_pmm_verybad, ammo_9x18_ap, ammo_9x18_ap_bad, ammo_9x18_ap_verybad
 ammo_elapsed		 	= 20
 ammo_mag_size		 	= 20        
 startup_ammo            = 90

@@ -5,13 +5,13 @@
 GroupControlSection     = spawn_group
 $npc                    = on
 $prefetch               = 8
-$spawn                  = "weapons\ppsh41"                  
-scheduled               = off        
+$spawn                  = "weapons\ppsh41"
+scheduled               = off
 cform                   = skeleton
 icons_texture           = ui\ui_icon_swp
 
 class                   = WP_LR300
-slot                    = 2 
+slot                    = 2
 animation_slot          = 8
 ef_main_weapon_type     = 2
 ef_weapon_type          = 6
@@ -31,8 +31,8 @@ description       		= st_wpn_ppsh41_stick_descr
 
 kind                    = w_smg ;w_rifle
 inv_weight              = 3.03
-cost                    = 10140 
-repair_type             = pistol 
+cost                    = 10140
+repair_type             = pistol
 weapon_class            = assault_rifle
 
 hud                     = wpn_ppsh41_stick_hud
@@ -44,16 +44,16 @@ fire_point              = 0.0, 0.25, 0.570
 fire_point2             = 0.0, 0.188, 0.392
 strap_bone0             = bip01_spine2
 strap_bone1             = bip01_spine1
-strap_position         	= -0.16,-0.40,0.17	    
-strap_orientation      	= -10,-5,10		
+strap_position         	= -0.16,-0.40,0.17
+strap_orientation      	= -10,-5,10
 ph_mass                 = 3
 
 flame_particles		   	= weapons\generic_weapon03
 smoke_particles         = weapons\generic_shoot_00
 grenade_flame_particles = weapons\generic_weapon01
-	
-    shell_point             = 0.0, 0.188, 0.082
-    shell_particles	 	    = amik\weapons\data\9x18\9x18_2_r
+
+shell_point             = 0.0, 0.188, 0.082
+shell_particles	 	    = amik\weapons\data\9x18\9x18_2_r
 
 light_disabled          = false
 light_color             = 0.6,0.5,0.3
@@ -62,29 +62,29 @@ light_time              = 0.2
 light_var_color         = 0.05
 light_var_range         = 0.5
 
-upgrades                    = up_gr_firstab_ppsh41, up_gr_seconab_ppsh41, up_gr_thirdab_ppsh41
-installed_upgrades          =
-upgrade_scheme              = upgrade_scheme_toz34
-upgr_icon_x                 = 1750
-upgr_icon_y                 = 1750
-upgr_icon_width             = 250
-upgr_icon_height            = 100
+upgrades                = up_gr_firstab_ppsh41, up_gr_seconab_ppsh41, up_gr_thirdab_ppsh41
+installed_upgrades      =
+upgrade_scheme          = upgrade_scheme_toz34
+upgr_icon_x             = 1750
+upgr_icon_y             = 1750
+upgr_icon_width         = 250
+upgr_icon_height        = 100
 
 fire_modes		 		= 1, -1
-ammo_class                  = ammo_7.62x25_p, ammo_7.62x25_p_bad, ammo_7.62x25_p_verybad, ammo_7.62x25_ps, ammo_7.62x25_ps_bad, ammo_7.62x25_ps_verybad
+ammo_class              = ammo_7.62x25_p, ammo_7.62x25_p_bad, ammo_7.62x25_p_verybad, ammo_7.62x25_ps, ammo_7.62x25_ps_bad, ammo_7.62x25_ps_verybad
 ammo_elapsed            = 35
 ammo_mag_size           = 35
 startup_ammo            = 90
 
-scope_status            = 0 
-scope_name              = wpn_addon_scope   
-scope_x                 = 47                
+scope_status            = 0
+scope_name              = wpn_addon_scope
+scope_x                 = 47
 scope_y                 = 0
 scope_zoom_factor       = 0
 
 silencer_name           = wpn_sil_9mm
 silencer_status         = 0
-silencer_x              = 175 
+silencer_x              = 175
 silencer_y              = -16
 silencer_light_color    = 0.6,0.5,0.3
 silencer_light_range    = 0.01
@@ -92,27 +92,27 @@ silencer_light_time     = 0.2
 silencer_light_var_color= 0.05
 silencer_light_var_range= 0.5
 
-grenade_launcher_status     = 0
+grenade_launcher_status = 0
 
 hit_impulse             = 25
 hit_power           	= 0.46, 0.46, 0.46, 0.46
-hit_type                = fire_wound 
+hit_type                = fire_wound
 fire_distance           = 500
 bullet_speed            = 488
 rpm                     = 1000
 rpm_empty_click         = 120
-ap_modifier                 = 1.1
+ap_modifier             = 1.1
 
-use_aim_bullet          = false 
+use_aim_bullet          = false
 time_to_aim             = 3.0
 zoom_dof                = 0.5, 1.0, 180
-zoom_enabled            = true  
+zoom_enabled            = true
 zoom_rotate_time        = 0.25
 reload_dof              = 0.0, 0.5, 5, 2
-control_inertion_factor    	= 1.0f
-crosshair_inertion			= 5.0
+control_inertion_factor = 1.0f
+crosshair_inertion		= 5.0
 fire_dispersion_base    = 0.65
-fire_dispersion_condition_factor = 0.001    
+fire_dispersion_condition_factor = 0.001
 
 misfire_probability     = 0.005
 misfire_start_condition = 0.7
@@ -181,17 +181,17 @@ item_visual             = dynamics\weapons\wpn_ppsh_stick\wpn_ppsh_stick_hud.ogf
 attach_place_idx        = 0
 zoom_hide_crosshair     = true
 
-item_position				= 0,0,0
-item_orientation			= 0,0,0
+item_position			= 0,0,0
+item_orientation		= 0,0,0
 
-hands_position				= 0,-0.02,0.01
-hands_position_16x9				= 0,-0.02,0.01
-hands_orientation			= 0,0,0
-hands_orientation_16x9			= 0,0,0
+hands_position			= 0,-0.02,0.01
+hands_position_16x9		= 0,-0.02,0.01
+hands_orientation		= 0,0,0
+hands_orientation_16x9	= 0,0,0
 
-aim_hud_offset_pos = -0.083500,0.044300,-0.090000
+aim_hud_offset_pos		= -0.083500,0.044300,-0.090000
 aim_hud_offset_pos_16x9 = -0.083500,0.044300,-0.090000
-aim_hud_offset_rot = 0.014400,0.052000,0.000000
+aim_hud_offset_rot		= 0.014400,0.052000,0.000000
 aim_hud_offset_rot_16x9 = 0.014400,0.052000,0.000000
 
 anm_show                = ppsh_stick_draw
@@ -221,7 +221,7 @@ gl_hud_offset_rot_16x9  = 0,0,0
 lean_hud_offset_pos     = 0,0,0
 lean_hud_offset_rot     = 0,0,0
 
-lowered_hud_offset_pos_16x9              = 0.35,0.05,0.1
-lowered_hud_offset_pos                   = 0.35,0.05,0.1
-lowered_hud_offset_rot_16x9              = 0.2,-1,0
-lowered_hud_offset_rot                   = 0.2,-1,0
+lowered_hud_offset_pos_16x9	= 0.35,0.05,0.1
+lowered_hud_offset_pos		= 0.35,0.05,0.1
+lowered_hud_offset_rot_16x9	= 0.2,-1,0
+lowered_hud_offset_rot		= 0.2,-1,0

@@ -1,0 +1,593 @@
+;=============================================================
+;================= Groza 545 and Tactical ====================
+;=============================================================
+[wpn_groza_545]:identity_immunities,weapon_probability,default_weapon_params,wpn_groza_sounds
+GroupControlSection                      = spawn_group
+$npc                                     = on
+$prefetch                                = 8
+$spawn                                   = "weapons\groza_545"
+scheduled                                = off
+cform                                    = skeleton
+parent_section                           = wpn_groza_545
+icons_texture 				             = ui\ui_icon_mwp
+
+class                                    = WP_AK74
+slot                                     = 2
+animation_slot                           = 8
+ef_main_weapon_type                      = 2
+ef_weapon_type                           = 6
+hand_dependence                          = 1
+single_handed                            = 0
+
+default_to_ruck                          = false
+sprint_allowed                           = true
+
+inv_grid_height                          = 2
+inv_grid_width                           = 4
+inv_grid_x                               = 11
+inv_grid_y                               = 11
+inv_name                                 = st_wpn_groza_545
+inv_name_short                           = st_wpn_groza_545
+description                              = st_wpn_groza_545_descr
+
+kind                                     = w_rifle
+inv_weight                               = 4.0
+cost                                     = 39500
+repair_type                              = rifle_5
+weapon_class                             = assault_rifle
+
+hud                                      = wpn_groza_545_hud
+visual                                   = dynamics\weapons\wpn_groza\wpn_groza.ogf
+position                                 = -0.026, -0.144, 0.0
+orientation                              = 0, 0, 0
+fire_point                               = 0.000000,0.194,0.274
+fire_point2                              = 0.0, 0.156, 0.285
+strap_bone0                              = bip01_spine2
+strap_bone1                              = bip01_spine1
+strap_position                           = -0.15,-0.38,0.35
+strap_orientation                        = -10,-5,10
+ph_mass                                  = 5
+
+flame_particles                          = weapons\generic_weapon05
+smoke_particles                          = weapons\generic_shoot_00
+grenade_flame_particles                  = weapons\generic_weapon01
+
+shell_point                              = 0.0, 0.194, 0.04
+shell_dir                                = 0.0, 0.0, 0.4
+shell_particles                          = weapons\545x39
+
+light_disabled                           = false
+light_color                              = 0.6, 0.5, 0.3
+light_range                              = 5
+light_time                               = 0.2
+light_var_color                          = 0.05
+light_var_range                          = 0.5
+
+upgrades                                 = up_gr_firstab_groza, up_gr_seconab_groza, up_gr_thirdab_groza, up_gr_fourtab_groza, up_gr_fifthab_groza
+installed_upgrades                       =
+upgrade_scheme                           = upgrade_scheme_groza
+upgr_icon_x                              = 900
+upgr_icon_y                              = 0
+upgr_icon_width                          = 250
+upgr_icon_height                         = 100
+
+fire_modes                               = 1, -1
+ammo_class                               = ammo_5.45x39_fmj, ammo_5.45x39_fmj_bad, ammo_5.45x39_fmj_verybad, ammo_5.45x39_ep, ammo_5.45x39_ep_bad, ammo_5.45x39_ep_verybad, ammo_5.45x39_ap, ammo_5.45x39_ap_bad, ammo_5.45x39_ap_verybad
+ammo_elapsed                             = 30
+ammo_mag_size                            = 30
+startup_ammo                             = 90
+
+scopes_sect                              = scope_groza_po4x34
+scopes                      		 = pso1m21, ps01, kobra, 1p29, acog, ac10632, eot, c-more
+scope_status                             = 2
+scope_zoom_factor                        = 0
+
+silencer_name                            = wpn_sil_tgp-a
+silencer_status                          = 0
+silencer_x                               = 180
+silencer_y                               = 16
+silencer_light_color                     = 0.6,0.5,0.3
+silencer_light_range                     = 0.01
+silencer_light_time                      = 0.2
+silencer_light_var_color                 = 0.05
+silencer_light_var_range                 = 0.5
+silencer_smoke_particles                 = weapons\generic_shoot_00
+
+grenade_class                            = ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name                    = wpn_addon_grenade_launcher
+grenade_launcher_status                  = 1
+grenade_launcher_x                       = 109
+grenade_launcher_y                       = 30
+grenade_vel                              = 76
+launch_speed                             = 76
+
+hit_impulse                              = 25
+hit_power                                = 0.5, 0.5, 0.5, 0.5
+hit_type                                 = fire_wound
+fire_distance                            = 1000
+bullet_speed                             = 880
+rpm                                      = 750
+rpm_empty_click                          = 200
+
+use_aim_bullet                           = true
+time_to_aim                              = 0.0 ; 3.0
+zoom_dof                                 = 0.5, 1.0, 180
+zoom_enabled                             = true
+zoom_rotate_time                         = 0.25
+reload_dof                               = 0.0, 0.5, 5, 2
+control_inertion_factor                  = 1.0f
+crosshair_inertion                       = 6
+fire_dispersion_base                     = 0.39
+fire_dispersion_condition_factor         = 0.001
+
+misfire_probability                      = 0.005
+misfire_start_condition                  = 0.7
+misfire_start_prob                       = 0.005
+misfire_end_condition                    = 0.1
+misfire_end_prob                         = 0.06
+
+condition_queue_shot_dec                 = 0.0007
+condition_shot_dec                       = 0.0007
+
+cam_return                               = 0
+cam_relax_speed                          = 9
+cam_dispersion                           = 0.8
+cam_dispersion_frac                      = 1.0
+cam_dispersion_inc                       = 0.18
+cam_max_angle                            = 45.0
+cam_max_angle_horz                       = 45.0
+cam_step_angle_horz                      = 1.48
+zoom_cam_relax_speed                     = 9
+zoom_cam_dispersion                      = 0.8
+zoom_cam_dispersion_frac                 = 0.8
+zoom_cam_dispersion_inc                  = 0.18
+zoom_cam_max_angle                       = 50.0
+zoom_cam_max_angle_horz                  = 50.0
+zoom_cam_step_angle_horz                 = 1.38
+
+PDM_disp_accel_factor                    = 2.4
+PDM_disp_base                            = 0.6
+PDM_disp_crouch                          = 1.0
+PDM_disp_crouch_no_acc                   = 1.0
+PDM_disp_vel_factor                      = 2.4
+
+cam_relax_speed_ai                       = 360
+zoom_cam_relax_speed_ai                  = 360
+holder_fov_modifier                      = 1.0
+holder_range_modifier                    = 1.0
+min_radius                               = 0
+max_radius                               = 500
+hit_probability_gd_novice                = 1.00
+hit_probability_gd_stalker               = 1.00
+hit_probability_gd_veteran               = 1.00
+hit_probability_gd_master                = 1.00
+
+kill_msg_height                          = 30
+kill_msg_width                           = 64
+kill_msg_x                               = 67
+kill_msg_y                               = 123
+
+
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_groza_545_hud]:wpn_groza_hud
+
+;------------------------------------------------------------------------------------------------
+
+[wpn_groza_545_pso1m21]:wpn_groza_545
+icons_texture 				 = ui\ui_icon_groza_nohandle	;for handle-less base
+inv_grid_height                          = 2
+inv_grid_width                           = 4
+inv_grid_x                               = 0
+inv_grid_y                               = 0
+
+1icon_layer                              = pso1m21
+1icon_layer_x                            = 51
+1icon_layer_y                            = 3
+
+inv_weight                               = 4.52				;we reduce the weight by 0.1kg to
+									;simulate removing the carrying handle
+hud                                      = wpn_groza_545_pso1m21_hud
+visual                                   = dynamics\weapons\wpn_groza\wpn_groza_pso1m21.ogf
+
+scope_status                             = 1
+scope_dynamic_zoom                       = off
+scope_texture                            = wpn_crosshair_vss
+scope_zoom_factor                        = 15
+
+[wpn_groza_545_pso1m21_hud]:wpn_groza_545_hud
+item_visual                              = anomaly_weapons\wpn_groza\wpn_groza_pso1m21_hud.ogf
+
+aim_hud_offset_pos                       = -0.08165, 0.0354, -0.3
+aim_hud_offset_pos_16x9                  = -0.08165, 0.0354, -0.3
+aim_hud_offset_rot                       = 0.0211, 0.03485, 0.0
+aim_hud_offset_rot_16x9                  = 0.0211, 0.03485, 0.0
+
+gl_hud_offset_pos                        = -0.0887, -0.125, -0.3	;scope gets in the way while aiming
+gl_hud_offset_pos_16x9                   = -0.0887, -0.125, -0.3	;we have to move the gun down just enough
+gl_hud_offset_rot                        = -0.1778, 0.0322, -0.004	;to see the correct post
+gl_hud_offset_rot_16x9                   = -0.1778, 0.0322, -0.004
+
+;------------------------------------------------------------------------------------------------
+
+[wpn_groza_545_ps01]:wpn_groza_545,wpn_groza_pso1m21
+1icon_layer                              = ps01
+inv_weight                               = 4.525
+hud                                      = wpn_groza_545_ps01_hud
+visual                                   = dynamics\weapons\wpn_groza\wpn_groza_pso1.ogf
+scope_texture                            = wpn_crosshair_pso1
+
+[wpn_groza_545_ps01_hud]:wpn_groza_545_hud,wpn_groza_pso1m21_hud
+item_visual                              = anomaly_weapons\wpn_groza\wpn_groza_pso1_hud.ogf
+
+;------------------------------------------------------------------------------------------------
+
+[wpn_groza_545_kobra]:wpn_groza_545
+icons_texture 				 = ui\ui_icon_groza_nohandle
+inv_grid_height                          = 2
+inv_grid_width                           = 4
+inv_grid_x                               = 0
+inv_grid_y                               = 0
+
+1icon_layer                              = kobra
+1icon_layer_x                            = 81
+1icon_layer_y                            = 9
+
+inv_weight                               = 4.3
+
+hud                                      = wpn_groza_545_kobra_hud
+visual                                   = dynamics\weapons\wpn_groza\wpn_groza_kobra.ogf
+
+scope_status                             = 0
+
+[wpn_groza_545_kobra_hud]:wpn_groza_545_hud
+item_visual                              = anomaly_weapons\wpn_groza\wpn_groza_kobra_hud.ogf
+
+aim_hud_offset_pos                       = -0.088, 0.01525, -0.3
+aim_hud_offset_pos_16x9                  = -0.088, 0.01525, -0.3
+aim_hud_offset_rot                       = 0.0188, 0.0277, 0.0
+aim_hud_offset_rot_16x9                  = 0.0188, 0.0277, 0.0
+
+gl_hud_offset_pos                        = -0.1015, -0.0696, -0.3
+gl_hud_offset_pos_16x9                   = -0.1015, -0.0696, -0.3
+gl_hud_offset_rot                        = -0.1125, 0.0474, -0.004
+gl_hud_offset_rot_16x9                   = -0.1125, 0.0474, -0.004
+
+;------------------------------------------------------------------------------------------------
+
+[wpn_groza_545_1p29]:wpn_groza_545
+icons_texture 				 = ui\ui_icon_groza_nohandle
+inv_grid_height                          = 2
+inv_grid_width                           = 4
+inv_grid_x                               = 0
+inv_grid_y                               = 0
+
+1icon_layer                              = 1p29
+1icon_layer_x                            = 67
+1icon_layer_y                            = 9
+
+inv_weight                               = 4.72
+
+hud                                      = wpn_groza_545_1p29_hud
+visual                                   = dynamics\weapons\wpn_groza\wpn_groza_1p29.ogf
+
+scope_status                             = 1
+scope_dynamic_zoom                       = off
+scope_texture                            = wpn_crosshair_1p29
+scope_zoom_factor                        = 15
+
+[wpn_groza_545_1p29_hud]:wpn_groza_545_hud
+item_visual                              = anomaly_weapons\wpn_groza\wpn_groza_1p29_hud.ogf
+
+aim_hud_offset_pos                       = -0.0955, 0.025, -0.3
+aim_hud_offset_pos_16x9                  = -0.0955, 0.025, -0.3
+aim_hud_offset_rot                       = 0.0211, 0.03485, 0.0
+aim_hud_offset_rot_16x9                  = 0.0211, 0.03485, 0.0
+
+gl_hud_offset_pos                        = -0.0887, -0.125, -0.3
+gl_hud_offset_pos_16x9                   = -0.0887, -0.125, -0.3
+gl_hud_offset_rot                        = -0.1778, 0.0322, -0.004
+gl_hud_offset_rot_16x9                   = -0.1778, 0.0322, -0.004
+
+;------------------------------------------------------------------------------------------------
+
+[wpn_groza_545_acog]:wpn_groza_545
+icons_texture 				 = ui\ui_icon_groza_nohandle
+inv_grid_height                          = 2
+inv_grid_width                           = 4
+inv_grid_x                               = 4				;it's hard to spot, but this one has a visible
+inv_grid_y                               = 0				;Picatinny rail when mounting a NATO sight
+
+1icon_layer                              = acog				;technically slightly inaccurate since
+1icon_layer_x                            = 73				;the HUD model doesn't use the elevating platform
+1icon_layer_y                            = -3				
+									;while with Dovetail scopes we reduced the final weight
+inv_weight                               = 4.35				;by 0.1kg to simulate removing the carrying handle,
+									;we don't do it here, as that weight is simulated by the adapter
+hud                                      = wpn_groza_545_acog_hud		
+visual                                   = dynamics\weapons\wpn_groza\wpn_groza_acog.ogf
+
+scope_status                             = 0
+scope_zoom_factor                        = 20
+zoom_rotate_time                         = 0.25
+
+[wpn_groza_545_acog_hud]:wpn_groza_545_hud
+item_visual                              = anomaly_weapons\wpn_groza\wpn_groza_acog_hud.ogf
+
+aim_hud_offset_pos                       = -0.08923, 0.039535, -0.4	;for 3D ACOG scope we zoom in more than normal
+aim_hud_offset_pos_16x9                  = -0.08923, 0.039535, -0.4
+aim_hud_offset_rot                       = 0.04126, 0.0328, 0.0
+aim_hud_offset_rot_16x9                  = 0.04126, 0.0328, 0.0
+
+gl_hud_offset_pos                        = -0.0887, -0.125, -0.3
+gl_hud_offset_pos_16x9                   = -0.0887, -0.125, -0.3
+gl_hud_offset_rot                        = -0.1778, 0.0322, -0.004
+gl_hud_offset_rot_16x9                   = -0.1778, 0.0322, -0.004
+
+;------------------------------------------------------------------------------------------------
+
+[wpn_groza_545_ac10632]:wpn_groza_545
+icons_texture 				 = ui\ui_icon_groza_nohandle
+inv_grid_height                          = 2
+inv_grid_width                           = 4
+inv_grid_x                               = 4
+inv_grid_y                               = 0
+
+1icon_layer                              = ac10632
+1icon_layer_x                            = 73
+1icon_layer_y                            = -3
+
+inv_weight                               = 4.115
+
+hud                                      = wpn_groza_545_ac10632_hud
+visual                                   = dynamics\weapons\wpn_groza\wpn_groza_ac10632.ogf
+
+scope_status                             = 0
+
+[wpn_groza_545_ac10632_hud]:wpn_groza_545_hud
+item_visual                              = anomaly_weapons\wpn_groza\wpn_groza_ac10632_hud.ogf
+
+aim_hud_offset_pos                       = -0.091, 0.03825, -0.3
+aim_hud_offset_pos_16x9                  = -0.091, 0.03825, -0.3
+aim_hud_offset_rot                       = 0.04126, 0.036, 0.0
+aim_hud_offset_rot_16x9                  = 0.04126, 0.036, 0.0
+
+gl_hud_offset_pos                        = -0.089, -0.0587, -0.3
+gl_hud_offset_pos_16x9                   = -0.089, -0.0587, -0.3
+gl_hud_offset_rot                        = -0.1, 0.0327, -0.004
+gl_hud_offset_rot_16x9                   = -0.1, 0.0327, -0.004
+
+;------------------------------------------------------------------------------------------------
+
+[wpn_groza_545_eot]:wpn_groza_545
+icons_texture 				 = ui\ui_icon_groza_nohandle
+inv_grid_height                          = 2
+inv_grid_width                           = 4
+inv_grid_x                               = 4
+inv_grid_y                               = 0
+
+1icon_layer                              = eot
+1icon_layer_x                            = 78
+1icon_layer_y                            = -1
+
+inv_weight                               = 4.3
+
+hud                                      = wpn_groza_545_eot_hud
+visual                                   = dynamics\weapons\wpn_groza\wpn_groza_eot.ogf
+
+scope_status                             = 0
+
+[wpn_groza_545_eot_hud]:wpn_groza_545_hud
+item_visual                              = anomaly_weapons\wpn_groza\wpn_groza_eot_hud.ogf
+
+aim_hud_offset_pos                       = -0.0894, 0.0228, -0.3
+aim_hud_offset_pos_16x9                  = -0.0894, 0.0228, -0.3
+aim_hud_offset_rot                       = 0.03755, 0.0339, 0.0
+aim_hud_offset_rot_16x9                  = 0.03755, 0.0339, 0.0
+
+gl_hud_offset_pos                        = -0.0906, -0.06, -0.3
+gl_hud_offset_pos_16x9                   = -0.0906, -0.06, -0.3
+gl_hud_offset_rot                        = -0.1013, 0.0345, -0.004
+gl_hud_offset_rot_16x9                   = -0.1013, 0.0345, -0.004
+
+;------------------------------------------------------------------------------------------------
+
+[wpn_groza_545_c-more]:wpn_groza_545
+icons_texture 				 = ui\ui_icon_groza_nohandle
+inv_grid_height                          = 2
+inv_grid_width                           = 4
+inv_grid_x                               = 4
+inv_grid_y                               = 0
+
+1icon_layer                              = c-more
+1icon_layer_x                            = 78
+1icon_layer_y                            = -1
+
+inv_weight                               = 4.3
+
+hud                                      = wpn_groza_545_c-more_hud
+visual                                   = dynamics\weapons\wpn_groza\wpn_groza_c-more.ogf
+
+scope_status                             = 0
+
+[wpn_groza_545_c-more_hud]:wpn_groza_545_hud
+item_visual                              = anomaly_weapons\wpn_groza\wpn_groza_c-more_hud.ogf
+
+aim_hud_offset_pos                       = -0.09124, 0.0344, -0.3
+aim_hud_offset_pos_16x9                  = -0.09124, 0.0344, -0.3
+aim_hud_offset_rot                       = 0.03755, 0.0369, 0.0
+aim_hud_offset_rot_16x9                  = 0.03755, 0.0369, 0.0
+
+gl_hud_offset_pos                        = -0.089, -0.053, -0.3
+gl_hud_offset_pos_16x9                   = -0.089, -0.053, -0.3
+gl_hud_offset_rot                        = -0.093, 0.0328, -0.004
+gl_hud_offset_rot_16x9                   = -0.093, 0.0328, -0.004
+
+
+
+[wpn_groza_tactical]:wpn_groza_545
+$spawn                                             = "weapons\wpn_groza_tactical"
+parent_section                                     = wpn_groza_tactical
+icons_texture 				                       = ui\ui_icon_mwp
+
+inv_grid_x                                         = 11
+inv_grid_y                                         = 13
+inv_name                                           = st_wpn_groza_tactical
+inv_name_short                                     = st_wpn_groza_tactical
+description                                        = st_wpn_groza_tactical_descr
+
+inv_weight                                         = 4.2
+cost                                               = 40000
+
+hud                                                = wpn_groza_tactical_hud
+visual                                             = dynamics\weapons\wpn_groza\wpn_groza_tactical.ogf
+
+fire_modes                                         = 1, -1
+ammo_class                                         = ammo_5.45x39_fmj, ammo_5.45x39_fmj_bad, ammo_5.45x39_fmj_verybad, ammo_5.45x39_ep, ammo_5.45x39_ep_bad, ammo_5.45x39_ep_verybad, ammo_5.45x39_ap, ammo_5.45x39_ap_bad, ammo_5.45x39_ap_verybad
+ammo_mag_size                                      = 30
+
+scopes                                             = acog, c-more, ac10632, eot ;, wpn_addon_scope_po4x34
+scope_zoom_factor                                  = 0
+scopes_sect                              = scope_groza_tactical_po4x34
+scope_status                             = 2
+
+silencer_status                                    = 1
+
+grenade_launcher_status                            = 0
+
+rpm                                                = 755
+
+fire_dispersion_base                               = 0.34
+
+
+[wpn_groza_tactical_hud]:wpn_groza_545_hud
+item_visual                                        = dynamics\weapons\wpn_groza\wpn_groza_tactical_hud.ogf
+
+aim_hud_offset_pos                                 = -0.12025,0.02175,-0.3
+aim_hud_offset_pos_16x9                            = -0.12025,0.02175,-0.3
+aim_hud_offset_rot                                 = 0.022,0.0349,0
+aim_hud_offset_rot_16x9                            = 0.022,0.0349,0
+
+anm_bore                                           = grozat_idle_aim
+anm_hide                                           = grozat_holster
+anm_idle                                           = grozat_idle
+anm_idle_aim                                       = grozat_idle_aim, idle_aim
+anm_idle_moving                                    = grozat_idle_moving
+anm_idle_moving_crouch                             = grozat_idle_crouch
+anm_idle_sprint                                    = grozat_idle_sprint
+anm_reload                                         = grozat_reload_short, reload
+anm_reload_empty                                   = grozat_reload_empty, reload_empty
+anm_shots                                          = grozat_shoot, shoot
+anm_show                                           = grozat_draw
+
+
+[wpn_groza_tactical_acog]:wpn_groza_tactical
+;$spawn                                             = "weapons\wpn_groza_tactical_acog"
+;cost                                               = 60000
+icons_texture 				                       = ui\ui_icon_mwp
+inv_grid_x                                         = 11
+inv_grid_y                                         = 15
+1icon_layer                                        = acog
+1icon_layer_x                                      = 69
+1icon_layer_y                                      = -7
+hud                                                = wpn_groza_tactical_acog_hud
+inv_weight                                         = 4.55
+scope_texture                                      = wpn_crosshair_acog
+scope_zoom_factor                                  = 20
+visual                                             = dynamics\weapons\wpn_groza\wpn_groza_tactical_acog.ogf
+
+[wpn_groza_tactical_acog_hud]:wpn_groza_tactical_hud
+aim_hud_offset_pos                                 = -0.120200,0.036450,-0.415
+aim_hud_offset_pos_16x9                            = -0.120200,0.036450,-0.415
+aim_hud_offset_rot                                 = 0.037000,0.034900,0.000000
+aim_hud_offset_rot_16x9                            = 0.037000,0.034900,0.000000
+item_visual                                        = dynamics\weapons\wpn_groza\wpn_groza_tactical_acog_hud.ogf
+
+[wpn_groza_tactical_c-more]:wpn_groza_tactical
+;$spawn                                             = "weapons\wpn_groza_tactical_c-more"
+;cost                                               = 55000
+icons_texture 				                       = ui\ui_icon_mwp
+inv_grid_x                                         = 11
+inv_grid_y                                         = 15
+1icon_layer                                        = c-more
+1icon_layer_x                                      = 70
+1icon_layer_y                                      = -3
+hud                                                = wpn_groza_tactical_c-more_hud
+inv_weight                                         = 4.384
+scope_zoom_factor                                  = 0
+visual                                             = dynamics\weapons\wpn_groza\wpn_groza_tactical_c-more.ogf
+
+[wpn_groza_tactical_c-more_hud]:wpn_groza_tactical_hud
+aim_hud_offset_pos                                 = -0.120350,0.035900,-0.3
+aim_hud_offset_pos_16x9                            = -0.120350,0.035900,-0.3
+aim_hud_offset_rot                                 = 0.037000,0.034900,0.000000
+aim_hud_offset_rot_16x9                            = 0.037000,0.034900,0.000000
+item_visual                                        = dynamics\weapons\wpn_groza\wpn_groza_tactical_c-more_hud.ogf
+
+[wpn_groza_tactical_ac10632]:wpn_groza_tactical
+;$spawn                                             = "weapons\wpn_groza_tactical_ac10632"
+;cost                                               = 56000
+icons_texture 				                       = ui\ui_icon_mwp
+inv_grid_x                                         = 11
+inv_grid_y                                         = 15
+1icon_layer                                        = ac10632
+1icon_layer_x                                      = 80
+1icon_layer_y                                      = -8
+hud                                                = wpn_groza_tactical_ac10632_hud
+inv_weight                                         = 4.4
+scope_zoom_factor                                  = 0
+visual                                             = dynamics\weapons\wpn_groza\wpn_groza_tactical_coyote.ogf
+
+[wpn_groza_tactical_ac10632_hud]:wpn_groza_tactical_hud
+aim_hud_offset_pos                                 = -0.120300,0.033500,-0.3
+aim_hud_offset_pos_16x9                            = -0.120300,0.033500,-0.3
+aim_hud_offset_rot                                 = 0.037000,0.034900,0.000000
+aim_hud_offset_rot_16x9                            = 0.037000,0.034900,0.000000
+item_visual                                        = dynamics\weapons\wpn_groza\wpn_groza_tactical_coyote_hud.ogf
+
+[wpn_groza_tactical_eot]:wpn_groza_tactical
+;$spawn                                             = "weapons\wpn_groza_tactical_eot"
+;cost                                               = 56000
+icons_texture 				                       = ui\ui_icon_mwp
+inv_grid_x                                         = 11
+inv_grid_y                                         = 15
+1icon_layer                                        = eot
+1icon_layer_x                                      = 75
+1icon_layer_y                                      = -3
+hud                                                = wpn_groza_tactical_eot_hud
+inv_weight                                         = 4.5
+scope_zoom_factor                                  = 0
+visual                                             = dynamics\weapons\wpn_groza\wpn_groza_tactical_eot.ogf
+
+[wpn_groza_tactical_eot_hud]:wpn_groza_tactical_hud
+aim_hud_offset_pos                                 = -0.120200,0.035800,-0.3
+aim_hud_offset_pos_16x9                            = -0.120200,0.035800,-0.3
+aim_hud_offset_rot                                 = 0.037000,0.034900,0.000000
+aim_hud_offset_rot_16x9                            = 0.037000,0.034900,0.000000
+item_visual                                        = dynamics\weapons\wpn_groza\wpn_groza_tactical_eot_hud.ogf
+
+;[wpn_groza_tactical_wpn_addon_scope_po4x34]:wpn_groza_tactical
+;;$spawn                                             = "weapons\wpn_groza_tactical_po4x34"
+;;cost                                               = 57000
+;1icon_layer                                        = wpn_addon_scope_po4x34
+;1icon_layer_x                                      = 48
+;1icon_layer_y                                      = -10
+;hud                                                = wpn_groza_tactical_po4x34_hud
+;inv_grid_x                                         = 40
+;inv_grid_y                                         = 22
+;inv_weight                                         = 4.78
+;scope_status                                       = 1
+;scope_texture                                      = wpn_crosshair_po4x34
+;scope_zoom_factor                                  = 20
+;zoom_rotate_time                                   = 0.25
+
+;[wpn_groza_tactical_po4x34_hud]:wpn_groza_tactical_hud
+;aim_hud_offset_pos                                 = -0.12025,-0.01,-0.25
+;aim_hud_offset_pos_16x9                            = -0.12025,-0.01,-0.25
+;;item_visual                                        = dynamics\weapons\wpn_groza\wpn_groza_tactical_hud.ogf
+
+[scope_groza_tactical_po4x34]
+scope_name                               = wpn_addon_scope_po4x34
+scope_x                                  = 58
+scope_y                                  = -14
