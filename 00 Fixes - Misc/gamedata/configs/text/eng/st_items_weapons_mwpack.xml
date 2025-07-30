@@ -73,7 +73,7 @@
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] • %c[ui_gray_2] FN2000 scope (integrated)\n
 		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n 
-		%c[d_purple] • %c[ui_gray_2] GL1 grenade launcher (integrated) \n \n</text> 
+		%c[d_purple] • %c[ui_gray_2] GL1 grenade launcher (integrated) \n \n</text>
 	</string>
 
 	<string id="st_wpn_fnfalo">
@@ -429,6 +429,17 @@
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor \n
 		%c[d_purple] • %c[ui_gray_2] ELCAN C79 3.4x scope (integrated) \n \n</text>
+	</string>
+
+	<string id="st_wpn_ddm4v5">
+		<text>Daniel Defense M4V5</text>
+	</string>
+	<string id="st_wpn_ddm4v5_descr">
+		<text>The DDM4 is a high quality AR-15 platform rifle, boasting a sturdy frame with high performance and modularity. This V5 version was discontinued after the release of the V7, but some examples have reached the Zone.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] NATO suppressor \n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech\n
+		</text>
 	</string>
 
 </string_table>
