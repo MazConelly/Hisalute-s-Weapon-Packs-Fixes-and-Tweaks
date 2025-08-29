@@ -5,14 +5,14 @@
 GroupControlSection     = spawn_group
 $npc                    = on
 $prefetch               = 8
-$spawn                  = "weapons\mp9"         
-scheduled               = off  
+$spawn                  = "weapons\mp9"
+scheduled               = off
 cform                   = skeleton
 parent_section			= wpn_mp9
 icons_texture           = ui\ui_icon_mwp
 
 class                   = WP_LR300
-slot                    = 2               
+slot                    = 2
 animation_slot          = 8
 ef_main_weapon_type     = 2
 ef_weapon_type          = 6
@@ -26,7 +26,7 @@ inv_grid_height         = 2
 inv_grid_width          = 2
 inv_grid_x              = 18
 inv_grid_y              = 13
-inv_name                = st_wpn_mp9          
+inv_name                = st_wpn_mp9
 inv_name_short          = st_wpn_mp9
 description          	= st_wpn_mp9_descr
 
@@ -44,8 +44,8 @@ fire_point              = 0.0, 0.188, 0.392
 fire_point2             = 0.0, 0.188, 0.392
 strap_bone0             = bip01_spine2
 strap_bone1             = bip01_spine1
-strap_position         	= -0.16,-0.36,0.15			    
-strap_orientation      	= -10,-5,10		    
+strap_position         	= -0.16,-0.36,0.15
+strap_orientation      	= -10,-5,10
 ph_mass                 = 3
 
 flame_particles		   	= weapons\generic_weapon03
@@ -53,7 +53,7 @@ smoke_particles         = weapons\generic_shoot_00
 grenade_flame_particles = weapons\generic_weapon01
 
 shell_point		 		= 0.0, 0.133, 0.047
-shell_dir		 			= 0.0, 0.0, 0.4
+shell_dir		 		= 0.0, 0.0, 0.4
 shell_particles	 		= weapons\9x19
 
 light_disabled          = false
@@ -63,28 +63,28 @@ light_time              = 0.2
 light_var_color         = 0.05
 light_var_range         = 0.5
 
-upgrades                                 = up_gr_firstab_bizon, up_gr_seconab_bizon, up_gr_thirdab_bizon, up_gr_fourtab_bizon, up_gr_fifthab_bizon, up_gr_fifthcd_bizon
-installed_upgrades                       =
-upgrade_scheme                           = upgrade_scheme_mp5
-upgr_icon_x                              = 900
-upgr_icon_y                              = 300
-upgr_icon_width                          = 250
-upgr_icon_height                         = 100
+upgrades                = up_gr_firstab_bizon, up_gr_seconab_bizon, up_gr_thirdab_bizon, up_gr_fourtab_bizon, up_gr_fifthab_bizon, up_gr_fifthcd_bizon
+installed_upgrades      =
+upgrade_scheme          = upgrade_scheme_mp5
+upgr_icon_x             = 900
+upgr_icon_y             = 300
+upgr_icon_width         = 250
+upgr_icon_height        = 100
 
 fire_modes	            = 1, -1
-ammo_class                               = ammo_5.7x28_ss190, ammo_5.7x28_ss190_bad, ammo_5.7x28_ss190_verybad, ammo_5.7x28_ss195, ammo_5.7x28_ss195_bad, ammo_5.7x28_ss195_verybad
+ammo_class              = ammo_5.7x28_ss190, ammo_5.7x28_ss190_bad, ammo_5.7x28_ss190_verybad, ammo_5.7x28_ss195, ammo_5.7x28_ss195_bad, ammo_5.7x28_ss195_verybad
 ammo_elapsed            = 30
-ammo_mag_size           = 30              
+ammo_mag_size           = 30
 startup_ammo            = 90
 
 scope_name              = wpn_addon_scope
-scope_status            = 0         
-scope_x              	= 47    
+scope_status            = 0
+scope_x              	= 47
 scope_y                 = 0
 
-silencer_name           = wpn_sil_57    
+silencer_name           = wpn_sil_57
 silencer_status         = 0
-silencer_x              = -70       
+silencer_x              = -70
 silencer_y              = 12
 
 silencer_light_color    = 0.6,0.5,0.3
@@ -92,12 +92,12 @@ silencer_light_range    = 0.01
 silencer_light_time     = 0.2
 silencer_light_var_color= 0.05
 silencer_light_var_range= 0.5
-silencer_smoke_particles   = weapons\generic_shoot_00
+silencer_smoke_particles= weapons\generic_shoot_00
 
 grenade_class           = ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
-grenade_launcher_name   = wpn_addon_grenade_launcher    
+grenade_launcher_name   = wpn_addon_grenade_launcher
 grenade_launcher_status = 0 
-grenade_launcher_x      = 126                   
+grenade_launcher_x      = 126
 grenade_launcher_y      = 24
 launch_speed            = 0
 
@@ -109,16 +109,16 @@ bullet_speed            = 710
 rpm                     = 900
 rpm_empty_click         = 200
 
-use_aim_bullet          = false 
+use_aim_bullet          = false
 time_to_aim             = 0.0 ; 3.0
 zoom_dof                = 0.5, 1.0, 180
-zoom_enabled            = true                      
-zoom_rotate_time        = 0.25            
+zoom_enabled            = true
+zoom_rotate_time        = 0.25
 reload_dof              = 0.0, 0.5, 5, 2
 control_inertion_factor = 1.0f
 crosshair_inertion   	= 4.05
 fire_dispersion_base    = 0.365
-fire_dispersion_condition_factor = 0.001    
+fire_dispersion_condition_factor = 0.001
 
 misfire_probability        	= 0.005
 misfire_start_condition		= 0.7
@@ -135,9 +135,9 @@ cam_dispersion              = 0.57
 cam_dispersion_frac         = 1.0
 cam_dispersion_inc          = 0.0525
 cam_max_angle               = 40.0
-cam_max_angle_horz          = 40.0	
+cam_max_angle_horz          = 40.0
 cam_step_angle_horz         = 1.2
-zoom_cam_relax_speed        = 12 
+zoom_cam_relax_speed        = 12
 zoom_cam_dispersion         = 0.45
 zoom_cam_dispersion_frac    = 1.0
 zoom_cam_dispersion_inc     = 0.0425
@@ -147,91 +147,88 @@ zoom_cam_step_angle_horz    = 1.35
 
 PDM_disp_accel_factor 		= 1.855
 PDM_disp_base 				= 0.65
-PDM_disp_crouch             = 1.0   
-PDM_disp_crouch_no_acc      = 1.0   
+PDM_disp_crouch             = 1.0
+PDM_disp_crouch_no_acc      = 1.0
 PDM_disp_vel_factor 		= 1.855
 
 cam_relax_speed_ai          = 360
 zoom_cam_relax_speed_ai     = 360
 holder_fov_modifier         = 1.0
-holder_range_modifier       = 1.0  
-min_radius                  = 0     
-max_radius                  = 500   
-hit_probability_gd_novice   = 1.00  
-hit_probability_gd_stalker  = 1.00  
-hit_probability_gd_veteran  = 1.00  
-hit_probability_gd_master   = 1.00  
+holder_range_modifier       = 1.0
+min_radius                  = 0
+max_radius                  = 500
+hit_probability_gd_novice   = 1.00
+hit_probability_gd_stalker  = 1.00
+hit_probability_gd_veteran  = 1.00
+hit_probability_gd_master   = 1.00
 
 kill_msg_x        = 72
 kill_msg_y        = 82
 kill_msg_width    = 56
 kill_msg_height   = 23
 
-;snd_draw				= weapons\mp7\mp7_deploy
-;snd_holster				= weapons\mp7\mp7_holster
-snd_draw				= weapons\tmp\tmp_deploy
-snd_holster				= weapons\tmp\tmp_holster
-snd_silncer_shot        = weapons\tmp\tmp_sil1
-snd_silncer_shot1       = weapons\tmp\tmp_sil2
-snd_silncer_shot2       = weapons\tmp\tmp_sil3
-snd_silncer_shot3       = weapons\tmp\tmp_sil4
-snd_shoot               = weapons\tmp\tmp_1
-snd_shoot1              = weapons\tmp\tmp_2
-snd_shoot2              = weapons\tmp\tmp_3
-snd_shoot3              = weapons\tmp\tmp_4
-snd_empty				= weapons\tmp\tmp_trigger
-snd_reload				= weapons\tmp\tmp_reload1
-snd_reload1				= weapons\tmp\tmp_reload2
-snd_reload2				= weapons\tmp\tmp_reload3
-snd_reload3				= weapons\tmp\tmp_reload4
-snd_shoot_grenade		= weapons\gen_grenshoot
-snd_reload_grenade		= weapons\l85_grenload
-snd_switch				= weapons\groza_switch, 1.0, 0.5
-snd_bore				= weapons\no_sound
-
+snd_draw			= weapons\tmp\tmp_deploy
+snd_holster			= weapons\tmp\tmp_holster
+snd_silncer_shot    = weapons\tmp\tmp_sil1
+snd_silncer_shot1   = weapons\tmp\tmp_sil2
+snd_silncer_shot2   = weapons\tmp\tmp_sil3
+snd_silncer_shot3   = weapons\tmp\tmp_sil4
+snd_shoot           = weapons\tmp\tmp_1
+snd_shoot1          = weapons\tmp\tmp_2
+snd_shoot2          = weapons\tmp\tmp_3
+snd_shoot3          = weapons\tmp\tmp_4
+snd_empty			= weapons\tmp\tmp_trigger
+snd_reload			= weapons\tmp\tmp_reload1
+snd_reload1			= weapons\tmp\tmp_reload2
+snd_reload2			= weapons\tmp\tmp_reload3
+snd_reload3			= weapons\tmp\tmp_reload4
+snd_shoot_grenade	= weapons\gen_grenshoot
+snd_reload_grenade	= weapons\l85_grenload
+snd_switch			= weapons\groza_switch, 1.0, 0.5
+snd_bore			= weapons\no_sound
 
 [wpn_mp9_hud]:hud_base
-item_visual			    = dynamics\weapons\wpn_mp9\wpn_mp9_hud.ogf
-attach_place_idx        = 0
-zoom_hide_crosshair     = true
+item_visual			= dynamics\weapons\wpn_mp9\wpn_mp9_hud.ogf
+attach_place_idx    = 0
+zoom_hide_crosshair = true
 
-item_position			= 0.0,0.0,0.0
-item_orientation		= 0.0,0.0,0.0
+item_position		= 0.0,0.0,0.0
+item_orientation	= 0.0,0.0,0.0
 
 hands_position			= -0.042000,-0.172,0.165500
 hands_position_16x9		= -0.042000,-0.172,0.165500
 hands_orientation		= 0.55,2.39,0.1499993
 hands_orientation_16x9	= 0.55,2.39,0.1499993
 
-aim_hud_offset_pos = -0.108700,0.089900,-0.140500
+aim_hud_offset_pos		= -0.108700,0.089900,-0.140500
 aim_hud_offset_pos_16x9 = -0.108700,0.089900,-0.140500
-aim_hud_offset_rot = 0.036900,0.008700,-0.014500
+aim_hud_offset_rot		= 0.036900,0.008700,-0.014500
 aim_hud_offset_rot_16x9 = 0.036900,0.008700,-0.014500
 
-gl_hud_offset_pos       				= 0,0,0
-gl_hud_offset_pos_16x9    			= 0,0,0
-gl_hud_offset_rot       				= 0,0,0
-gl_hud_offset_rot_16x9    			= 0,0,0
+gl_hud_offset_pos       = 0,0,0
+gl_hud_offset_pos_16x9  = 0,0,0
+gl_hud_offset_rot       = 0,0,0
+gl_hud_offset_rot_16x9  = 0,0,0
 
-lean_hud_offset_pos        			= 0,0,0
-lean_hud_offset_rot        			= 0,0,0
+lean_hud_offset_pos	= 0,0,0
+lean_hud_offset_rot	= 0,0,0
 
-anm_show                = lancew_mp7_draw
-anm_hide                = lancew_mp7_holster
-anm_idle                = lancew_mp7_idle
-anm_idle_sprint         = lancew_mp7_sprint
-anm_idle_moving         = lancew_mp7_moving
-;anm_shots               = kyky_mp7_shoot, shoot
-anm_shots                                = lancew_mp7_shoot, shoot
-anm_reload              = lancew_mp7_reload, reload
-anm_idle_aim           	= lancew_mp7_idle_aim, idle_aim
-anm_bore                = lancew_mp7_no_reload
+anm_show        = lancew_mp7_draw
+anm_hide        = lancew_mp7_holster
+anm_idle        = lancew_mp7_idle
+anm_idle_sprint	= lancew_mp7_sprint
+anm_idle_moving	= lancew_mp7_moving
+;anm_shots		= kyky_mp7_shoot, shoot
+anm_shots		= lancew_mp7_shoot, shoot
+anm_reload		= lancew_mp7_reload, reload
+anm_idle_aim	= lancew_mp7_idle_aim, idle_aim
+anm_bore		= lancew_mp7_no_reload
 
-shell_point				= 0.02,0.06,-0.019
-shell_dir				= 0.0, 1.0, 0.0
-shell_bone				= wpn_body
+shell_point	= 0.02,0.06,-0.019
+shell_dir	= 0.0, 1.0, 0.0
+shell_bone	= wpn_body
 
-fire_point				= 0,0.037504,0.269238
-fire_bone				= wpn_body
-fire_point2				= 0.0,-0.029,0.525
-fire_bone2				= wpn_body
+fire_point	= 0,0.037504,0.269238
+fire_bone	= wpn_body
+fire_point2	= 0.0,-0.029,0.525
+fire_bone2	= wpn_body
