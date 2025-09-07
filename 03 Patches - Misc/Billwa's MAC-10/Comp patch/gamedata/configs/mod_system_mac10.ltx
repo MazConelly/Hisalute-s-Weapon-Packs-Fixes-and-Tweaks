@@ -1,4 +1,4 @@
-[wpn_mac10_9x19]:identity_immunities,weapon_probability,default_weapon_params,wpn_pp2000_sounds
+[wpn_mac10]:identity_immunities,weapon_probability,default_weapon_params,wpn_pp2000_sounds
 GroupControlSection		= spawn_group
 $npc					= on
 $prefetch				= 8
@@ -24,16 +24,17 @@ inv_grid_width			= 2
 inv_grid_height			= 2
 inv_grid_x				= 0
 inv_grid_y				= 0
-inv_name				= st_wpn_mac10_9x19
-inv_name_short			= st_wpn_mac10_9x19_s
-description				= st_wpn_mac10_9x19_descr
+
+inv_name				= st_wpn_mac10
+inv_name_short			= st_wpn_mac10_s
+description				= st_wpn_mac10_descr
 
 inv_weight				= 2.84
 cost					= 17420
 repair_type				= pistol
 weapon_class			= assault_rifle
 
-hud						= wpn_mac10_9x19_hud
+hud						= wpn_mac10_hud
 visual					= dynamics\weapons\wpn_mac10\wpn_mac10_world.ogf
 position				= -0.028727, 0.003593, -0.005185
 orientation				= 2.710001, -1.413345, 0
@@ -81,7 +82,6 @@ silencer_name			= wpn_sil_9mm
 silencer_status			= 2
 silencer_x				= 85
 silencer_y				= 6
-
 silencer_light_color	= 0.6,0.5,0.3
 silencer_light_range	= 0.01
 silencer_light_time		= 0.2
@@ -91,7 +91,7 @@ silencer_smoke_particles	= weapons\generic_shoot_00
 
 grenade_launcher_status	= 0
 
-hit_impulse				= 42
+hit_impulse				= 24
 hit_power				= 0.47, 0.47, 0.47, 0.47
 hit_type				= fire_wound
 fire_distance			= 105
@@ -163,15 +163,12 @@ kill_msg_height			= 23
 
 snd_draw				= weapons\mp5\mp5_draw
 snd_holster				= weapons\rifle_holster
-
 snd_empty				= weapons\mac10\mac10_empty
 snd_reload				= weapons\mac10\mac10_reload
 snd_reload_empty		= weapons\mac10\mac10_reload_empty
 snd_reload_misfire		= weapons\mac10\mac10_unjam
 
-
-
-[wpn_mac10_9x19_hud]:hud_base
+[wpn_mac10_hud]:hud_base
 item_visual					= anomaly_weapons\wpn_mac-10\wpn_mac10_hud.ogf
 attach_place_idx			= 0
 zoom_hide_crosshair			= true

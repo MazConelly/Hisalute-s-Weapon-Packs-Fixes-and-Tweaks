@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="windows-1251"?>
-
 <string_table>
-
 	<string id="st_mag_rpk_drum_7.62x39">
 		<text>75-round 7.62x39 RPK Drum Magazine</text>
 	</string>
@@ -262,5 +260,4 @@
 		Box containing a 100 round belt for 7.62x51 rounds. Compared to 5.56x45 used by the M249, the larger 7.62x51 provides a hefty increase to both range and damage, though it is a much greater pain to carry.
 		</text>
 	</string>
-
 </string_table>

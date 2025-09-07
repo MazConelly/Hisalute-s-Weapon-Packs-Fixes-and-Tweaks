@@ -1,7 +1,7 @@
 ;=============================================================
 ;============================MAC-10/11========================
 ;=============================================================
-[wpn_mac10]:identity_immunities,weapon_probability,default_weapon_params
+[wpn_mac10_45]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection		= spawn_group
 $npc					= on
 $prefetch				= 8
@@ -35,7 +35,7 @@ cost					= 20560
 repair_type				= pistol
 weapon_class			= assault_rifle
 
-hud						= wpn_mac10_hud
+hud						= wpn_mac10_45_hud
 visual					= dynamics\weapons\wpn_mac\wpn_mac10.ogf
 position				= -0.026, -0.125, -0.03
 orientation				= 0, -10, 0
@@ -183,7 +183,7 @@ snd_silncer_shot2	= weapons\mac\mac10_sil3
 snd_silncer_shot3	= weapons\mac\mac10_sil4
 snd_silncer_shot4	= weapons\mac\mac10_sil5
 
-[wpn_mac10_hud]
+[wpn_mac10_45_hud]
 item_visual			= dynamics\weapons\wpn_mac\wpn_mac10_hud.ogf
 attach_place_idx	= 0
 zoom_hide_crosshair	= true
@@ -235,7 +235,7 @@ lowered_hud_offset_rot_16x9	= 0.2,-1,0
 lowered_hud_offset_rot		= 0.2,-1,0
 
 ;=============================================================
-[wpn_mac11]:wpn_mac10
+[wpn_mac11]:wpn_mac10_45
 inv_name			= st_wpn_mac11
 inv_name_short		= st_wpn_mac11
 description			= st_wpn_mac11_descr
@@ -254,7 +254,6 @@ hit_impulse			= 50
 hit_power			= 0.47, 0.47, 0.47, 0.47
 fire_distance		= 105
 bullet_speed		= 300
-
 rpm					= 1600
 
 shell_particles		= weapons\9x19
@@ -262,23 +261,23 @@ shell_particles		= weapons\9x19
 ammo_elapsed		= 32
 ammo_mag_size		= 32
 
-silencer_name		= wpn_sil_9mm		
+silencer_name		= wpn_sil_9mm
 silencer_x			= 120
 silencer_y			= 3
 
 ammo_class			= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
 
-cam_return			= 0	
-cam_relax_speed		= 8			
+cam_return			= 0
+cam_relax_speed		= 8
 cam_relax_speed_ai	= 360
-cam_dispersion		= 0.63		
-cam_dispersion_inc	= 0.039	
-cam_dispersion_frac	= 1.1		
-cam_max_angle		= 50.0	
-cam_max_angle_horz	= 50.0		
-cam_step_angle_horz	= 0.95	
+cam_dispersion		= 0.63
+cam_dispersion_inc	= 0.039
+cam_dispersion_frac	= 1.1
+cam_max_angle		= 50.0
+cam_max_angle_horz	= 50.0
+cam_step_angle_horz	= 0.95
 
-zoom_cam_relax_speed		= 12	
+zoom_cam_relax_speed		= 12
 zoom_cam_relax_speed_ai		= 360
 zoom_cam_dispersion			= 0.68
 zoom_cam_dispersion_inc		= 0.0575
@@ -301,7 +300,7 @@ snd_silncer_shot2	= weapons\mac\mac11_sil3
 snd_silncer_shot3	= weapons\mac\mac11_sil4
 snd_silncer_shot4	= weapons\mac\mac11_sil5
 
-[wpn_mac11_hud]:wpn_mac10_hud
+[wpn_mac11_hud]:wpn_mac10_45_hud
 item_visual	= dynamics\weapons\wpn_mac\wpn_mac11_hud.ogf
 
 aim_hud_offset_pos		= -0.131300,0.078500,-0.409100
