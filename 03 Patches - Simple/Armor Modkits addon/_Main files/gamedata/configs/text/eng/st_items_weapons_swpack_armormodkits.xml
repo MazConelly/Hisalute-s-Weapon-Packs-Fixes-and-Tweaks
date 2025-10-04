@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_wpn_ppsh41_stick_descr">
+		<text>A major infantry weapon of the Soviet armed forces during World War II, the PPSh-41 was a durable, low-maintenance weapon made of cheap, easily-obtained components. They utilise 7.62x25mm cartridge. This gun is equipped with a 35 round stick magazine and fires at a healthy 1000 rpm.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit\n
+		%c[d_purple] • %c[ui_gray_2] Boomsticks and Sharpsticks: Clear Sky modification kit</text>
+	</string>
+
+    <string id="st_wpn_gp100">
+		<text>Ruger Redhawk .45 ACP/.45 Colt</text>
+	</string>
+	<string id="st_wpn_gp100_descr">
+		<text> The Ruger Redhawk is a DA/SA, large-frame revolver that was first introduced in 1979 by Sturm Ruger and Company. Made from high-grade steel, it is available in a stainless steel finish. The Redhawk is reinforced to handle extra stress of high-pressure loads, making it very popular for use by handloaders as it is able to handle the most powerful .45 Colt and .44 Magnum loads easily. This model was designed to fire both .45 Long Colt and .45 ACP, though the rarity of .45 Colt in the zone has led .45 ACP to become dominant, however, due to the cartridge's shorter length it somewhat reduces the gun's accuracy.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
+	</string>
+
+</string_table>

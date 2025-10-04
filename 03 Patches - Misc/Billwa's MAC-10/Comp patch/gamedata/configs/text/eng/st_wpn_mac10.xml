@@ -8,11 +8,11 @@
 	</string>
 	<string id="st_wpn_mac10_descr">
 		<text>
-		The Military Armament Corporation Model 10, officially abbreviated as "M10" or "M-10", or commonly known as the MAC-10, is a compact, select-fire, blowback operated machine pistol/submachine gun developed by Gordon B. Ingram in 1964. It can be chambered in either .45 ACP or 9mm. This is the 9mm model.\n
+		The Military Armament Corporation Model 10, officially abbreviated as "M10" or "M-10", or commonly known as the MAC-10, is a compact, select-fire, blowback-operated machine pistol/submachine gun developed by Gordon B. Ingram in 1964. It can be chambered in either .45 ACP or 9mm. This is the 9mm model.\n
 		Firing from an open bolt, the light weight of the telescoping bolt results in a rapid rate of fire. The barrel is threaded to accept a two-stage suppressor by Sionics designed for the MAC-10, which not only abates the noise created, but also acts as a foregrip to inhibit muzzle rise when fired and makes it easier to control on full automatic (although it also makes the gun far less compact and concealable).\n
-		Noting the weapon's poor accuracy, it was described as "fit only for combat in a phone booth".\n
+		Noting the weapon's poor accuracy, it was described as "fit only for combat in a phone booth".
 		%c[ui_gray_3]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] 9x19 suppressor</text>
+		%c[d_purple] • %c[ui_gray_2] 9mm compatible suppressor</text>
 	</string>	
 	
 	<string id="st_mag_mac10_9x19_standard">
@@ -20,7 +20,7 @@
 	</string>
 	<string id="st_mag_mac10_9x19_standard_descr">
 		<text>Standard issue M3 "Grease Gun" magazine with a capacity of 32 rounds, compatible with the MAC-10.</text>
-	</string>	
+	</string>
 	<string id="st_mag_mac10_9x19_ext">
 		<text>Extended 9x19 M3 Magazine</text>
 	</string>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_mag_m712_9x19_fmj">
+		<text>Standard 9x19 Mauser M712 Magazine</text>
+	</string>
+	<string id="st_mag_m712_9x19_fmj_descr">
+		<text>20 round magazine for the Mauser M712 pistol. As part of the process of developing the M712, the C96's internal 10 round magazine was replaced with a detachable 10 or 20 round box.</text>
+	</string>
+
+    <string id="st_mag_type80_7.62x25_p">
+		<text>Standard 7.62x25 Type 80 Magazine</text>
+	</string>
+	<string id="st_mag_type80_7.62x25_p_descr">
+		<text>20 round magazine for the Type 80 pistol. While the Type 80 features a slower rate of fire compared to the Mauser M712 it was based on, these 20 round magazines still empty rather quickly.</text>
+	</string>
+
+</string_table>

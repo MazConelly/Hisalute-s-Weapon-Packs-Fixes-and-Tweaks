@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_raffica_9x19_fmj">
+		<text>Standard 9x19 Beretta 93R Magazine</text>
+	</string>
+	<string id="st_mag_raffica_9x19_fmj_descr">
+		<text>Standard-issue Beretta 93R Magazine that holds 20 rounds. Can be used by the 92F as well.</text>
+	</string>
+
+	<string id="st_mag_raffica_9x18_fmj">
+		<text>Modified 9x18 Beretta 93R Magazine</text>
+	</string>
+	<string id="st_mag_raffica_9x18_fmj_descr">
+		<text>Beretta 93R Magazine modified to fit the more common 9x18 Makarov cartridge.</text>
+	</string>
+
+</string_table>

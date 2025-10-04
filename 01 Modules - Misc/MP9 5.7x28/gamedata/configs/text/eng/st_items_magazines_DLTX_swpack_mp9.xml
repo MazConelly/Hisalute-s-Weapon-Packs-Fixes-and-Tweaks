@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_mp9_5.7x28_ss190">
+		<text>Modified 5.7x28 MP9 Magazine</text>
+	</string>
+	<string id="st_mag_mp9_5.7x28_ss190_descr">
+		<text>Modified 30-round magazine used in the MP9. Has been converted to fire 5.7x28.</text>
+	</string>
+
+	<string id="st_mag_mp9_9x19_fmj">
+		<text>Standard 9x19 MP9 Magazine</text>
+	</string>
+	<string id="st_mag_mp9_9x19_fmj_descr">
+		<text>Standard 9x19 30-round magazine used in the MP9. They are a lot more fun to dump, than to load.</text>
+	</string>
+
+</string_table>

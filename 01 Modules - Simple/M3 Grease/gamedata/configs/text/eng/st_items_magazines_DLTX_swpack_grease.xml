@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_mag_grease_11.43x23_fmj">
+		<text>Standard .45 ACP M3 Grease Gun Magazine</text>
+	</string>
+	<string id="st_mag_grease_11.43x23_fmj_descr">
+		<text>30 round magazine for the M3 "Grease Gun" smg. The M3 uses a magazine based on the British Sten gun magazine, using a double column, single feed design. This magazine was less reliable than the one used by the Thompson, it also required more effort to load.</text>
+	</string>
+
+    <string id="st_mag_grease_9x19_fmj">
+		<text>Standard 9x19 M3 Grease Gun Magazine</text>
+	</string>
+	<string id="st_mag_grease_9x19_fmj_descr">
+		<text>30 round magazine for the M3 "Grease Gun" smg. Limited numbers of M3s were originally built in 9mm, along with some 9mm conversion kits. They were largely intended to be supplied to European resistance movements during German occupation, facilitating the use of captured ammunition.</text>
+	</string>
+
+</string_table>

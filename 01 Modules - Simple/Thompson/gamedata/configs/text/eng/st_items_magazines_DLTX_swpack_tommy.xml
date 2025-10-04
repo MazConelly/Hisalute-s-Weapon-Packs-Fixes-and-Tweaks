@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_mag_m1a1_tommy_11.43x23_fmj">
+		<text>Standard .45 ACP Thompson Magazine</text>
+	</string>
+	<string id="st_mag_m1a1_tommy_11.43x23_fmj_descr">
+		<text>Standard 30 round Thompson submachine gun magazine chambered in .45 acp. The Thompson is not a gun that many would expect to find in the zone, perhaps a gunsmith with peculiar tastes has been producing copies.</text>
+	</string>
+
+    <string id="st_mag_m1928_11.43x23_fmj">
+		<text>.45 ACP Thompson Drum Magazine</text>
+	</string>
+	<string id="st_mag_m1928_11.43x23_fmj_descr">
+		<text>50-round Thompson magazine for the Thompson submachine gun. Normally the M1A1 pattern of Thompson possesses a different mag weld that does not accept drums, however, aftermarket modifications have made them compatible.</text>
+	</string>
+
+</string_table>

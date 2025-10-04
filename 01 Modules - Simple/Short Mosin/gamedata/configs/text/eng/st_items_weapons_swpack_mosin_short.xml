@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+    <string id="st_wpn_mosin_short">
+		<text>Mosin-Nagant (sawn-off)</text>
+	</string>
+	<string id="st_wpn_mosin_short_descr">
+		<text>A basic version of the Mosin-Nagant with slightly worn interiors. The M1891/30 was produced for standard issue to all Soviet infantry from 1930 to 1945. It was extremely successful in World War II as a sniper rifle when it was equipped with a 4x PE or a 3.5x PU scope. Due to an abundance of these rifles and a relative scarcity of pistols, sawn-off Mosin-Nagants were often used by those who needed a small, concealable weapon. The shortened barrel results in greatly decreased accuracy and muzzle velocity.</text>
+	</string>
+</string_table>

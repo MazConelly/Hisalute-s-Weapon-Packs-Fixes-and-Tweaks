@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_mp9_n_descr">
+		<text>The MP9 is a compact and versatile submachine gun renowned for its reliability and ergonomic design. Originally developed by the German company Heckler & Koch, the MP9 has gained popularity as a reliable firearm in military and law enforcement circles. Featuring a blowback operation and chambered in 9x19mm Parabellum, the MP9 boasts a high rate of fire while maintaining manageable recoil. Its compact size, foldable stock, and ambidextrous controls make it well-suited for close-quarters combat situations. The weapon's polymer construction contributes to its lightweight nature, enhancing its portability and maneuverability. Widely recognized for its performance, the MP9 has become a favored choice for special forces units and security personnel worldwide.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] All collimators for the Picatinny/weaver system.\n
+        %c[d_purple] - %c[ui_gray_2] Gemtech Suppressor.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
+	</string>
+
+	<string id="st_wpn_mp9_descr">
+		<text>MP9 is a compact machine pistol designed and manufactured by Brugger and Thomet Co. of Switzerland. In itself it's a further development of Steyr TMP project, sold by Steyr in 2001. The MP9 shoots with high rate of fire of 900 rounds per minute, but is relatively easy to control and comfortable to shoot. The MP9-N is a further refined variant, firing at an increased 1100 rpm. It is effective as PDW or for concealed carry for security and bodyguards. It is currently used by multiple police and security forces, among them ones from France, Switzerland and Thailand. To augment its role as a PDW, certain technicians with more skill than reason have converted some of these guns to 5.7x28. The result is a surprisingly effective, low cost alternative to the P90.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
+	</string>
+
+</string_table>
