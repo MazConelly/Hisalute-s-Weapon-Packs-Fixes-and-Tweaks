@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_wpn_c96">
+		<text>Mauser C96</text>
+	</string>
+	<string id="st_wpn_c96_descr">
+		<text>The Mauser C96 (Construktion 96) is a semi-automatic pistol that was originally produced by German arms manufacturer Mauser from 1896 to 1937. The distinctive characteristics of the C96 are the integral box magazine in front of the trigger, the long barrel, the wooden shoulder stock which gives it the stability of a short-barreled rifle and doubles as a holster or carrying case, and a grip shaped like the handle of a broom. The grip earned the gun the nickname "broomhandle" in the English-speaking world, because of its round wooden handle, and in China the C96 was nicknamed the "box cannon" because of its rectangular internal magazine and that it could be holstered in its wooden box-like detachable stock.\n
+		This variant is chambered in 9x19mm parabellum.</text>
+	</string>
+
+	<string id="st_wpn_m712">
+		<text>Mauser M712</text>
+	</string>
+	<string id="st_wpn_m712_descr">
+		<text>The Mauser M712 "Schnellfeuer" (rapid fire) is a select fire variant of the Mauser C96 featuring a detachable magazine. Production started in 1932 and ended in 1936, which has led to its unofficial designation of "M1932" by collectors. An extremely successful design, around 98,000 guns were made overall and they had their own series of serial numbers. Small numbers were supplied to the German Wehrmacht during World War II, who designated it the M712.\n
+		This variant is chambered in 9x19mm parabellum and includes the iconic wooden shoulder stock.</text>
+	</string>
+
+	<string id="st_wpn_type80">
+		<text>Type 80 (custom)</text>
+	</string>
+	<string id="st_wpn_type80_descr">
+		<text>The Type 80 is a machine pistol designed in the late 20th Century by the People's Republic of China. It was developed by Norinco in the 1970s, influenced by the design of the German M712 Schnellfeuer and is chambered for the Type 51 cartridge (Chinese copies of the Soviet 7.62x25mm Tokarev cartridge), but it is fed by a 20-round detachable box magazine instead of the 10-round nondetachable magazine in a standard C96. It was designed to replace some of the PLA's Type 54s, especially the Type 54s in service in the Chinese special forces, as a small, light weapon which was required to be good at both attacking and personal defending, similar to that of a PDW.\n
+		This particular firearm has had its external appearance modified to resemble the M712.</text>
+	</string>
+
+	<string id="st_up_add_mauserc96_name">
+		<text>Change of calibre to 7.62x51</text>
+	</string>
+	<string id="st_up_add_mauserc96_descr">
+		<text>A complex, integrated alteration of the weapon's mechanical and automated parts, which allows its calibre to be changed at the cost of reliability.</text>
+	</string>
+
+    <string id="st_mag_m712_9x19_fmj">
+		<text>Standard 9x19 Mauser M712 Magazine</text>
+	</string>
+	<string id="st_mag_m712_9x19_fmj_descr">
+		<text>20 round magazine for the Mauser M712 pistol. As part of the process of developing the M712, the C96's internal 10 round magazine was replaced with a detachable 10 or 20 round box.</text>
+	</string>
+
+    <string id="st_mag_type80_7.62x25_p">
+		<text>Standard 7.62x25 Type 80 Magazine</text>
+	</string>
+	<string id="st_mag_type80_7.62x25_p_descr">
+		<text>20 round magazine for the Type 80 pistol. While the Type 80 features a slower rate of fire compared to the Mauser M712 it was based on, these 20 round magazines still empty rather quickly.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_wpn_grease">
+		<text>M3 Grease Gun</text>
+	</string>
+	<string id="st_wpn_grease_descr">
+		<text>M3 Grease Gun is a submachine gun chambered in .45ACP developed for US military during World War II. It was designed as a cheap weapon fit for rapid mass production in style of Sten and PPS-43 submachine guns. Before the M3, the US military's service submachine gun was Thompson M1928A1. It was a very good weapon, but it was very heavy and expensive in production. The M3 was made to fix this issue. Because of its crude, industrial aesthetics, the M3 was called the "Greaser" or "Grease Gun". Nonetheless, it was a relatively reliable weapon that was "just-good-enough" for war time. Slow rate of fire improved the controllability of the weapon and allowed for more accurate fire even in long bursts. The Grease Gun remained in service with US military up to Vietnam war, and was even used as late as in 1990s by Abrams crews because of their compact size. The M3 received an upgrade in the form of the M3A1, which simplified the gun, removing the charging lever among other changes. This one retains older, M3 pattern features.</text>
+	</string>
+
+    <string id="st_mag_grease_11.43x23_fmj">
+		<text>Standard .45 ACP M3 Grease Gun Magazine</text>
+	</string>
+	<string id="st_mag_grease_11.43x23_fmj_descr">
+		<text>30 round magazine for the M3 "Grease Gun" smg. The M3 uses a magazine based on the British Sten gun magazine, using a double column, single feed design. This magazine was less reliable than the one used by the Thompson, it also required more effort to load.</text>
+	</string>
+
+    <string id="st_mag_grease_9x19_fmj">
+		<text>Standard 9x19 M3 Grease Gun Magazine</text>
+	</string>
+	<string id="st_mag_grease_9x19_fmj_descr">
+		<text>30 round magazine for the M3 "Grease Gun" smg. Limited numbers of M3s were originally built in 9mm, along with some 9mm conversion kits. They were largely intended to be supplied to European resistance movements during German occupation, facilitating the use of captured ammunition.</text>
+	</string>
+
+</string_table>

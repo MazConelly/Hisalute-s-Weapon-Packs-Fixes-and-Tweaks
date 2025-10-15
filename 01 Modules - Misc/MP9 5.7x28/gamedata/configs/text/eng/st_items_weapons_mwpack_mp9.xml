@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_mp9">
+		<text>Brugger-Thomet MP9-N</text>
+	</string>
+	<string id="st_wpn_mp9_descr">
+		<text>MP9 is a compact machine pistol designed and manufactured by Brugger and Thomet Co. of Switzerland. In itself it is a further development of Steyr TMP project, which was sold by Steyr in 2001. The MP9 shoots with high rate of fire of 900 rounds per minute, but is relatively easy to control and comfortable to shoot. The MP9-N is a further refined variant, firing at an increased 1100 rpm. It is effective as PDW or for concealed carry for security and bodyguards. It is currently used by multiple police and security forces, among them ones from France, Switzerland and Thailand. To augment its role as a PDW, certain technicians with more skill than reason have converted some of these guns to 5.7x28. The result is a surprisingly effective, low cost alternative to the P90.</text>
+	</string>
+
+	<string id="st_mag_mp9_5.7x28_ss190">
+		<text>Modified 5.7x28 MP9 Magazine</text>
+	</string>
+	<string id="st_mag_mp9_5.7x28_ss190_descr">
+		<text>Modified 30-round magazine used in the MP9. Has been converted to fire 5.7x28.</text>
+	</string>
+
+	<string id="st_mag_mp9_9x19_fmj">
+		<text>Standard 9x19 MP9 Magazine</text>
+	</string>
+	<string id="st_mag_mp9_9x19_fmj_descr">
+		<text>Standard 9x19 30-round magazine used in the MP9. They are a lot more fun to dump, than to load.</text>
+	</string>
+
+</string_table>

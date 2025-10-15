@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_mk48">
+		<text>MK 48</text>
+	</string>
+	<string id="st_wpn_mk48_descr">
+		<text>The Mk 48 (Mark 48), or Maximi is a lightweight belt-fed machine gun, firing 7.62x51mm NATO cartridges from a disintegrating belt of ammunition. It is manufactured by Fabrique Nationale Manufacturing, Inc., a division of FN Herstal based in the United States. The Mk 48 has been developed in conjunction with the U.S. Special Operations Command (USSOCOM), which has adopted the weapon and started its fielding process, beginning with special operations units. The design is based on an early 7.62x51mm NATO prototype of the FN Minimi - Maximi, modified to be a scaled-up version of the 5.56 mm Mk 46 Mod 0. Compared to older M60 and M240 based designs, the MK48 provides increased portability, though with slightly decreased performance. Receiver lifespan is only half that of the M240B, though reliability is still higher than the M60.\n
+		This gun is also equipped with the Canadian C79 machine gun scope and a lighter paratrooper style stock.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ELCAN C79 3.4x scope (integrated)</text>
+	</string>
+
+    <string id="st_mag_mk48_7.62x51">
+		<text>Standard 7.62x51 MK48 Box</text>
+	</string>
+	<string id="st_mag_mk48_7.62x51_descr">
+		<text>Box containing a 100 round belt for 7.62x51 rounds. Compared to 5.56x45 used by the M249, the larger 7.62x51 provides a hefty increase to both range and damage, though it is a much greater pain to carry.</text>
+	</string>
+
+</string_table>

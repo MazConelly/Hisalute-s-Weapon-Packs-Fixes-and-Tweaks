@@ -1,167 +1,166 @@
 ;=============================================================
-;=========================== Ruger ===========================
+;=========================== Ruger	===========================
 ;=============================================================
 [wpn_gp100]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection			= spawn_group
-discovery_dependency 		=
-$npc			 			= on
-$prefetch 					= 8
-$spawn                  	= "weapons\gp100"
-scheduled         			= off
-cform             			= skeleton
-icons_texture               = ui\ui_icon_swp
+discovery_dependency		=
+$npc						= on
+$prefetch					= 8
+$spawn						= "weapons\gp100"
+scheduled					= off
+cform						= skeleton
+icons_texture				= ui\ui_icon_swp
 
-class                   	= WP_PM
-slot 			 	        = 1
-animation_slot			    = 1
-ef_weapon_type			    = 5
-hand_dependence		 	    = 1
-single_handed			    = 1
+class						= WP_PM
+slot						= 1
+animation_slot				= 1
+ef_weapon_type				= 5
+hand_dependence				= 1
+single_handed				= 1
 
-default_to_ruck			    = false
-sprint_allowed			    = true
+default_to_ruck				= false
+sprint_allowed				= true
 
-inv_grid_height			    = 1
-inv_grid_width			    = 2
-inv_grid_x			        = 11
-inv_grid_y			        = 0
-inv_name			        = st_wpn_gp100
-inv_name_short			    = st_wpn_gp100
+inv_grid_height				= 1
+inv_grid_width				= 2
+inv_grid_x					= 11
+inv_grid_y					= 0
+inv_name					= st_wpn_gp100
+inv_name_short				= st_wpn_gp100
 description					= st_wpn_gp100_descr
 
-kind                        = w_pistol
-inv_weight				    = 1.386
-cost					    = 8520
-repair_type                 = pistol
+kind						= w_pistol
+inv_weight					= 1.386
+cost						= 8520
+repair_type					= pistol
 
-hud                     	= wpn_gp100_hud
-visual                  	= dynamics\weapons\wpn_metro_revolver\wpn_revolver.ogf
-position                	= -0.021, -0.085, 0.0
-orientation             	= 0, 0, 0
-fire_point              	= 0.0, 0.133, 0.22
-ph_mass			 		    = 1
+hud							= wpn_gp100_hud
+visual						= dynamics\weapons\wpn_metro_revolver\wpn_revolver.ogf
+position					= -0.021, -0.085, 0.0
+orientation					= 0, 0, 0
+fire_point					= 0.0, 0.133, 0.22
+ph_mass						= 1
 
-flame_particles		   	    = weapons\generic_weapon03
-smoke_particles             = weapons\generic_shoot_00
+flame_particles				= weapons\generic_weapon03
+smoke_particles				= weapons\generic_shoot_00
 
-shell_point		 		    = 0.0, 0.133, 0.047
-shell_dir		 		    = 0.0, 0.0, 0.4
-;shell_particles	 			= 
+shell_point					= 0.0, 0.133, 0.047
+shell_dir					= 0.0, 0.0, 0.4
+;shell_particles			= 
 
-light_color		 		    = 0.6,0.5,0.3
-light_range		 		    = 3.0
-light_time 		 		    = 0.2
-light_var_color		 		= 0.05
-light_var_range		 		= 0.5
+light_color					= 0.6,0.5,0.3
+light_range					= 3.0
+light_time					= 0.2
+light_var_color				= 0.05
+light_var_range				= 0.5
 
-upgrades                    = up_gr_firstab_mp412, up_gr_seconab_mp412
-installed_upgrades          =
-upgrade_scheme              = upgrade_scheme_mp412
-upgr_icon_x                 = 750
-upgr_icon_y                 = 1850
-upgr_icon_width             = 150
-upgr_icon_height            = 100
+upgrades					= up_gr_firstab_mp412, up_gr_seconab_mp412
+installed_upgrades			=
+upgrade_scheme				= upgrade_scheme_mp412
+upgr_icon_x					= 750
+upgr_icon_y					= 1850
+upgr_icon_width				= 150
+upgr_icon_height			= 100
 
-fire_modes                  = 1
-ammo_class                  = ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
-ammo_current		 	    = 90
-ammo_elapsed		 	    = 12
-ammo_limit		 		    = 120
-ammo_mag_size		 	    = 6
+fire_modes					= 1
+ammo_class					= ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+ammo_current				= 90
+ammo_elapsed				= 12
+ammo_limit					= 120
+ammo_mag_size				= 6
 
 scope_status				= 0
-scope_zoom_factor	        = 0
+scope_zoom_factor			= 0
 
 silencer_status				= 0
-silencer_light_color        = 0.6,0.5,0.3
-silencer_light_range	    = 0.01
-silencer_light_time 	    = 0.2
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_time			= 0.2
 silencer_light_var_color	= 0.05
 silencer_light_var_range	= 0.5
-silencer_smoke_particles 	= weapons\generic_shoot_00
+silencer_smoke_particles	= weapons\generic_shoot_00
 
-grenade_launcher_status	    = 0
+grenade_launcher_status		= 0
 
-hit_impulse                 = 40
-hit_power                   = 0.55, 0.55, 0.55, 0.55
-hit_type 					= fire_wound
-fire_distance           	= 100
-bullet_speed		 		= 440
-rpm                     	= 350
-rpm_empty_click 	 		= 120
+hit_impulse					= 40
+hit_power					= 0.55, 0.55, 0.55, 0.55
+hit_type					= fire_wound
+fire_distance				= 100
+bullet_speed				= 440
+rpm							= 350
+rpm_empty_click				= 120
 
-use_aim_bullet              = true
-time_to_aim			        = 1.0
+use_aim_bullet				= true
+time_to_aim					= 1.0
 zoom_dof					= -1000, 1.0, 1000
 zoom_enabled				= true
 zoom_rotate_time			= 0.25
-reload_dof				    = 0.0, 0.5, 5, 1.7
-control_inertion_factor     = 1.1f
-crosshair_inertion		    = 4.5
+reload_dof					= 0.0, 0.5, 5, 1.7
+control_inertion_factor		= 1.1f
+crosshair_inertion			= 4.5
 fire_dispersion_base		= 0.67
-fire_dispersion_condition_factor = 0.001
+fire_dispersion_condition_factor	= 0.001
 
-misfire_probability        	= 0.005
+misfire_probability			= 0.005
 misfire_start_condition		= 0.6
-misfire_start_prob          = 0.002
+misfire_start_prob			= 0.002
 misfire_end_condition		= 0.01
-misfire_end_prob = 0.05
+misfire_end_prob			= 0.05
 
-condition_shot_dec      	= 0.00105
+condition_shot_dec			= 0.00105
 condition_queue_shot_dec	= 0.00105
 
-cam_return                  = 0
-cam_relax_speed             = 5
-cam_dispersion              = 2.7
-cam_dispersion_frac		    = 1.1
-cam_dispersion_inc		    = 2.7
-cam_max_angle			    = 50.0
-cam_max_angle_horz		    = 50.0
-cam_step_angle_horz		    = 1.9
+cam_return					= 0
+cam_relax_speed				= 5
+cam_dispersion				= 2.7
+cam_dispersion_frac			= 1.1
+cam_dispersion_inc			= 2.7
+cam_max_angle				= 50.0
+cam_max_angle_horz			= 50.0
+cam_step_angle_horz			= 1.9
 
-PDM_disp_accel_factor 		= 1.355
-PDM_disp_base 				= 0.85
-PDM_disp_crouch             = 1.0
-PDM_disp_crouch_no_acc      = 1.0
-PDM_disp_vel_factor 		= 1.35
+PDM_disp_accel_factor		= 1.355
+PDM_disp_base				= 0.85
+PDM_disp_crouch				= 1.0
+PDM_disp_crouch_no_acc		= 1.0
+PDM_disp_vel_factor			= 1.35
 
-cam_relax_speed_ai      = 360
-holder_fov_modifier		= 1.0
-holder_range_modifier	= 1.0
-min_radius              = 0
-max_radius              = 500
-hit_probability_gd_novice   = 1.00
-hit_probability_gd_stalker  = 1.00
-hit_probability_gd_veteran  = 1.00
-hit_probability_gd_master   = 1.00
+cam_relax_speed_ai			= 360
+holder_fov_modifier			= 1.0
+holder_range_modifier		= 1.0
+min_radius					= 0
+max_radius					= 500
+hit_probability_gd_novice	= 1.00
+hit_probability_gd_stalker	= 1.00
+hit_probability_gd_veteran	= 1.00
+hit_probability_gd_master	= 1.00
 
-kill_msg_x			    = 194
-kill_msg_y			    = 123
-kill_msg_width			= 46
-kill_msg_height			= 27
+kill_msg_x					= 194
+kill_msg_y					= 123
+kill_msg_width				= 46
+kill_msg_height				= 27
 
-snd_draw						= weapons\357\357_deploy
-snd_holster						= weapons\357\357_holster
-snd_shoot						= weapons\357\357_1
-snd_shoot1						= weapons\357\357_2
-snd_shoot2						= weapons\357\357_3
-snd_shoot3						= weapons\357\357_4
-snd_empty						= weapons\357\357_hammer
-snd_reload						= weapons\357\metro_reload
-snd_close						= weapons\no_sound
-snd_silncer_shot				= weapons\357\357_1
-snd_silncer_shot1				= weapons\357\357_2
-snd_silncer_shot2				= weapons\357\357_3
-snd_silncer_shot3				= weapons\357\357_4
-
+snd_draw			= weapons\357\357_deploy
+snd_holster			= weapons\357\357_holster
+snd_shoot			= weapons\357\357_1
+snd_shoot1			= weapons\357\357_2
+snd_shoot2			= weapons\357\357_3
+snd_shoot3			= weapons\357\357_4
+snd_empty			= weapons\357\357_hammer
+snd_reload			= weapons\357\metro_reload
+snd_close			= weapons\no_sound
+snd_silncer_shot	= weapons\357\357_1
+snd_silncer_shot1	= weapons\357\357_2
+snd_silncer_shot2	= weapons\357\357_3
+snd_silncer_shot3	= weapons\357\357_4
 
 [wpn_gp100_hud]:hud_base
-item_visual         = dynamics\weapons\wpn_metro_revolver\wpn_revolver_hud.ogf
+item_visual			= dynamics\weapons\wpn_metro_revolver\wpn_revolver_hud.ogf
 attach_place_idx	= 0
 zoom_hide_crosshair	= true
 
-item_position			= 0,0.010,0
-item_orientation		= 0,-90,0
+item_position		= 0,0.010,0
+item_orientation	= 0,-90,0
 
 hands_position			= 0.0,-0.165,0.0
 hands_position_16x9		= 0.0,-0.165,0.0
@@ -185,8 +184,8 @@ lean_hud_offset_pos	= 0,0,0
 lean_hud_offset_rot	= 0,0,0
 
 anm_show				= kyky_revolver_two_hands_draw
-anm_hide            	= kyky_revolver_two_hands_holster
-anm_idle            	= kyky_revolver_two_hands_idle
+anm_hide				= kyky_revolver_two_hands_holster
+anm_idle				= kyky_revolver_two_hands_idle
 anm_shots				= kyky_revolver_two_hands_shoot, shoot
 anm_idle_aim			= kyky_revolver_two_hands_idle_aim
 anm_reload				= kyky_revolver_two_hands_reload, reload
@@ -194,8 +193,8 @@ anm_idle_moving			= kyky_revolver_two_hands_idle_move
 anm_idle_sprint			= kyky_revolver_two_hands_idle_sprint
 anm_bore				= kyky_revolver_two_hands_idle
 anm_show_empty			= kyky_revolver_two_hands_draw
-anm_hide_empty          = kyky_revolver_two_hands_holster
-anm_idle_empty          = kyky_revolver_two_hands_idle
+anm_hide_empty			= kyky_revolver_two_hands_holster
+anm_idle_empty			= kyky_revolver_two_hands_idle
 anm_shot_l				= kyky_revolver_two_hands_shoot, shoot
 anm_idle_aim_empty		= kyky_revolver_two_hands_idle_aim
 anm_reload_empty		= kyky_revolver_two_hands_reload, reload
@@ -212,19 +211,19 @@ fire_bone	= muzzle
 fire_direction	= 0, 1, 0
 
 ;=============================================================
-;========================= Ruger scoped =====================
+;========================= Ruger scoped	=====================
 ;=============================================================
 [wpn_gp100_sniper]:wpn_gp100
 $spawn				= "weapons\gp100_sniper"
 
-icons_texture       = ui\ui_icon_swp
+icons_texture		= ui\ui_icon_swp
 scope_status		= 1
-scope_name 			= wpn_addon_scope_pu
-;1icon_layer        = wpn_addon_scope_pu
-;1icon_layer_x      = 30
-;1icon_layer_y      = -25
+scope_name			= wpn_addon_scope_pu
+;1icon_layer		= wpn_addon_scope_pu
+;1icon_layer_x		= 30
+;1icon_layer_y		= -25
 scope_zoom_factor	= 20
-scope_texture       = wpn_crosshair_zf9
+scope_texture		= wpn_crosshair_zf9
 
 silencer_status		= 1
 
@@ -240,19 +239,19 @@ inv_grid_y			= 1
 inv_weight			= 1.986
 cost				= 26520
 
-ammo_class          = ammo_357_hp_mag, ammo_357_hp_mag_bad, ammo_357_hp_mag_verybad
+ammo_class			= ammo_357_hp_mag, ammo_357_hp_mag_bad, ammo_357_hp_mag_verybad
 
-hit_impulse         = 45
-hit_power           = 0.6, 0.6, 0.6, 0.6
-hit_type            = fire_wound
-fire_distance       = 150
-bullet_speed        = 530
-rpm                 = 200
-rpm_empty_click     = 120
+hit_impulse			= 45
+hit_power			= 0.6, 0.6, 0.6, 0.6
+hit_type			= fire_wound
+fire_distance		= 150
+bullet_speed		= 530
+rpm					= 200
+rpm_empty_click		= 120
 
-upgrades            = up_gr_firstab_desert_eagle, up_gr_seconab_desert_eagle, up_gr_thirdab_desert_eagle, up_gr_fourtab_desert_eagle, up_gr_fifthab_desert_eagle
-installed_upgrades  =
-upgrade_scheme      = upgrade_scheme_desert_eagle
+upgrades			= up_gr_firstab_desert_eagle, up_gr_seconab_desert_eagle, up_gr_thirdab_desert_eagle, up_gr_fourtab_desert_eagle, up_gr_fifthab_desert_eagle
+installed_upgrades	=
+upgrade_scheme		= upgrade_scheme_desert_eagle
 
 fire_dispersion_base= 0.44
 
@@ -261,52 +260,61 @@ fire_dispersion_base= 0.44
 
 [wpn_gp100_sniper_hud]:wpn_gp100_hud
 aim_hud_offset_pos		= -0.092800,0.01,-0.3
-aim_hud_offset_pos_16x9 = -0.092800,0.01,-0.3
+aim_hud_offset_pos_16x9	= -0.092800,0.01,-0.3
 
 ;=============================================================
-;========================= SW 500 modified ===================
+;========================= SW 500 modified	===================
 ;=============================================================
 [wpn_w500]:wpn_gp100
 $spawn				= "weapons\w500"
+
+hud					= wpn_w500_hud
+visual				= dynamics\weapons\wpn_w500\wpn_w500
 
 inv_name			= st_wpn_w500
 inv_name_short		= st_wpn_w500
 description			= st_wpn_w500_descr
 
-icons_texture       = ui\ui_icon_swp
+icons_texture		= ui\ui_icon_swp
 inv_grid_x			= 11
 inv_grid_y			= 3
-upgrades            = up_gr_firstab_desert_eagle, up_gr_seconab_desert_eagle, up_gr_thirdab_desert_eagle, up_gr_fourtab_desert_eagle, up_gr_fifthab_desert_eagle
-installed_upgrades  =
-upgrade_scheme      = upgrade_scheme_desert_eagle
+inv_grid_width		= 3
+inv_grid_height		= 1
 
 cost				= 30060
 
+ammo_class			= ammo_12.7x55_fmj, ammo_12.7x55_fmj_bad, ammo_12.7x55_fmj_verybad, ammo_12.7x55_ap, ammo_12.7x55_ap_bad, ammo_12.7x55_ap_verybad
 ammo_mag_size		= 5
 
-hit_impulse	 		= 50
-hit_power           = 0.66, 0.66, 0.66, 0.66
-hit_type 			= fire_wound
-fire_distance       = 125
+upgrades			= up_gr_firstab_desert_eagle, up_gr_seconab_desert_eagle, up_gr_thirdab_desert_eagle, up_gr_fourtab_desert_eagle, up_gr_fifthab_desert_eagle
+installed_upgrades	=
+upgrade_scheme		= upgrade_scheme_desert_eagle
+
+silencer_status		= 0
+
+scope_status		= 0
+;scopes_sect		= scope_susat_w500
+
+hit_impulse			= 50
+hit_power			= 0.66, 0.66, 0.66, 0.66
+hit_type			= fire_wound
+fire_distance		= 125
 bullet_speed		= 495
-rpm                 = 240
-rpm_empty_click 	= 120
+rpm					= 240
+rpm_empty_click		= 120
 
 fire_dispersion_base	= 0.5
-control_inertion_factor = 1.2f
+control_inertion_factor	= 1.2f
 crosshair_inertion		= 5.3
 
-ammo_class		 		= ammo_12.7x55_fmj, ammo_12.7x55_fmj_bad, ammo_12.7x55_fmj_verybad, ammo_12.7x55_ap, ammo_12.7x55_ap_bad, ammo_12.7x55_ap_verybad
-
-misfire_probability     = 0.005
+misfire_probability		= 0.005
 misfire_start_condition	= 0.6
 misfire_end_condition	= 0.05
-misfire_start_prob  	= 0.008
-misfire_end_prob       	= 0.08
-condition_shot_dec      = 0.0033
+misfire_start_prob		= 0.008
+misfire_end_prob		= 0.08
+condition_shot_dec		= 0.0033
 condition_queue_shot_dec= 0.0033
 
-;������
 cam_return			= 0
 cam_relax_speed		= 0.25
 cam_relax_speed_ai	= 120
@@ -317,34 +325,22 @@ cam_max_angle		= 50.0
 cam_max_angle_horz	= 50.0
 cam_step_angle_horz	= 5.5
 
-inv_grid_width		= 3
-inv_grid_height		= 1
-
-silencer_status		= 0
-scope_status		= 0
-;scopes_sect        = scope_susat_w500
-
-hud			= wpn_w500_hud
-
-snd_draw			= weapons\s&w500\sw500_deploy
-
-snd_holster			= weapons\s&w500\sw500_holster
-snd_shoot			= weapons\s&w500\sw500_1
-snd_shoot1			= weapons\s&w500\sw500_2
-snd_shoot2			= weapons\s&w500\sw500_3
-snd_shoot3			= weapons\s&w500\sw500_4
-snd_empty			= weapons\s&w500\sw500_hammer
-snd_reload			= weapons\s&w500\sw500_reload
-
-visual             	= dynamics\weapons\wpn_w500\wpn_w500
+snd_draw	= weapons\s&w500\sw500_deploy
+snd_holster	= weapons\s&w500\sw500_holster
+snd_shoot	= weapons\s&w500\sw500_1
+snd_shoot1	= weapons\s&w500\sw500_2
+snd_shoot2	= weapons\s&w500\sw500_3
+snd_shoot3	= weapons\s&w500\sw500_4
+snd_empty	= weapons\s&w500\sw500_hammer
+snd_reload	= weapons\s&w500\sw500_reload
 
 [wpn_w500_hud]:wpn_gp100_hud
-item_visual			= dynamics\weapons\wpn_w500\wpn_w500_hud.ogf
+item_visual	= dynamics\weapons\wpn_w500\wpn_w500_hud.ogf
 
 aim_hud_offset_pos	= -0.092900,0.018000,-0.118900
 aim_hud_offset_rot	= -0.020800,0.003600,0.003500
 
-aim_hud_offset_pos_16x9 = -0.092900,0.018000,-0.118900
-aim_hud_offset_rot_16x9 = -0.020800,0.003600,0.003500
+aim_hud_offset_pos_16x9	= -0.092900,0.018000,-0.118900
+aim_hud_offset_rot_16x9	= -0.020800,0.003600,0.003500
 
-fire_point			= -0.1,0,0
+fire_point	= -0.1,0,0

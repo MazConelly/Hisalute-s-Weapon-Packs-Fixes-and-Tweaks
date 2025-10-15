@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="windows-1251"?>
-
 <string_table>
-
-    <string id="st_wpn_avt40">
-		<text>AVT-40</text>
-	</string>
-	<string id="st_wpn_avt40_descr">
-		<text>The AVT-40 is a Soviet automatic rifle developed from the SVT-40. It was developed due to a shortage of machine guns, but the increased strain of automatic fire often caused breakages. Production was relatively brief, none were made after the summer of 1943.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple]• %c[ui_gray_2] PU special scope</text>
-	</string>
-
-    <string id="st_wpn_dp28">
-		<text>DP-28</text>
-	</string>
-	<string id="st_wpn_dp28_descr">
-		<text>DP-28 is a Soviet cheap and simple light machine gun designed by Vasily Degtyarev in 1920s, chambered in 7.62x54mmR cartridge. It was adopted by Red Army in 1927, eventually becoming one of the most famous weapons of the WWII, later replaced by RPD.</text>
-	</string>
 
     <string id="st_wpn_duplet">
 		<text>Duplet</text>
@@ -49,13 +32,6 @@
 		Among the more numerous conversions of the M1 Carbine is the 5.7x33mm Johnson cartridge. Parts from rifles of this configuration have been further used to adapt guns to the FN 5.7x28mm cartridge more commonly seen in the Zone, serving as a low cost alternative to the P90.</text>
 	</string>
 
-    <string id="st_wpn_grease">
-		<text>M3 Grease Gun</text>
-	</string>
-	<string id="st_wpn_grease_descr">
-		<text>M3 Grease Gun is a submachine gun chambered in .45ACP developed for US military during World War II. It was designed as a cheap weapon fit for rapid mass production in style of Sten and PPS-43 submachine guns. Before the M3, the US military's service submachine gun was Thompson M1928A1. It was a very good weapon, but it was very heavy and expensive in production. The M3 was made to fix this issue. Because of its crude, industrial aesthetics, the M3 was called the "Greaser" or "Grease Gun". Nonetheless, it was a relatively reliable weapon that was "just-good-enough" for war time. Slow rate of fire improved the controllability of the weapon and allowed for more accurate fire even in long bursts. The Grease Gun remained in service with US military up to Vietnam war, and was even used as late as in 1990s by Abrams crews because of their compact size. The M3 received an upgrade in the form of the M3A1, which simplified the gun, removing the charging lever among other changes. This one retains older, M3 pattern features.</text>
-	</string>
-
     <string id="st_wpn_m14dmr">
 		<text>M14 DMR</text>
 	</string>
@@ -63,37 +39,6 @@
 		<text>The US Marine Corps Designated Marksman Rifle (DMR) is a semi-automatic sniper rifle adapted from the M14 rifle, similar to the M21 rifle of US Army. The differences from the M14 are an accurized match barrel, special synthetic stock with pistol grip, RIS rail for mounting optics and Harris bipod. The M14 is an American battle rifle chambered in 7.62x51mm NATO, which for a short time served as a service rifle of US military. Experiences of WWII showed a need for improvements over the M1 Garand rifle, with characteristics including higher capacity, modern ammunition and lighter weight. The M14 was meant to replace several weapon types, however, this proved to be an impossible task. The M14 was deemed "completely inferior" to the M1 Garand in a 1962 report by the Department of Defense comptroller, eventually being replaced by the M16. M14s with scopes are popular among hunters and sport marksmen. Few military M14 DMR rifles reached The Zone, where they are liked for very good optical sights, providing much better precision than low-power scopes of SVD rifles.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Leupold 3-9x36 scope (integrated)</text>
-	</string>
-
-    <string id="st_wpn_c96">
-		<text>Mauser C96</text>
-	</string>
-	<string id="st_wpn_c96_descr">
-		<text>The Mauser C96 (Construktion 96) is a semi-automatic pistol that was originally produced by German arms manufacturer Mauser from 1896 to 1937. The distinctive characteristics of the C96 are the integral box magazine in front of the trigger, the long barrel, the wooden shoulder stock which gives it the stability of a short-barreled rifle and doubles as a holster or carrying case, and a grip shaped like the handle of a broom. The grip earned the gun the nickname "broomhandle" in the English-speaking world, because of its round wooden handle, and in China the C96 was nicknamed the "box cannon" because of its rectangular internal magazine and that it could be holstered in its wooden box-like detachable stock.\n
-		This variant is chambered in 9x19mm parabellum.</text>
-	</string>
-
-	<string id="st_wpn_m712">
-		<text>Mauser M712</text>
-	</string>
-	<string id="st_wpn_m712_descr">
-		<text>The Mauser M712 "Schnellfeuer" (rapid fire) is a select fire variant of the Mauser C96 featuring a detachable magazine. Production started in 1932 and ended in 1936, which has led to its unofficial designation of "M1932" by collectors. An extremely successful design, around 98,000 guns were made overall and they had their own series of serial numbers. Small numbers were supplied to the German Wehrmacht during World War II, who designated it the M712.\n
-		This variant is chambered in 9x19mm parabellum and includes the iconic wooden shoulder stock.</text>
-	</string>
-
-	<string id="st_wpn_type80">
-		<text>Type 80 (custom)</text>
-	</string>
-	<string id="st_wpn_type80_descr">
-		<text>The Type 80 is a machine pistol designed in the late 20th Century by the People's Republic of China. It was developed by Norinco in the 1970s, influenced by the design of the German M712 Schnellfeuer and is chambered for the Type 51 cartridge (Chinese copies of the Soviet 7.62x25mm Tokarev cartridge), but it is fed by a 20-round detachable box magazine instead of the 10-round nondetachable magazine in a standard C96. It was designed to replace some of the PLA's Type 54s, especially the Type 54s in service in the Chinese special forces, as a small, light weapon which was required to be good at both attacking and personal defending, similar to that of a PDW.\n
-		This particular firearm has had its external appearance modified to resemble the M712.</text>
-	</string>
-
-	<string id="st_up_add_mauserc96_name">
-		<text>Change of calibre to 7.62x51</text>
-	</string>
-	<string id="st_up_add_mauserc96_descr">
-		<text>A complex, integrated alteration of the weapon's mechanical and automated parts, which allows its calibre to be changed at the cost of reliability.</text>
 	</string>
 
     <string id="st_wpn_ppsh41_stick">
@@ -126,46 +71,11 @@
 		This model is chambered in the common .357 magnum cartridge and features a low power integrated scope.</text>
 	</string>
 
-    <string id="st_wpn_sks_short">
-		<text>SKS (sawn-off)</text>
-	</string>
-	<string id="st_wpn_sks_short_descr">
-		<text>The SKS is one of the first weapons chambered for the 7.62x39mm round. Replaced in Soviet front-line service by the AK-47 in the early 1950s, it remained in second-line service for decades and is still used as a ceremonial arm today. This rifle has had its barrel shortened, allowing it to act as a pistol, the gas tube has also been adjusted to maintain semi-automatic operation. The shortened barrel results in greatly decreased accuracy and muzzle velocity.</text>
-	</string>
-
-	<string id="st_wpn_svt40_short">
-		<text>SVT-40 (sawn-off)</text>
-	</string>
-	<string id="st_wpn_svt40_short_descr">
-		<text>The SVT-40 is a surplus semi-automatic rifle chambered in the 7.62x54mmR round. It saw widespread use in the Red Army and Wehrmacht during WWII. This rifle has had its barrel shortened, allowing it to act as a pistol, the gas tube has also been adjusted to maintain semi-automatic operation. The shortened barrel results in greatly decreased accuracy and muzzle velocity.</text>
-	</string>
-
-	<string id="st_wpn_avt40_short">
-		<text>AVT-40 (sawn-off)</text>
-	</string>
-	<string id="st_wpn_avt40_short_descr">
-		<text>The AVT-40 is a Soviet automatic rifle developed from the SVT-40. It was developed due to a shortage of machine guns, but the increased strain of automatic fire often caused breakages. Production was relatively brief, none were made after the summer of 1943. This rifle has had its barrel shortened, allowing it to act as a pistol, the gas tube has also been adjusted to maintain automatic operation. The shortened barrel results in greatly decreased accuracy and muzzle velocity.</text>
-	</string>
-
     <string id="st_wpn_shorty">
 		<text>Serbu Super-Shorty</text>
 	</string>
 	<string id="st_wpn_shorty_descr">
 		<text>The Serbu Super-Shorty is a compact, stockless, 12 gauge pump-action shotgun. This one is based on a Mossberg 500 receiver and features a spring-loaded, folding foregrip. The Super-shorty is a shotgun that is used exclusively for personal defense, as it doesn't have enough range and velocity to be used effectively for hunting. It can however deal very high damage in short range and bring down most attackers in one well placed shot. It is regarded as a very effective weapon against mutants who rely on ambushes and quick leaps to attack their victim. Most stalkers prefer cheaper double-barrel sawn-off shotguns for this task, but the Serbu Super-Shorty has better handling and slightly higher capacity.</text>
-	</string>
-
-    <string id="st_wpn_m1928">
-		<text>Thompson M1928</text>
-	</string>
-	<string id="st_wpn_m1928_descr">
-		<text>The M1928 is a primary variant of the Thompson, an American submachine gun, invented by John T. Thompson in 1918, that became infamous during the Prohibition era, being a signature weapon of various crime syndicates in the United States. Later on it became the service weapon of US military as the primary submachine gun in the World War II. M1928 has front grip and muzzle device mounted by default.</text>
-	</string>
-
-	<string id="st_wpn_tommy_m1a1">
-		<text>Thompson M1A1</text>
-	</string>
-	<string id="st_wpn_tommy_m1a1_descr">
-		<text>The M1A1 is a simplified military variant of Thompson, an American submachine gun, invented by John T. Thompson in 1918, that became infamous during the Prohibition era, being a signature weapon of various crime syndicates in the United States. Later on it became the service weapon of US military as the primary submachine gun in the World War II. M1A1 differs from M1928 mainly by simplified front handguard instead of front grip and lack of muzzle device.</text>
 	</string>
 
     <string id="st_wpn_borz">
@@ -194,36 +104,6 @@
 		This specimen was rechambered to .308 Winchester likely as .308 ammunition is cheaper and easier to obtain.\n 
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple]• %c[ui_gray_2] Unertl 7.8x magnification scope (integrated)</text>
-	</string>
-
-    <string id="st_wpn_tiss">
-		<text>OTs-12 Tiss</text>
-	</string>
-	<string id="st_wpn_tiss_descr">
-		<text>OTs-12 Tiss ("Yew Tree") (Russian:??-12 ????) is a Russian fully automatic compact assault rifle. It is chambered for the subsonic 9Ч39mm round primarily made for police forces. The rifle was developed in the early 1990s in TsKIB SOO of Tula designers VN Telesh and Yu.V.Lebedev. It is basically an AKS-74U re-chambered for 9Ч39mm, it was designed as alternative to the AKS-74U. The TsKIB SOO of Tula made several hundred of OTs-12s, which were transferred to the Interior Ministry security forces. Despite the good evaluation, the Tula Arms Plant did not establish a mass-production. They instead opted for a bullpup configuration known as OTs-14 Groza which became its successor.\n
-		In the Zone, these guns and similar copies are commonly equipped with experimental 25 round magazines, which were cancelled early in production, but reproduced in the years since.</text>
-	</string>
-
-	<string id="st_wpn_sten">
-		<text>Sten Mk II(S)</text>
-	</string>
-	<string id="st_wpn_sten_descr">
-		<text>The Sten Mk II(S) ("Special-Purpose") was an integrally suppressed version of the Mk II. It was designed in 1943 and incorporated a ported barrel, lowering the velocity of shots fired to below the speed of sound without special ammunition. The suppressor heated up rapidly when the weapon was fired, and a canvas cover was laced around the suppressor for protection for the firer's supporting hand. Automatic fire was discouraged, as it can quickly wear out internal components, many of these guns had their selector switches welded to a single shot configuration. Original models of these guns are rare compared to the standard Mk II and can fetch decent prices if in good condition. The simplicity of these guns, have however lead them to be manufactured or converted from non-suppressed Stens, at relatively low effort and cost for those without access to more modern suppressed firearms.</text>
-	</string>
-
-	<string id="st_wpn_sten_mkv">
-		<text>Sten Mk V</text>
-	</string>
-	<string id="st_wpn_sten_mkv_descr">
-		<text>The Sten is a family of British submachine guns chambered in 9x19mm and used extensively by British and Commonwealth forces throughout World War II and shortly after. They had a simple design and very low production cost, making them effective insurgency weapons for resistance groups. There were six variants of Sten submachine gun. The Mk II, the most common and well-known variant, was also most widely made, with about 2 million made during the war. The Mk V was one of the final and most refined versions of the Sten, made for paratroopers and special forces. It had wooden stock, front grip and also a bayonet mount, an uncommon feature for a submachine gun. Over four million Stens in various versions and configurations were produced. Many were homemade by partisans, freedom fighters and criminals. The Sten served for many years, eventually being replaced in many Commonwealth Countries by the Sterling, which shares a similar side mounted magazine configuration.</text>
-	</string>
-
-	<string id="st_wpn_sten_762">
-		<text>Sten Mk II 7.62x25</text>
-	</string>
-	<string id="st_wpn_sten_762_descr">
-		<text>The Sten Mark II is the most common variant of the Sten, with two million units produced. While originally chambered in 9x19mm, the simple construction of the Sten allows it to be rechambered to 7.62x25mm Tokarev through a simple barrel  replacement and minor feed modifications. The most significant source of the rechambered Mark II was China, where they were known as the M38, which were typically fed from PPS-43 magazines and further simplified to an automatic-only configuration.\n
-		This example is likely a simple aftermarket conversion, fed by 32 round SA 24/26 magazines.</text>
 	</string>
 
     <string id="st_wpn_vepr134">

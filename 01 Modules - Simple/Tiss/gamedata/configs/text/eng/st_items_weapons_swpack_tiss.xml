@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_wpn_tiss">
+		<text>OTs-12 Tiss</text>
+	</string>
+	<string id="st_wpn_tiss_descr">
+		<text>OTs-12 Tiss ("Yew Tree") (Russian:??-12 ????) is a Russian fully automatic compact assault rifle. It is chambered for the subsonic 9Ч39mm round primarily made for police forces. The rifle was developed in the early 1990s in TsKIB SOO of Tula designers VN Telesh and Yu.V.Lebedev. It is basically an AKS-74U re-chambered for 9Ч39mm, it was designed as alternative to the AKS-74U. The TsKIB SOO of Tula made several hundred of OTs-12s, which were transferred to the Interior Ministry security forces. Despite the good evaluation, the Tula Arms Plant did not establish a mass-production. They instead opted for a bullpup configuration known as OTs-14 Groza which became its successor.\n
+		In the Zone, these guns and similar copies are commonly equipped with experimental 25 round magazines, which were cancelled early in production, but reproduced in the years since.</text>
+	</string>
+
+	<string id="st_mag_tiss_9x39_pab9">
+		<text>Experimental 25 round 9x39 Tiss Magazine</text>
+	</string>
+	<string id="st_mag_tiss_9x39_pab9_descr">
+		<text>Experimental 25 round 9x39 magazine typically found with the OTs-12 Tiss and clones. Never officially produced in great numbers, some individuals have taken to the design, refining and putting it into circulation.</text>
+	</string>
+
+</string_table>

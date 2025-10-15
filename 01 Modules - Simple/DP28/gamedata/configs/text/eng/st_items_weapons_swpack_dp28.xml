@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_wpn_dp28">
+		<text>DP-28</text>
+	</string>
+	<string id="st_wpn_dp28_descr">
+		<text>DP-28 is a Soviet cheap and simple light machine gun designed by Vasily Degtyarev in 1920s, chambered in 7.62x54mmR cartridge. It was adopted by Red Army in 1927, eventually becoming one of the most famous weapons of the WWII, later replaced by RPD.</text>
+	</string>
+
+    <string id="st_mag_dp28_pkm">
+		<text>47-round 7.62x54 DP-28 Magazine</text>
+	</string>
+	<string id="st_mag_dp28_pkm_descr">
+		<text>Heavy pan magazine that holds 47 rounds of 7.62x54R ammunition, for use with the DP-28. It is advised to bring a few of these if you plan on hunting Pseudogiants or Chimeras.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_hk51">
+		<text>HK51</text>
+	</string>
+	<string id="st_wpn_hk51_descr">
+		<text>The HK51 is a shortened variant of G3 battle rifle. Contrary to popular belief, it was not developed by Heckler and Koch, but Fleming Arms for British Special Forces. The HK51's short size improves handling but reduces reliability and makes the rifle more prone to overheating. The short barrel also results in a brighter muzzle flash and louder sound signature, together with increased recoil, which is already pretty high due to powerful 7.62x51mm round. The round also loses some muzzle velocity, lowering its power. The HK51 got adopted by SAS and SBS, but because of its faults it was withdrawn following the introduction of HK53 carbines using 5.56x45mm rounds that were more suitable for commando-length (~9-12.5" barrel) carbines. HK51 was later introduced into free market in semi-automatic variant, made from HK91 rifles (a civilian semi-auto variant of G3) and adapted to use MP5 furniture. The HAMR scope mounted to this example allows for rapid acquisition of both close and mid-range targets.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] • %c[ui_gray_2] HAMR scope (integrated)</text>
+	</string>
+
+</string_table>
