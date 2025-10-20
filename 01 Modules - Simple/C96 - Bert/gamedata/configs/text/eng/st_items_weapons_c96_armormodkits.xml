@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_c96_descr">
+		<text>The Mauser Construktion 96 is a semi-automatic pistol originally produced by the producer German Mauser in 7.63x25mm Mauser from 1896 to 1937, to augment the standard 9mm Luger sidearms of the German army. Many military units branded a big red "9" in the grips so soldiers would use the right ammunition.\n
+		It featured an integral box magazine in front of the trigger, a long barrel, a wooden shoulder stock which gives it the stability of a short-barreled rifle and doubles as a holster or carrying case, and a grip shaped like the handle of a broom, earning the gun the nickname "broomhandle" in western countries. In China it was called the "box cannon" due to its rectangular internal magazine.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith modification kit</text>
+	</string>
+
+	<string id="st_wpn_c96_7.62_descr">
+		<text>The Mauser Construktion 96 is a semi-automatic pistol originally produced by the producer German Mauser in 7.63x25mm Mauser from 1896 to 1937, to augment the standard 9mm Luger sidearms of the German army. Many military units branded a big red "9" in the grips so soldiers would use the right ammunition.\n
+		It featured an integral box magazine in front of the trigger, a long barrel, a wooden shoulder stock which gives it the stability of a short-barreled rifle and doubles as a holster or carrying case, and a grip shaped like the handle of a broom, earning the gun the nickname "broomhandle" in western countries. In China it was called the "box cannon" due to its rectangular internal magazine.\n
+		This gun is a conversion to 7.62mm Tokarev, which improves its armor piercing capacity, at the cost of faster degradation due to the old model's tolerance for later high presure rounds.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith modification kit</text>
+	</string>
+
+</string_table>

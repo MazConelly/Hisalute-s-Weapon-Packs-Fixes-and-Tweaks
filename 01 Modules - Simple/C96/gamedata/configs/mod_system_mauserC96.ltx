@@ -4,96 +4,96 @@
 ;There was a Chinese C96 in .45
 [wpn_c96]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection			= spawn_group
-$npc                        = on
-$prefetch                   = 8
-$spawn                  	= "weapons\c96"
-scheduled                   = off
-cform                       = skeleton
-icons_texture 			    = ui\ui_icon_swp
+$npc						= on
+$prefetch					= 8
+$spawn						= "weapons\c96"
+scheduled					= off
+cform						= skeleton
 
-class                       = WP_PM
-slot                        = 1
-animation_slot              = 1
-ef_weapon_type              = 5
-hand_dependence		 	    = 1
-single_handed			    = 1
+class						= WP_PM
+slot						= 1
+animation_slot				= 1
+ef_weapon_type				= 5
+hand_dependence				= 1
+single_handed				= 1
 
-default_to_ruck             = false
-sprint_allowed              = true
+default_to_ruck				= false
+sprint_allowed				= true
 
-inv_grid_height             = 1
-inv_grid_width              = 2
-inv_grid_x                  = 5
-inv_grid_y                  = 17
-inv_name                    = st_wpn_c96
-inv_name_short              = st_wpn_c96
-description          	    = st_wpn_c96_descr
+icons_texture				= ui\ui_icon_swp
+inv_grid_height				= 1
+inv_grid_width				= 2
+inv_grid_x					= 5
+inv_grid_y					= 17
+inv_name					= st_wpn_c96
+inv_name_short				= st_wpn_c96
+description					= st_wpn_c96_descr
 
-kind                        = w_pistol
-inv_weight                  = 1.1
-cost                        = 9600
-repair_type                 = pistol
+kind						= w_pistol
+inv_weight					= 1.1
+cost						= 9600
+repair_type					= pistol
 
-hud                     	= wpn_c96_hud
-visual                      = dynamics\weapons\wpn_c96\wpn_c96.ogf
-position                	= -0.021, -0.085, 0.0
-orientation             	= 0, 0, 0
-fire_point                  = 0.1, 0.133, 0.161
-fire_point2                 = 0.1, 0.133, 0.161
-ph_mass                     = 1
+hud							= wpn_c96_hud
+visual						= dynamics\weapons\wpn_c96\wpn_c96.ogf
+orientation					= 0, 0, 0
+position					= -0.021, -0.085, 0.0
+fire_point					= 0.1, 0.133, 0.161
+fire_point2					= 0.1, 0.133, 0.161
+ph_mass						= 1
 
-flame_particles		   	    = weapons\generic_weapon03
-smoke_particles             = weapons\generic_shoot_00
-grenade_flame_particles     = weapons\generic_weapon01
+flame_particles				= weapons\generic_weapon03
+smoke_particles				= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
 
 shell_point		 		    = 0.0, 0.133, 0.047
 shell_dir		 			= 0.0, 0.0, 0.4
-shell_particles	 			= weapons\45acp
+shell_particles	 			= weapons\9x19
 
-light_disabled              = false
-light_color		 		    = 0.6,0.5,0.3
-light_range		 		    = 3.0
-light_time 		 		    = 0.2
-light_var_color		 	    = 0.05
-light_var_range		 	    = 0.5
+light_disabled				= false
+light_color					= 0.6,0.5,0.3
+light_range					= 3.0
+light_time					= 0.2
+light_var_color				= 0.05
+light_var_range				= 0.5
 
-upgrades                    = up_gr_firstab_fn57, up_gr_seconab_fn57, up_gr_thirdab_fn57, up_gr_fourtab_fn57, up_gr_fifthab_fn57 ;up_gr_firstab_c96
-installed_upgrades          =
-upgrade_scheme              = upgrade_scheme_walther
-upgr_icon_x                 = 1150
-upgr_icon_y                 = 1800
-upgr_icon_width             = 150
-upgr_icon_height            = 100
+upgrades					= up_gr_firstab_fn57, up_gr_seconab_fn57, up_gr_thirdab_fn57, up_gr_fourtab_fn57, up_gr_fifthab_fn57 ;, up_gr_firstab_c96
+installed_upgrades			=
+upgrade_scheme				= upgrade_scheme_walther
+upgr_icon_x					= 1150
+upgr_icon_y					= 1800
+upgr_icon_width				= 150
+upgr_icon_height			= 100
 
-fire_modes		            = 1
-ammo_class                  = ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
-ammo_elapsed		 	    = 10
-ammo_mag_size		 	    = 10
-startup_ammo                = 90
+fire_modes					= 1
+ammo_class					= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
+ammo_elapsed				= 10
+ammo_mag_size				= 10
+startup_ammo				= 90
 
-scope_status                = 0
-scope_zoom_factor           = 0
+scope_status				= 0
+scope_zoom_factor			= 0
 
-silencer_name  				= wpn_sil_9mm
-silencer_status             = 0
-silencer_x 					= 68 ; 65
-silencer_y 					= -15 ; -17
+silencer_name				= wpn_sil_9mm
+silencer_status				= 0
+silencer_x					= 68 ; 65
+silencer_y					= -15 ; -17
 silencer_light_color		= 0.6,0.5,0.3
 silencer_light_range		= 0.01
-silencer_light_time 		= 0.2
+silencer_light_time			= 0.2
 silencer_light_var_color	= 0.05
 silencer_light_var_range	= 0.5
-silencer_smoke_particles    = weapons\generic_shoot_00
+silencer_smoke_particles	= weapons\generic_shoot_00
 
 grenade_launcher_status     = 0
 
-hit_impulse                 = 24
-hit_power                   = 0.46, 0.46, 0.46, 0.46
-hit_type 				    = fire_wound
-fire_distance               = 175 ;300
-bullet_speed		 	    = 350 ;339
-rpm                         = 120 ;330
-rpm_empty_click 	 	    = 120
+hit_impulse					= 24
+hit_power					= 0.46, 0.46, 0.46, 0.46
+hit_type					= fire_wound
+fire_distance				= 175 ;300
+bullet_speed				= 350 ;339
+rpm							= 120 ;330
+rpm_empty_click				= 120
 
 use_aim_bullet				= false
 time_to_aim					= 0.0 ; 1.0
@@ -102,59 +102,58 @@ zoom_enabled				= true
 zoom_rotate_time			= 0.25
 reload_dof					= 0.0, 0.5, 5, 1.7
 control_inertion_factor		= 1.17f
-crosshair_inertion		    = 5.3
-fire_dispersion_base	    = 0.71
+crosshair_inertion			= 5.3
+fire_dispersion_base		= 0.71
 fire_dispersion_condition_factor = 0.001
 
-misfire_probability        	= 0.005
+misfire_probability			= 0.005
 misfire_start_condition		= 0.855
-misfire_start_prob 	     	= 0.0045
+misfire_start_prob			= 0.0045
 misfire_end_condition		= 0.14
-misfire_end_prob            = 0.07
+misfire_end_prob			= 0.07
 
 condition_queue_shot_dec	= 0.0022
-condition_shot_dec      	= 0.0020
+condition_shot_dec			= 0.0020
 
-cam_return      			= 0
-cam_relax_speed             = 8
-cam_dispersion              = 0.96
-cam_dispersion_frac		    = 1.1
-cam_dispersion_inc		    = 0.95
-cam_max_angle			    = 50.0
-cam_max_angle_horz		    = 50.0
-cam_step_angle_horz		    = 0.95
-zoom_cam_dispersion         = 1.5
+cam_return					= 0
+cam_relax_speed				= 8
+cam_dispersion				= 0.96
+cam_dispersion_frac			= 1.1
+cam_dispersion_inc			= 0.95
+cam_max_angle				= 50.0
+cam_max_angle_horz			= 50.0
+cam_step_angle_horz			= 0.95
+zoom_cam_dispersion			= 1.5
 
-PDM_disp_accel_factor 		= 1.355
-PDM_disp_base 				= 0.65
-PDM_disp_crouch             = 1.0
-PDM_disp_crouch_no_acc      = 1.0
-PDM_disp_vel_factor 		= 1.35
+PDM_disp_accel_factor		= 1.355
+PDM_disp_base				= 0.65
+PDM_disp_crouch				= 1.0
+PDM_disp_crouch_no_acc		= 1.0
+PDM_disp_vel_factor			= 1.35
 
-cam_relax_speed_ai          = 360
-holder_fov_modifier         = 1.0
-holder_range_modifier       = 1.0
-min_radius                  = 0
-max_radius                  = 500
+cam_relax_speed_ai			= 360
+holder_fov_modifier			= 1.0
+holder_range_modifier		= 1.0
+min_radius					= 0
+max_radius					= 500
+hit_probability_gd_novice	= 1.00
+hit_probability_gd_stalker	= 1.00
+hit_probability_gd_veteran	= 1.00
+hit_probability_gd_master	= 1.00
 
-hit_probability_gd_novice   = 1.00
-hit_probability_gd_stalker  = 1.00
-hit_probability_gd_veteran  = 1.00
-hit_probability_gd_master   = 1.00
-
-kill_msg_x				= 200
-kill_msg_y				= 153
-kill_msg_width			= 37
-kill_msg_height			= 24
+kill_msg_x			= 200
+kill_msg_y			= 153
+kill_msg_width		= 37
+kill_msg_height		= 24
 
 
-;scope_name              = wpn_addon_scope       ; section name for the attachable scope
-;scope_x              	= 47                 ; offset in inventory icon
-;scope_y                 = 0
+;scope_name				= wpn_addon_scope
+;scope_x				= 47
+;scope_y				= 0
 
-;grenade_launcher_name   = wpn_addon_grenade_launcher; section name for the attachable grenade launcher
-;grenade_launcher_x      = 126                ; offset in inventory icon
-;grenade_launcher_y      = 24
+;grenade_launcher_name	= wpn_addon_grenade_launcher
+;grenade_launcher_x		= 126
+;grenade_launcher_y		= 24
 
 snd_draw			= weapons\mauser\c96_deploy
 snd_holster			= weapons\mauser\c96_holster
@@ -169,7 +168,6 @@ snd_reload_grenade  = weapons\gen_grenload, 1.0, 0.8
 snd_switch          = weapons\groza_switch, 1.0, 0.5
 snd_bore			= weapons\draw_silent
 snd_silncer_shot	= weapons\m92\beretta_shot_sil
-
 
 [wpn_c96_hud]:hud_base
 item_visual			= dynamics\weapons\wpn_c96\wpn_c96_hud.ogf
@@ -287,16 +285,15 @@ crosshair_inertion		= 5.7
 condition_queue_shot_dec	= 0.00195
 condition_shot_dec      	= 0.0018
 
-;������
-cam_return				= 0 ;	= 0
-cam_relax_speed         = 12	;�������� �������� � �������� ���������
+cam_return				= 0
+cam_relax_speed         = 12
 cam_relax_speed_ai      = 360
-cam_dispersion          = 0.65	;��������� ���� (� ��������) � ������ ���������
-cam_dispersion_inc		= 0.36	;���������e cam_dispersion � ������ ���������
-cam_dispersion_frac		= 0.8	;����� ����� ��������� �� cam_dispersion*cam_dispersion_frac +- cam_dispersion*(1-cam_dispersion_frac)
-cam_max_angle			= 40.0	;������������ ���� ������
-cam_max_angle_horz		= 40.0	;(degree) maximum shot horizontal degree
-cam_step_angle_horz		= 0.51	;(degree) size of step camera moved in horizontal position while shooting
+cam_dispersion          = 0.65
+cam_dispersion_inc		= 0.36
+cam_dispersion_frac		= 0.8
+cam_max_angle			= 40.0
+cam_max_angle_horz		= 40.0
+cam_step_angle_horz		= 0.51
 
 PDM_disp_base			= 0.65
 PDM_disp_vel_factor		= 1.35
@@ -306,7 +303,7 @@ PDM_disp_crouch_no_acc	= 1.0 ;	= 1.135
 
 hud					= wpn_m712_hud
 
-visual                  = dynamics\weapons\wpn_c96\wpn_m712.ogf
+visual				= dynamics\weapons\wpn_c96\wpn_m712.ogf
 
 [wpn_m712_hud]:wpn_c96_hud
 item_visual				= dynamics\weapons\wpn_c96\wpn_m712_hud.ogf

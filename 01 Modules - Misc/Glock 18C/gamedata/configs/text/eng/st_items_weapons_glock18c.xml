@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_glock18c">
+		<text>Glock 18C</text>
+	</string>
+	<string id="st_wpn_glock18c_descr">
+		<text>The Glock 18C is a 9x19mm machine pistol based on the Glock 17, a modern polymer-framed, striker-fired pistol developed in the late 1970s in Austria. It has a fire selector mounted by default which has two positions, semi and full-auto, which, due to non-modified action, fires with extremely high cyclic rate of 1200RPM. The glock18c additionally has a ported barrel to act as compensator to reduce muzzle rise in fully-automatic mode. The Glock 18 was adopted by multiple countries' militaries, special forces units and police departments. Glock 18 machine pistols are not available to civilians and are usually much more expensive than standard Glock pistols.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] GemTech suppressor</text>
+	</string>
+
+	<string id="st_mag_glock_33_9x19_fmj">
+		<text>Extended 9x19 Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_33_9x19_fmj_descr">
+		<text>Extended 33 round Glock magazine. Most useful for automatic Glock models, or pistol caliber carbines that accept Glock magazines.</text>
+	</string>
+
+	<string id="st_mag_glock_33_9x18_fmj">
+		<text>Extended 9x18 Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_33_9x18_fmj_descr">
+		<text>Extended 33 round Glock magazine, modified to load 9x18. This allows a Glock to provide more firepower than many SMGs.</text>
+	</string>
+
+</string_table>

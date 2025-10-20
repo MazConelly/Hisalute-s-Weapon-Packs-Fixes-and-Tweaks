@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_mp9_57">
+		<text>Brugger-Thomet MP9-N</text>
+	</string>
+	<string id="st_wpn_mp9_57_s">
+		<text>MP9-N</text>
+	</string>
+	<string id="st_wpn_mp9_57_descr">
+		<text>The MP9 is a compact and versatile selective-fire submachine gun renowned for its reliability and ergonomic design by Brugger and Thomet, as a development of the Steyr TMP. It has gained popularity as a reliable firearm in military and law enforcement circles. It is made of polymer and also corrosion-resistant, with a stock that folds to the right side of the weapon, and an integrated Picatinny rail. Its design and ease of operability allows the user to holster the weapon like a machine pistol or personal defense weapon for rapid deployment in self-defence.\n
+		The MP9-N is a further refined variant, firing at an increased fire rate. It is effective as PDW or for concealed carry for security and bodyguards.\n
+		To augment its role as a PDW, certain technicians with more skill than sense have converted some of these guns to 5.7x28. The result is a surprisingly effective, low cost alternative to the P90.</text>
+	</string>
+
+	<string id="st_mag_mp9_5.7x28">
+		<text>Modified 5.7x28 MP9 Magazine</text>
+	</string>
+	<string id="st_mag_mp9_5.7x28_descr">
+		<text>Modified 30-round magazine used in the MP9. Has been converted to fire 5.7x28.</text>
+	</string>
+
+	<string id="st_mag_mp9_9x19">
+		<text>Standard 9x19 MP9 Magazine</text>
+	</string>
+	<string id="st_mag_mp9_9x19_descr">
+		<text>Standard 9x19 30-round magazine used in the MP9. They are a lot more fun to dump, than to load.</text>
+	</string>
+
+</string_table>

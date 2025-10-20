@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_sten_descr">
+		<text>The Sten is a select fire, blowback-operated weapon with a side-mounted magazine which was used extensively by British and Commonwealth forces throughout World War II and during the Korean War. The Sten paired a simple design with a low production cost, facilitating mass production to meet the demand for submachine guns.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith, Replacement modification kits</text>
+	</string>
+
+	<string id="st_wpn_sten_mkii_762_descr">
+		<text>The Sten Mark II is the most common variant of the Sten, with two million units produced. While originally chambered in 9x19mm, the simple construction of the Sten allows it to be rechambered to 7.62x25mm Tokarev through a simple barrel replacement and minor feed modifications. The most significant source of the rechambered Mark II was China, where they were known as the M38, which were typically fed from PPS-43 magazines and further simplified to an automatic-only configuration.\n
+		This example is likely a simple aftermarket conversion, fed by 32 round SA 24/26 magazines.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith modification kit</text>
+	</string>
+
+</string_table>

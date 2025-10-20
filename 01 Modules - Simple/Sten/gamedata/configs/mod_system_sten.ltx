@@ -8,7 +8,7 @@ $prefetch               = 8
 $spawn                  = "weapons\sten"
 scheduled               = off
 cform                   = skeleton
-icons_texture 			= ui\ui_icon_swp
+parent_section			= wpn_sten
 
 class                   = WP_LR300
 slot                    = 2
@@ -21,16 +21,17 @@ single_handed           = 0
 default_to_ruck         = false
 sprint_allowed          = true
 
+icons_texture 			= ui\ui_icon_swp
 inv_grid_height         = 2
 inv_grid_width          = 5
 inv_grid_x              = 5
 inv_grid_y              = 13
-inv_name                = st_wpn_sten
-inv_name_short          = st_wpn_sten
-description          	= st_wpn_sten_descr
+inv_name                = st_wpn_sten_mkiis
+inv_name_short          = st_wpn_sten_mkiis
+description          	= st_wpn_sten_mkiis_descr
 
 kind                    = w_smg
-inv_weight              = 3.2 ;3.534
+inv_weight              = 3.534
 cost                    = 12560
 repair_type             = pistol
 weapon_class            = assault_rifle
@@ -99,7 +100,7 @@ hit_impulse             = 24
 hit_power               = 0.47, 0.47, 0.47, 0.47
 hit_type                = fire_wound
 fire_distance           = 100 ;400
-bullet_speed            = 365 ;305
+bullet_speed            = 305
 rpm                     = 550
 rpm_empty_click         = 120
 ap_modifier				= 1.1
@@ -150,7 +151,7 @@ cam_relax_speed_ai          = 360
 zoom_cam_relax_speed_ai     = 360
 holder_fov_modifier         = 1.0
 holder_range_modifier       = 1.0
-min_radius                  = 0 
+min_radius                  = 0
 max_radius                  = 500
 hit_probability_gd_novice   = 1.00
 hit_probability_gd_stalker  = 1.00
@@ -236,6 +237,7 @@ fire_bone2	= muzzle
 ;=============================================================
 [wpn_sten_mkv]:wpn_sten
 $spawn				= "weapons\sten_mkv"
+parent_section		= wpn_sten_mkv
 
 inv_name			= st_wpn_sten_mkv
 inv_name_short		= st_wpn_sten_mkv
@@ -316,14 +318,15 @@ fire_bone2	= muzzle
 ;=============================================================
 [wpn_sten_762]:wpn_sten
 $spawn			= "weapons\sten_762"
+parent_section	= wpn_sten_762"
 
 inv_grid_height	= 2
 inv_grid_width	= 4
 inv_grid_x		= 5
 inv_grid_y		= 15
-inv_name		= st_wpn_sten_762
-inv_name_short	= st_wpn_sten_762
-description		= st_wpn_sten_762_descr
+inv_name		= st_wpn_sten_mkii_762
+inv_name_short	= st_wpn_sten_mkii_762
+description		= st_wpn_sten_mkii_762_descr
 
 hud				= wpn_sten_762_hud
 
