@@ -5,21 +5,21 @@
 		<text>Thompson M1928</text>
 	</string>
 	<string id="st_wpn_m1928_descr">
-		<text>The M1928 is a primary variant of the Thompson, an American submachine gun, invented by John T. Thompson in 1918, that became infamous during the Prohibition era, being a signature weapon of various crime syndicates in the United States. Later on it became the service weapon of US military as the primary submachine gun in the World War II. M1928 has front grip and muzzle device mounted by default.</text>
+		<text>The M1928 is a primary variant of the Thompson, an American submachine gun, invented by John T. Thompson in 1918, that became infamous during the Prohibition era, being a signature weapon of various crime syndicates in the United States. Later on it became the service weapon of US military as the primary submachine gun in the World War II. The original samples were Model 1921s with weight added to the actuator, which slowed down the cyclic rate of fire as required by the Navy. A front grip and muzzle device were also mounted by default.</text>
 	</string>
 
 	<string id="st_wpn_tommy_m1a1">
 		<text>Thompson M1A1</text>
 	</string>
 	<string id="st_wpn_tommy_m1a1_descr">
-		<text>The M1A1 is a simplified military variant of Thompson, an American submachine gun, invented by John T. Thompson in 1918, that became infamous during the Prohibition era, being a signature weapon of various crime syndicates in the United States. Later on it became the service weapon of US military as the primary submachine gun in the World War II. M1A1 differs from M1928 mainly by simplified front handguard instead of front grip and lack of muzzle device.</text>
+		<text>The M1A1 is a variant of the M1, a simplified Thompson model intended for the military that removed the front grip,  muzzle device, and the ability to use drum magazines, and reduced the fire rate. The M1A1 was itself further simplified, with further changes, like the firing pin being machined to the face of the bolt, eliminating unnecessary parts. While this reduced the cost of the weapon to a third and eventually a fourth of the original M1921, the M1A1 had its fire rate further reduced.</text>
 	</string>
 
     <string id="st_mag_m1a1_tommy_11.43x23_fmj">
 		<text>Standard .45 ACP Thompson Magazine</text>
 	</string>
 	<string id="st_mag_m1a1_tommy_11.43x23_fmj_descr">
-		<text>Standard 30 round Thompson submachine gun magazine chambered in .45 acp. The Thompson is not a gun that many would expect to find in the zone, perhaps a gunsmith with peculiar tastes has been producing copies.</text>
+		<text>Standard 30 round Thompson submachine gun magazine chambered in .45 ACP. The Thompson is not a gun that many would expect to find in the zone, perhaps a gunsmith with peculiar tastes has been producing copies.</text>
 	</string>
 
     <string id="st_mag_m1928_11.43x23_fmj">
