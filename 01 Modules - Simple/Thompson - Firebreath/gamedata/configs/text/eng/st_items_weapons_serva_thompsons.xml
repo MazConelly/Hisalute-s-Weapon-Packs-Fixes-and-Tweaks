@@ -12,13 +12,13 @@
 		The M1921 was the the first major production model, nicknamed the "Chicago Typewriter", and expensive to manufacture. It features a faster firerate and the Blish Lock system for weapon operation.</text>
 	</string>
 
-    <string id="st_wpn_thompson_m1928">
+    <string id="st_wpn_thompson_1928">
 		<text>Thompson Model 1928</text>
 	</string>
-    <string id="st_wpn_thompson_m1928_s">
+    <string id="st_wpn_thompson_1928_s">
 		<text>Thompson M1928</text>
 	</string>
-	<string id="st_wpn_thompson_m1928_descr">
+	<string id="st_wpn_thompson_1928_descr">
 		<text>The M1928 was the first variant of the Thompson produced primarily for military use. The original samples were Model 1921s with weight added to the actuator, which slowed down the cyclic rate of fire as required by the Navy. A front grip and muzzle device were also mounted by default.</text>
 	</string>
 
