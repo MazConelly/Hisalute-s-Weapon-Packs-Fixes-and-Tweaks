@@ -1,15 +1,15 @@
 ;=============================================================
 ;========= Ruger, with changed positions =======
 ;=============================================================
-[wpn_gp100]:identity_immunities,weapon_probability,default_weapon_params
+[wpn_ruger_redhawk_45]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection			= spawn_group
 discovery_dependency		=
 $npc						= on
 $prefetch					= 8
-$spawn						= "weapons\gp100"
+$spawn						= "weapons\ruger_redhawk_45"
 scheduled					= off
 cform						= skeleton
-icons_texture				= ui\ui_icon_swp
+parent_section				= wpn_ruger_redhawk_45
 
 class						= WP_PM
 slot						= 1
@@ -21,20 +21,21 @@ single_handed				= 1
 default_to_ruck				= false
 sprint_allowed				= true
 
+icons_texture				= ui\ui_icon_swp
 inv_grid_height				= 1
 inv_grid_width				= 2
 inv_grid_x					= 11
 inv_grid_y					= 0
-inv_name					= st_wpn_gp100
-inv_name_short				= st_wpn_gp100
-description					= st_wpn_gp100_descr
+inv_name					= st_wpn_ruger_redhawk_45
+inv_name_short				= st_wpn_ruger_redhawk_45
+description					= st_wpn_ruger_redhawk_45_descr
 
 kind						= w_pistol
 inv_weight					= 1.386
 cost						= 8520
 repair_type					= pistol
 
-hud							= wpn_gp100_hud
+hud							= wpn_ruger_redhawk_45_hud
 visual						= dynamics\weapons\wpn_metro_revolver\wpn_revolver.ogf
 position					= -0.021, -0.085, 0
 orientation					= 0, 0, 0
@@ -154,7 +155,7 @@ snd_silncer_shot1	= weapons\357\357_2
 snd_silncer_shot2	= weapons\357\357_3
 snd_silncer_shot3	= weapons\357\357_4
 
-[wpn_gp100_hud]:hud_base
+[wpn_ruger_redhawk_45_hud]:hud_base
 item_visual			= dynamics\weapons\wpn_metro_revolver\wpn_revolver_hud.ogf
 attach_place_idx	= 0
 zoom_hide_crosshair	= true
@@ -210,11 +211,39 @@ fire_bone	= muzzle
 
 fire_direction	= 0, 1, 0
 
+
 ;=============================================================
-;========================= Ruger scoped	=====================
+;===================== .44 Ruger ===============================
 ;=============================================================
-[wpn_gp100_sniper]:wpn_gp100
-$spawn				= "weapons\gp100_sniper"
+
+[wpn_ruger_redhawk_44]:wpn_ruger_redhawk_45
+$spawn			= "weapons\ruger_redhawk_44"
+parent_section	= wpn_ruger_redhawk_44
+
+inv_name		= st_wpn_ruger_redhawk_44
+inv_name_short	= st_wpn_ruger_redhawk_44
+description		= st_wpn_ruger_redhawk_44_descr
+
+cost			= 14520
+
+ammo_class		= ammo_44magnum_fmj, ammo_44magnum_fmj_bad
+
+hit_impulse     = 70
+hit_power       = 1.29, 1.29, 1.29, 1.29
+fire_distance	= 150
+bullet_speed	= 396
+
+fire_dispersion_base	= 0.37
+
+condition_shot_dec      = 0.00115
+condition_queue_shot_dec= 0.00115
+
+;=============================================================
+;========================= .357 Ruger scoped	=====================
+;=============================================================
+[wpn_ruger_redhawk_357_sniper]:wpn_ruger_redhawk_45
+$spawn				= "weapons\ruger_redhawk_357_sniper"
+parent_section		= wpn_ruger_redhawk_357_sniper
 
 icons_texture		= ui\ui_icon_swp
 scope_status		= 1
@@ -227,10 +256,10 @@ scope_texture		= wpn_crosshair_zf9
 
 silencer_status		= 1
 
-hud					= wpn_gp100_sniper_hud
-inv_name			= st_wpn_gp100_sniper
-inv_name_short		= st_wpn_gp100_sniper
-description			= st_wpn_gp100_sniper_descr
+hud					= wpn_ruger_redhawk_357_sniper_hud
+inv_name			= st_wpn_ruger_redhawk_357_sniper
+inv_name_short		= st_wpn_ruger_redhawk_357_sniper
+description			= st_wpn_ruger_redhawk_357_sniper_descr
 
 inv_grid_height		= 2
 inv_grid_width		= 3
@@ -258,45 +287,21 @@ fire_dispersion_base= 0.44
 ;time_to_aim		= 0.0
 ;zoom_rotate_time	= 0.1
 
-[wpn_gp100_sniper_hud]:wpn_gp100_hud
+[wpn_ruger_redhawk_357_sniper_hud]:wpn_ruger_redhawk_45_hud
 aim_hud_offset_pos		= -0.092800,0.01,-0.3
 aim_hud_offset_pos_16x9	= -0.092800,0.01,-0.3
-
-
-;=============================================================
-;===================== .44 Ruger ===============================
-;=============================================================
-
-[wpn_gp100_44]:wpn_gp100
-$spawn			= "weapons\gp100_44"
-
-inv_name		= st_wpn_gp100_44
-inv_name_short	= st_wpn_gp100_44
-description		= st_wpn_gp100_44_descr
-
-cost			= 14520
-
-ammo_class		= ammo_44magnum_fmj, ammo_44magnum_fmj_bad
-
-hit_impulse     = 70
-hit_power       = 1.29, 1.29, 1.29, 1.29
-fire_distance	= 150
-
-fire_dispersion_base	= 0.37
-
-condition_shot_dec      = 0.00115
-condition_queue_shot_dec= 0.00115
 
 ;=============================================================
 ;===================== .44 Ruger scoped=======================
 ;=============================================================
 
-[wpn_gp100_44_sniper]:wpn_gp100_sniper
-$spawn			= "weapons\gp100_44_sniper"
+[wpn_ruger_redhawk_44_sniper]:wpn_ruger_redhawk_357_sniper
+$spawn			= "weapons\ruger_redhawk_45_44_sniper"
+parent_section	= wpn_ruger_redhawk_44_sniper
 
-inv_name		= st_wpn_gp100_44_sniper
-inv_name_short	= st_wpn_gp100_44_sniper
-description		= st_wpn_gp100_44_sniper_descr
+inv_name		= st_wpn_ruger_redhawk_44_sniper
+inv_name_short	= st_wpn_ruger_redhawk_44_sniper
+description		= st_wpn_ruger_redhawk_44_sniper_descr
 
 cost			= 35520
 
@@ -305,6 +310,7 @@ ammo_class		= ammo_44magnum_fmj, ammo_44magnum_fmj_bad
 hit_impulse     = 70
 hit_power       = 1.29, 1.29, 1.29, 1.29
 fire_distance	= 150
+bullet_speed	= 396
 
 fire_dispersion_base	= 0.37
 
@@ -316,15 +322,16 @@ condition_queue_shot_dec= 0.00115
 ;========= Real SW 500, substituting MWP's modified =======
 ;=============================================================
 
-[wpn_w500]:wpn_gp100
-$spawn				= "weapons\w500"
+[wpn_sw500]:wpn_ruger_redhawk_45
+$spawn				= "weapons\sw500"
+parent_section		= wpn_sw500
 
-hud					= wpn_w500_hud
+hud					= wpn_sw500_hud
 visual				= dynamics\weapons\wpn_w500\wpn_w500
 
-inv_name			= st_wpn_w500
-inv_name_short		= st_wpn_w500
-description			= st_wpn_w500_descr
+inv_name			= st_wpn_sw500
+inv_name_short		= st_wpn_sw500
+description			= st_wpn_sw500_descr
 
 icons_texture		= ui\ui_icon_swp
 inv_grid_x			= 11
@@ -386,7 +393,7 @@ snd_shoot3	= weapons\s&w500\sw500_4
 snd_empty	= weapons\s&w500\sw500_hammer
 snd_reload	= weapons\s&w500\sw500_reload
 
-[wpn_w500_hud]:wpn_gp100_hud
+[wpn_sw500_hud]:wpn_ruger_redhawk_45_hud
 item_visual	= dynamics\weapons\wpn_w500\wpn_w500_hud.ogf
 
 aim_hud_offset_pos	= -0.092900,0.018000,-0.118900
@@ -401,12 +408,13 @@ fire_point	= -0.1,0,0
 ;========= Real SW 500, 12.7x55 modified, as per base MWP but its own gun =======
 ;=============================================================
 
-[wpn_w500_12]:wpn_w500
-$spawn			= "weapons\w500_12"
+[wpn_sw500_12]:wpn_sw500
+$spawn			= "weapons\sw500_12"
+parent_section	= wpn_sw500_12
 
-inv_name		= st_wpn_w500_12
-inv_name_short	= st_wpn_w500_12
-description		= st_wpn_w500_12_descr
+inv_name		= st_wpn_sw500_12
+inv_name_short	= st_wpn_sw500_12
+description		= st_wpn_sw500_12_descr
 
 inv_weight		= 2.26
 cost			= 30060
@@ -507,20 +515,21 @@ snd_5_layer16	= weapons\_shared\stereo\Echo_17
 snd_5_layer17	= weapons\_shared\stereo\Echo_18
 
 
-[wpn_taurus44]:wpn_gp100
-$spawn			= "weapons\taurus44"
-icons_texture 	= ui\ui_icon_tauruscobra
+[wpn_taurus_m44]:wpn_ruger_redhawk_45
+$spawn			= "weapons\taurus_m44"
+parent_section	= wpn_taurus_m44
 
+icons_texture 	= ui\ui_icon_tauruscobra
 inv_grid_x		= 0
 inv_grid_y		= 0
-inv_name		= st_wpn_taurus44
-inv_name_short	= st_wpn_taurus44
-description		= st_wpn_taurus44_descr
+inv_name		= st_wpn_taurus_m44
+inv_name_short	= st_wpn_taurus_m44
+description		= st_wpn_taurus_m44_descr
 
 inv_weight		= 1.474
 cost			= 15680
 
-hud				= wpn_taurus44_hud
+hud				= wpn_taurus_m44_hud
 visual			= dynamics\weapons\wpn_mag_44\wpn_mag_44.ogf
 
 ammo_class		= ammo_44magnum_fmj, ammo_44magnum_fmj_bad
@@ -528,7 +537,7 @@ ammo_class		= ammo_44magnum_fmj, ammo_44magnum_fmj_bad
 hit_impulse	 	= 70
 hit_power		= 1.29, 1.29, 1.29, 1.29
 fire_distance	= 200
-bullet_speed	= 490
+bullet_speed	= 396
 rpm				= 280
 
 control_inertion_factor	= 1.2f
@@ -569,7 +578,7 @@ snd_reload		= weapons\mag44\mag44_reload
 snd_reload_empty= weapons\mag44\mag44_reload
 snd_bore		= $no_sound
 
-[wpn_taurus44_hud]:wpn_gp100_hud
+[wpn_taurus_m44_hud]:wpn_ruger_redhawk_45_hud
 item_visual	= dynamics\weapons\wpn_mag_44\wpn_mag_44_hud.ogf
 
 hands_position				= 0.0, -0.185, -0.21
@@ -592,20 +601,21 @@ aim_hud_offset_rot_16x9		= 0.066, 0.02, 0.0
 ;=============================================================
 ;====================== Colt King Cobra ======================
 ;=============================================================
-[wpn_colt_king]:wpn_gp100
-$spawn          = "weapons\colt_king"
-icons_texture 	= ui\ui_icon_tauruscobra
+[wpn_colt_king_cobra]:wpn_ruger_redhawk_45
+$spawn          = "weapons\colt_king_cobra"
+parent_section	= wpn_colt_king_cobra
 
+icons_texture 	= ui\ui_icon_tauruscobra
 inv_grid_x		= 0
 inv_grid_y		= 1
-inv_name		= st_wpn_colt_king
-inv_name_short	= st_wpn_colt_king
-description		= st_wpn_colt_king_descr
+inv_name		= st_wpn_colt_king_cobra
+inv_name_short	= st_wpn_colt_king_cobra
+description		= st_wpn_colt_king_cobra_descr
 
 inv_weight		= 0.793
 cost			= 16260
 
-hud				= wpn_colt_king_hud
+hud				= wpn_colt_king_cobra_hud
 visual			= dynamics\weapons\wpn_colt_king\wpn_colt_king.ogf
 
 hit_impulse		= 45
@@ -625,7 +635,7 @@ condition_shot_dec		= 0.0015
 condition_queue_shot_dec= 0.0012
 
 ;-----------------------------------------------------------------------------------
-[wpn_colt_king_hud]:wpn_gp100_hud
+[wpn_colt_king_cobra_hud]:wpn_ruger_redhawk_45_hud
 item_visual	= dynamics\weapons\wpn_colt_king\wpn_colt_king_hud.ogf
 
 hands_position				= 0.0, -0.185, -0.21

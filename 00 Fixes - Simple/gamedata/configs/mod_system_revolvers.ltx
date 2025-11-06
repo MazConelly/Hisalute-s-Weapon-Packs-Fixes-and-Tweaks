@@ -1,15 +1,15 @@
 ;=============================================================
 ;=========================== Ruger	===========================
 ;=============================================================
-[wpn_gp100]:identity_immunities,weapon_probability,default_weapon_params
+[wpn_ruger_redhawk_45]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection			= spawn_group
 discovery_dependency		=
 $npc						= on
 $prefetch					= 8
-$spawn						= "weapons\gp100"
+$spawn						= "weapons\ruger_redhawk_45"
 scheduled					= off
 cform						= skeleton
-icons_texture				= ui\ui_icon_swp
+parent_section				= wpn_ruger_redhawk_45
 
 class						= WP_PM
 slot						= 1
@@ -21,20 +21,21 @@ single_handed				= 1
 default_to_ruck				= false
 sprint_allowed				= true
 
+icons_texture				= ui\ui_icon_swp
 inv_grid_height				= 1
 inv_grid_width				= 2
 inv_grid_x					= 11
 inv_grid_y					= 0
-inv_name					= st_wpn_gp100
-inv_name_short				= st_wpn_gp100
-description					= st_wpn_gp100_descr
+inv_name					= st_wpn_ruger_redhawk_45
+inv_name_short				= st_wpn_ruger_redhawk_45
+description					= st_wpn_ruger_redhawk_45_descr
 
 kind						= w_pistol
 inv_weight					= 1.386
 cost						= 8520
 repair_type					= pistol
 
-hud							= wpn_gp100_hud
+hud							= wpn_ruger_redhawk_45_hud
 visual						= dynamics\weapons\wpn_metro_revolver\wpn_revolver.ogf
 position					= -0.021, -0.085, 0.0
 orientation					= 0, 0, 0
@@ -154,7 +155,7 @@ snd_silncer_shot1	= weapons\357\357_2
 snd_silncer_shot2	= weapons\357\357_3
 snd_silncer_shot3	= weapons\357\357_4
 
-[wpn_gp100_hud]:hud_base
+[wpn_ruger_redhawk_45_hud]:hud_base
 item_visual			= dynamics\weapons\wpn_metro_revolver\wpn_revolver_hud.ogf
 attach_place_idx	= 0
 zoom_hide_crosshair	= true
@@ -213,8 +214,9 @@ fire_direction	= 0, 1, 0
 ;=============================================================
 ;========================= Ruger scoped	=====================
 ;=============================================================
-[wpn_gp100_sniper]:wpn_gp100
-$spawn				= "weapons\gp100_sniper"
+[wpn_ruger_redhawk_357_sniper]:wpn_ruger_redhawk_45
+$spawn				= "weapons\ruger_redhawk_357_sniper"
+parent_section		= wpn_ruger_redhawk_357_sniper
 
 icons_texture		= ui\ui_icon_swp
 scope_status		= 1
@@ -227,10 +229,10 @@ scope_texture		= wpn_crosshair_zf9
 
 silencer_status		= 1
 
-hud					= wpn_gp100_sniper_hud
-inv_name			= st_wpn_gp100_sniper
-inv_name_short		= st_wpn_gp100_sniper
-description			= st_wpn_gp100_sniper_descr
+hud					= wpn_ruger_redhawk_357_sniper_hud
+inv_name			= st_wpn_ruger_redhawk_357_sniper
+inv_name_short		= st_wpn_ruger_redhawk_357_sniper
+description			= st_wpn_ruger_redhawk_357_sniper_descr
 
 inv_grid_height		= 2
 inv_grid_width		= 3
@@ -258,22 +260,23 @@ fire_dispersion_base= 0.44
 ;time_to_aim		= 0.0
 ;zoom_rotate_time	= 0.1
 
-[wpn_gp100_sniper_hud]:wpn_gp100_hud
+[wpn_ruger_redhawk_357_sniper_hud]:wpn_ruger_redhawk_45_hud
 aim_hud_offset_pos		= -0.092800,0.01,-0.3
 aim_hud_offset_pos_16x9	= -0.092800,0.01,-0.3
 
 ;=============================================================
 ;========================= SW 500 modified	===================
 ;=============================================================
-[wpn_w500]:wpn_gp100
-$spawn				= "weapons\w500"
+[wpn_sw500]:wpn_ruger_redhawk_45
+$spawn				= "weapons\sw500"
+parent_section		= wpn_sw500
 
-hud					= wpn_w500_hud
+hud					= wpn_sw500_hud
 visual				= dynamics\weapons\wpn_w500\wpn_w500
 
-inv_name			= st_wpn_w500
-inv_name_short		= st_wpn_w500
-description			= st_wpn_w500_descr
+inv_name			= st_wpn_sw500
+inv_name_short		= st_wpn_sw500
+description			= st_wpn_sw500_descr
 
 icons_texture		= ui\ui_icon_swp
 inv_grid_x			= 11
@@ -334,7 +337,7 @@ snd_shoot3	= weapons\s&w500\sw500_4
 snd_empty	= weapons\s&w500\sw500_hammer
 snd_reload	= weapons\s&w500\sw500_reload
 
-[wpn_w500_hud]:wpn_gp100_hud
+[wpn_sw500_hud]:wpn_ruger_redhawk_45_hud
 item_visual	= dynamics\weapons\wpn_w500\wpn_w500_hud.ogf
 
 aim_hud_offset_pos	= -0.092900,0.018000,-0.118900

@@ -6,15 +6,14 @@
 		<text>Taurus Raging Judge 20ga</text>
 	</string>
 	<string id="st_wpn_judge20_descr">
-		<text>The Taurus Judge is a five shot revolver designed and produced by Taurus International, originally chambered for .410 bore shot shells and the .45 Colt cartridge. Since .410 is too weak for anything but the weakest of mutants, this custom 20 gauge variant was created, providing sufficient power against even medium sized mutants, though at the cost of being able to use .45.\n</text>
+		<text>The Taurus Judge is a five shot revolver designed and produced by Taurus International, originally chambered for .410 bore shot shells and the .45 Colt cartridge. Since .410 is too weak for anything but the weakest of mutants, this custom 20 gauge variant was created, providing sufficient power against even medium sized mutants, though at the cost of being able to use .45.</text>
 	</string>
 
-    <string id="wpn_raging">
+    <string id="st_wpn_raging">
 		<text>Taurus Raging Judge</text>
 	</string>
 	<string id="st_wpn_raging_descr">
-		<text>The Taurus Judge is a five shot revolver designed and produced by Taurus International, originally chambered for .410 bore shot shells and the .45 Colt cartridge. While perfectly suitable for small game hunting, there never was much of a justification to bring such a small gauge as .410 to the Zone, where even the smallest mutants are aggresive enough you want to shoot something a bit bigger at them. But .45 is common enough to justify using this revolver as a defense against human threats.
-		.\n</text>
+		<text>The Taurus Judge is a five shot revolver designed and produced by Taurus International, originally chambered for .410 bore shot shells and the .45 Colt cartridge. While perfectly suitable for small game hunting, there never was much of a justification to bring such a small gauge as .410 to the Zone, where even the smallest mutants are aggresive enough you want to shoot something a bit bigger at them. But .45 is common enough to justify using this revolver as a defense against human threats.</text>
 	</string>
 
 </string_table>

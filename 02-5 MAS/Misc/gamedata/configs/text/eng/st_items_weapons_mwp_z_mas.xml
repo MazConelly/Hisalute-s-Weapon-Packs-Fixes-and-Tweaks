@@ -192,7 +192,7 @@
 		%c[d_purple] • %c[ui_gray_2] TGP-A suppressor</text>
 	</string>
 
-	<string id="st_wpn_trophy_ak_descr">
+	<string id="st_wpn_ak_trophy_descr">
 		<text>A legendary weapon, it was previously owned by a legendary stalker who was said to be able to sneak anywhere, through any anomaly field and past any enemy. It is said that the previous owner used this weapon to kill mutants that were more dangerous than anyone else has ever seen.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n

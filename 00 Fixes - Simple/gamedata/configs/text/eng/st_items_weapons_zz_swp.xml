@@ -8,10 +8,10 @@
 		<text>The Duplet is an improvised double-barreled shotgun manufactured by technicians in workshops near and in The Zone. It was produced by first stalkers in The Zone, since the black market of firearms was almost non-existent back then. Currently the Duplets are increasingly less common as more weaponry is available for cheap from traders and arms smugglers. It is a simple, crude firearm made from reinforced scrap metal and wood, with two barrels placed horizontally. The accuracy is low due to crude finish of the inside of the barrel, but it's not an issue since the gun is made for point-blank ranges. Two barrels hold one shell each and can be fired both in the same time. Due to questionable construction, unless one is very careful with the trigger, the weapon has a tendency to shoot both barrels at once.</text>
 	</string>
 
-    <string id="st_wpn_garand">
+    <string id="st_wpn_m1_garand">
 		<text>M1 Garand Navy</text>
 	</string>
-	<string id="st_wpn_garand_descr">
+	<string id="st_wpn_m1_garand_descr">
 		<text>The M1 Garand is a World War II-era semi-automatic rifle that was the service rifle of the US military. It is one of the most famous rifles in the world, widely considered the best service rifle of entire WWII - General Patton called it "the greatest battle implement ever devised". M1 was developed in 1930s by John Garand, Canadian-American weapons designer, and was adopted by US Army in 1936, replacing Sprinfield M1903 bolt-action rifle. More than 5 million of M1 Garand rifles were produced, and they greatly increased the firepower of US infantry squads compared to typical squad of other countries, who used bolt-action rifles. Mechanically, M1 is a gas operated firearm, using a long-stroke gas piston system with rotating bolt. It is fed by unique en-bloc clip holding 8 rounds.\n
 		The M1 rifle was chambered in .30-06 Springfield round (7.62x63mm), which was standard cartridge back then, but a small amount of these rifles was converted to .308 Win after the war (so called Navy Garands).</text>
 	</string>
@@ -51,29 +51,29 @@
 		%c[d_purple] • %c[ui_gray_2] Boomsticks and Sharpsticks: Clear Sky modification kit</text>
 	</string>
 
-    <string id="st_wpn_gp100">
+    <string id="st_wpn_ruger_redhawk_45">
 		<text>Ruger Redhawk .45 ACP/.45 Colt</text>
 	</string>
-	<string id="st_wpn_gp100_descr">
+	<string id="st_wpn_ruger_redhawk_45_descr">
 		<text> The Ruger Redhawk is a DA/SA, large-frame revolver that was first introduced in 1979 by Sturm Ruger and Company. Made from high-grade steel, it is available in a stainless steel finish. The Redhawk is reinforced to handle extra stress of high-pressure loads, making it very popular for use by handloaders as it is able to handle the most powerful .45 Colt and .44 Magnum loads easily. This model was designed to fire both .45 Long Colt and .45 ACP, though the rarity of .45 Colt in the zone has led .45 ACP to become dominant, however, due to the cartridge's shorter length it somewhat reduces the gun's accuracy.\n
 		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
 		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
 	</string>
 
-	<string id="st_wpn_w500">
-		<text>Smith and Wesson SW500 (modified)</text>
-	</string>
-	<string id="st_wpn_w500_descr">
-		<text> The Smith and Wesson Model 500 is a five-shot, double/single action large-bore revolver originally firing the .500SW Magnum cartridge - the most powerful handgun cartridge in existence. The advanced design of the firearm helps in counteracting the recoil felt by the shooter. This includes the sheer weight of the firearm, use of rubber grips, the forward balance, and the use of a compensator. Nonetheless, the gun produces immense recoil.\n
-		Due to the rarity of .500SW Magnum in the zone, ambitious gunsmiths have created modified copies, taking inspiration from the Russian RSh-12 revolver and converting the weapon to fire the subsonic 12.7Ã—55mm STs-130 cartridge shared by the ASh-12.7. These modifications have reduced the weapon's durability and lowered its potency, but the gun retains overwhelming power.</text>
-	</string>
-
-    <string id="st_wpn_gp100_sniper">
+    <string id="st_wpn_ruger_redhawk_357_sniper">
 		<text>Ruger Redhawk .357 (scoped)</text>
 	</string>
-	<string id="st_wpn_gp100_sniper_descr">
+	<string id="st_wpn_ruger_redhawk_357_sniper_descr">
 		<text> The Ruger Redhawk is a DA/SA, large-frame revolver that was first introduced in 1979 by Sturm Ruger and Company. Made from high-grade steel, it is available in a stainless steel finish. The Redhawk is reinforced to handle extra stress of high-pressure loads, making it very popular for use by handloaders as it is able to handle the most powerful .45 Colt and .44 Magnum loads easily.\n
 		This model is chambered in the common .357 magnum cartridge and features a low power integrated scope.</text>
+	</string>
+
+	<string id="st_wpn_sw500">
+		<text>Smith and Wesson SW500 (modified)</text>
+	</string>
+	<string id="st_wpn_sw500_descr">
+		<text> The Smith and Wesson Model 500 is a five-shot, double/single action large-bore revolver originally firing the .500SW Magnum cartridge - the most powerful handgun cartridge in existence. The advanced design of the firearm helps in counteracting the recoil felt by the shooter. This includes the sheer weight of the firearm, use of rubber grips, the forward balance, and the use of a compensator. Nonetheless, the gun produces immense recoil.\n
+		Due to the rarity of .500SW Magnum in the zone, ambitious gunsmiths have created modified copies, taking inspiration from the Russian RSh-12 revolver and converting the weapon to fire the subsonic 12.7Ã—55mm STs-130 cartridge shared by the ASh-12.7. These modifications have reduced the weapon's durability and lowered its potency, but the gun retains overwhelming power.</text>
 	</string>
 
     <string id="st_wpn_shorty">
