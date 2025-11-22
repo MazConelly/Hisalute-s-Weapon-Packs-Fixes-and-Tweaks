@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_w70_descr">
+		<text>The Winchester 70 is a bolt action hunting rifle and one of the most common hunting rifles in the world. It has been held in high regard by shooters since it was introduced in 1936, earning the moniker "The Rifleman's Rifle". The action has some design similarities to Mauser designs and it is a development of the earlier Winchester Model 54. It is available in multiple calibers and variants. the rifle is usually fed by a non-detachable internal magazine, with capacity varying based on caliber. Most common chamberings allowing 5 rounds, though larger rounds can reduce this to 4 or 3. While original 7.92mm rifles are exceedingly rare, made only for testing purposes and by special order, some after market conversions do exist.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple]• %c[ui_gray_2] Leupold VX-II 3-9x variable magnification scope (integrated)\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith modification kit</text>
+	</string>
+
+    <string id="st_wpn_w70_30-06">
+		<text>Winchester Model 70 - .30-06</text>
+	</string>
+	<string id="st_wpn_w70_30-06_descr">
+		<text>The Winchester 70 is a bolt action hunting rifle and one of the most common hunting rifles in the world. It has been held in high regard by shooters since it was introduced in 1936, earning the moniker "The Rifleman's Rifle". The action has some design similarities to Mauser designs and it is a development of the earlier Winchester Model 54. It is available in multiple calibers and variants. the rifle is usually fed by a non-detachable internal magazine, with capacity varying based on caliber. Most common chamberings allowing 5 rounds, though larger rounds can reduce this to 4 or 3. While original 7.92mm rifles are exceedingly rare, made only for testing purposes and by special order, some after market conversions do exist.\n
+		This particular weapon has been converted to use the .30-06 Springfield round.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple]• %c[ui_gray_2] Leupold VX-II 3-9x variable magnification scope (integrated)\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith modification kit</text>
+	</string>
+
+</string_table>

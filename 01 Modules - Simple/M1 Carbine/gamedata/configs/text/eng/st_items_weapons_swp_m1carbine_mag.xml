@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_m1_357_basic">
+		<text>Modified .357 Basic M1 Magazine</text>
+	</string>
+	<string id="st_mag_m1_357_basic">
+		<text>10 round magazine for the M1 Carbine, modified to load .357 ammunition.</text>
+	</string>
+
+	<string id="st_mag_m1_357_default">
+		<text>Modified .357 Standard M1 Magazine</text>
+	</string>
+	<string id="st_mag_m1_357_default_descr">
+		<text>20 round magazine for the M1 Carbine, modified to load .357 ammunition.</text>
+	</string>
+
+	<string id="st_mag_m1_5.7x28_basic">
+		<text>Modified 5.7x28mm Basic M1 Magazine</text>
+	</string>
+	<string id="st_mag_m1_5.7x28_basic">
+		<text>15 round magazine for the M1 Carbine, modified to load 5.7x28mm. As part of modifications from 5.7x33 spitfire parts to this current carbine, adjustments were made to facilitate the reliable feeding of 5.7x28 rounds.</text>
+	</string>
+
+	<string id="st_mag_m1_5.7x28_default">
+		<text>Modified 5.7x28mm Standard M1 Magazine</text>
+	</string>
+	<string id="st_mag_m1_5.7x28_default_descr">
+		<text>30 round magazine for the M1 Carbine, modified to load 5.7x28mm. As part of modifications from 5.7x33 spitfire parts to this current carbine, adjustments were made to facilitate the reliable feeding of 5.7x28 rounds.</text>
+	</string>
+
+</string_table>

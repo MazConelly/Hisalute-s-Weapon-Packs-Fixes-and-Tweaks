@@ -5,18 +5,18 @@
 		<text>HK SR9 TC</text>
 	</string>
 	<string id="st_wpn_psg1_descr">
-		<text>The Heckler and Koch SR9 is a series of hunting and target rifles derived from the Heckler &amp; Koch HK91 incorporating parts from the PSG-1 and MSG-90 marksman rifles. In its original configuration it had a thumbhole buttstock, but the SR9 TC (Target Competition) variant replaces this with a PSG-1 adjustable butstock, also including the PSG-1 sniper trigger group and handgrip. As only limited numbers of SR9 TC rifles were produced, it is likely this is a reproduction, created with aftermarket parts and made to better mimic the appearance of the original PSG-1. This rifle's accuracy is not to the level of a true PSG-1, however it is significantly lighter and more durable, allowing it to better function as a DMR.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Hensoldt ZF PSG-1 6x42 scope (integrated)</text>
+		<text>Heckler and Koch SR9 - серия охотничьих и целевых винтовок, созданная на базе Heckler &amp; Koch HK91 и включающая в себя детали от снайперских винтовок PSG-1 и MSG-90. В первоначальной конфигурации винтовка имела приклад с отверстием под большой палец, но в варианте SR9 TC (Target Competition) он заменен на регулируемый приклад PSG-1, включающий также снайперскую спусковую группу PSG-1 и рукоятку. Поскольку винтовки SR9 TC были выпущены в ограниченном количестве, вполне вероятно, что это репродукция, созданная с использованием деталей с вторичного рынка, чтобы лучше имитировать внешний вид оригинальной PSG-1. Точность этой винтовки не соответствует уровню настоящей PSG-1, однако она значительно легче и прочнее, что позволяет ей лучше функционировать в качестве DMR.  \n \n
+		%c[ui_gray_2]НАВЕСНОЕ ОБОРУДОВАНИЕ: \n
+		%c[d_purple] • %c[ui_gray_2] Прицел Hensoldt ZF PSG-1 6x42 (интегрированный) \n \n</text>
 	</string>
 
 	<string id="st_wpn_psg1a1">
 		<text>HK PSG-1A1</text>
 	</string>
 	<string id="st_wpn_psg1a1_descr">
-		<text>The PSG-1 is a precision rifle based on the G3 battle rifle. It was designed from the beginning as a police sniper rifle for maximum precision. It boasts very high accuracy, but is also extremely expensive, leading to limited sales and a cessation of production in 2010. After the 1972 Munich massacre, Germany needed a semi-automatic rifle that would provide highest precision possible, eventually resulting in this gun and the WA2000. Mechanically it is just like the G3, though with features lending to higher precision. The PSG-1's accuracy is close to that of bolt-action sniper rifles, which is exceptional for a semi-automatic weapon. The rifle's weight, price and rather delicate construction makes it unsuitable for military use, leading to the development of the MSG90, with improvements aimed towards military conditions. The PSG-1A1 variant features 2 main improvements, an adjustment to the charging handle's position to prevent interference with optics, and an update to a Schmidt &amp; Bender 3–12?50 Police Marksman II scope. \n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Schmidt &amp; Bender 3-12x50 scope (integrated)</text>
+		<text>PSG-1 - это высокоточная винтовка, созданная на базе боевой винтовки G3. С самого начала она разрабатывалась как полицейская снайперская винтовка, обеспечивающая максимальную точность стрельбы. Она может похвастаться очень высокой точностью, но при этом чрезвычайно дорога, что привело к ограниченным продажам и прекращению производства в 2010 году. После массового убийства в Мюнхене в 1972 году Германии потребовалась самозарядная винтовка, обеспечивающая максимальную точность стрельбы, что в итоге привело к появлению этого пистолета и модели WA2000. Механически он похож на G3, но имеет особенности, обеспечивающие более высокую точность. Точность PSG-1 близка к точности снайперских винтовок с продольно-скользящим затвором, что является исключительным для самозарядного оружия. Вес, цена и довольно хрупкая конструкция винтовки делают ее непригодной для военного применения, что привело к созданию MSG90, усовершенствованной с учетом военных условий. Вариант PSG-1A1 имеет два основных усовершенствования: изменение положения рукоятки заряжания для предотвращения вмешательства в оптику и обновление прицела Schmidt &amp; Bender 3-12?50 Police Marksman II.  \n \n
+		%c[ui_gray_2]НАВЕСНОЕ ОБОРУДОВАНИЕ: \n
+		%c[d_purple] • %c[ui_gray_2] Прицел Schmidt &amp; Bender 3–12?50 (интегрированный) \n \n</text>
 	</string>
 
 </string_table>

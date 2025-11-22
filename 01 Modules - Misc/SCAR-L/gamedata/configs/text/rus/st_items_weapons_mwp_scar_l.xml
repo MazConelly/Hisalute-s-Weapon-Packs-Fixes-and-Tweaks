@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_scar_l">
+		<text>FN SCAR-L</text>
+	</string>
+	<string id="st_wpn_scar_l_descr">
+		<text>FN SCAR (Special Operations Forces Combat Assault Rifle - боевая штурмовая винтовка для сил специальных операций) - оружейная система, разработанная американским подразделением бельгийской компании FN Herstal для участия в конкурсе на создание нового автомата для бойцов US SOCOM в 2004 году. В декабре 2004 года данная система была объявлена победителем конкурса, и в настоящий момент винтовки поступают на вооружение рейнджеров США. Семейство винтовок состоит из двух типов: SCAR-H и SCAR-L. Винтовка SCAR-L (Light) заточена под ведение огня калибром 5.56x45 мм НАТО. \n \n
+		%c[ui_gray_2]НАВЕСНОЕ ОБОРУДОВАНИЕ: \n
+		%c[d_purple] • %c[ui_gray_2] глушитель НАТО \n
+		%c[d_purple] • %c[ui_gray_2] прицелы ACOG, Barska ES AC10632, C-more Railway Tactical, «EOTech» \n \n</text>
+	</string>
+
+</string_table>

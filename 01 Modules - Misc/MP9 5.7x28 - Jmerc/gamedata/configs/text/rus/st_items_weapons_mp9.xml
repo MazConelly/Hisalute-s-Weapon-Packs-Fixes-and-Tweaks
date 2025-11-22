@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_mp9_n">
+		<text>Brugger-Thomet MP9-N - 9mm</text>
+	</string>
+	<string id="st_wpn_mp9_n_s">
+		<text>MP9-N 9mm</text>
+	</string>
+	<string id="st_wpn_mp9_n_descr">
+		<text>The MP9 is a compact and versatile selective-fire submachine gun renowned for its reliability and ergonomic design by Brugger and Thomet, as a development of the Steyr TMP. It has gained popularity as a reliable firearm in military and law enforcement circles. It is made of polymer and also corrosion-resistant, with a stock that folds to the right side of the weapon, and an integrated Picatinny rail. Its design and ease of operability allows the user to holster the weapon like a machine pistol or personal defense weapon for rapid deployment in self-defence.\n
+		The MP9-N is a further refined variant, firing at an increased fire rate. It is effective as PDW or for concealed carry for security and bodyguards.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] All collimators for the Picatinny/weaver system.\n
+		%c[d_purple] • %c[ui_gray_2] Rifle Dynamics ISG Sound Suppressor</text>
+	</string>
+
+	<string id="st_wpn_mp9_j">
+		<text>Brugger-Thomet MP9-N Tactical - 9mm</text>
+	</string>
+	<string id="st_wpn_mp9_j_s">
+		<text>MP9-N Tactical 9mm</text>
+	</string>
+	<string id="st_wpn_mp9_j_descr">
+		<text>The MP9 is a compact and versatile selective-fire submachine gun renowned for its reliability and ergonomic design by Brugger and Thomet, as a development of the Steyr TMP. It has gained popularity as a reliable firearm in military and law enforcement circles. It is made of polymer and also corrosion-resistant, with a stock that folds to the right side of the weapon, and an integrated Picatinny rail. Its design and ease of operability allows the user to holster the weapon like a machine pistol or personal defense weapon for rapid deployment in self-defence.\n
+		The MP9-N is a further refined variant, firing at an increased fire rate. It is effective as PDW or for concealed carry for security and bodyguards.\n
+		A laser pointer module has been attached to this particular gun.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] All collimators for the Picatinny/weaver system.\n
+		%c[d_purple] • %c[ui_gray_2] Rifle Dynamics ISG Sound Suppressor</text>
+	</string>
+
+	<string id="st_mag_mp9_default">
+		<text>MP9 Magazine</text>
+	</string>
+	<string id="st_mag_mp9_default_descr">
+		<text>Standard magazine for the MP9 Submachinegun, it holds 30 rounds of 9x19mm ammunition.</text>
+	</string>	
+	
+	<string id="st_mag_mp9_extended">
+		<text>MP9 Extended Magazine</text>
+	</string>
+	<string id="st_mag_mp9_extended_descr">
+		<text>Extended magazine for the MP9 Tactical Submachinegun, it holds 40 rounds of 9x19mm ammunition.</text>
+	</string>
+
+
+	<string id="st_wpn_mp9_57">
+		<text>Brugger-Thomet MP9-N - 5.7x28</text>
+	</string>
+	<string id="st_wpn_mp9_57_s">
+		<text>MP9-N 5.7x28</text>
+	</string>
+	<string id="st_wpn_mp9_57_descr">
+		<text>MP9 - компактный пистолет-пулемет, разработанный и произведенный швейцарской компанией Brugger and Thomet Co. Сам по себе он является дальнейшим развитием проекта Steyr TMP, который был продан компанией Steyr в 2001 году. MP9 обладает высокой скорострельностью - 900 выстрелов в минуту, но при этом относительно прост в управлении и удобен в стрельбе. MP9-N - это более совершенный вариант, стреляющий с увеличенным темпом 1100 выстрелов в минуту. Он эффективен в качестве PDW или для скрытого ношения охранниками и телохранителями. В настоящее время его используют многие полицейские и службы безопасности, в том числе из Франции, Швейцарии и Таиланда. Чтобы усилить его роль в качестве PDW, некоторые техники, обладающие большим мастерством, чем разум, переделали некоторые из этих пистолетов под патрон 5.7x28. В результате получилась удивительно эффективная и недорогая альтернатива P90. \n </text>
+	</string>
+
+	<string id="st_wpn_mp9_57_tac">
+		<text>Brugger-Thomet MP9-N Tactical - 5.7x28</text>
+	</string>
+	<string id="st_wpn_mp9_57_tac_s">
+		<text>MP9-N Tactical 5.7x28</text>
+	</string>
+	<string id="st_wpn_mp9_57_tac_descr">
+		<text>The MP9 is a compact and versatile selective-fire submachine gun renowned for its reliability and ergonomic design by Brugger and Thomet, as a development of the Steyr TMP. It has gained popularity as a reliable firearm in military and law enforcement circles. It is made of polymer and also corrosion-resistant, with a stock that folds to the right side of the weapon, and an integrated Picatinny rail. Its design and ease of operability allows the user to holster the weapon like a machine pistol or personal defense weapon for rapid deployment in self-defence.\n
+		The MP9-N is a further refined variant, firing at an increased fire rate. It is effective as PDW or for concealed carry for security and bodyguards.\n
+		To augment its role as a PDW, certain technicians with more skill than sense have converted some of these guns to 5.7x28. The result is a surprisingly effective, low cost alternative to the P90.\n
+		A laser pointer module has been attached to this particular gun.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] All collimators for the Picatinny/weaver system.\n
+		%c[d_purple] • %c[ui_gray_2] 5.7x28 Suppressor</text>
+	</string>
+
+	<string id=".7x28">
+		<text>Modified 5.7x28 MP9 Magazine</text>
+	</string>
+	<string id=".7x28_descr">
+		<text>Modified 30-round magazine used in the MP9 for 5.7x28 rounds. They are a lot more fun to dump, than to load.</text>
+	</string>
+
+	<string id="st_mag_mp9_extended_5.7x28">
+		<text>Modified 5.7x28 MP9 Extended Magazine</text>
+	</string>
+	<string id="st_mag_mp9_extended_5.7x28_descr">
+		<text>Modified 40-round magazine used in the MP9 for 5.7x28 rounds. They are a lot more fun to dump, than to load.</text>
+	</string>
+
+</string_table>

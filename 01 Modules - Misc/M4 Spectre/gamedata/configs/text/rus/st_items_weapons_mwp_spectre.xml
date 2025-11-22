@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_spectre">
+		<text>SITES Spectre M4</text>
+	</string>
+	<string id="st_wpn_spectre_descr">
+		<text>Spectre M4 - пистолет-пулемет калибра 9x19 мм, разработанный в 1980-х годах итальянской компанией SITES для использования в контртеррористических и полицейских подразделениях. Он имеет компактную конструкцию и высокую скорострельность. Очень короткий ствол и компактные размеры ставят его в один ряд с таким оружием, как MP5K или Kiparis. Магазины повышенной емкости вмещают 50 патронов калибра 9х19 мм, что позволяет вести длительную стрельбу, несмотря на то, что оружие стреляет очень быстро - 850 выстрелов в минуту. В целом, Spectre - это очень компактный гибрид пистолета-пулемета и пистолета-пулемета, но его мощность и огневая мощь довольно высоки. В Зоне пистолеты-пулеметы Spectre иногда продаются на черном рынке и пользуются популярностью за свою отличную управляемость, малый вес и компактные размеры, что делает их очень хорошим оружием для мусорщиков и охотников за артефактами, которым не нужно боевое оружие, а просто хочется иметь при себе что-то легкое для личной защиты от мутантов и бандитов на близком расстоянии. \n</text>
+	</string>
+
+	<string id="st_mag_spectre_9x19_default">
+		<text>Standard 9x19 Spectre M4 Magazine</text>
+	</string>
+	<string id="st_mag_spectre_9x19_default_descr">
+		<text>30-round quad-stack magazine for the Spectre M4. It employs an unconventional four-column design, meaning that with only a slightly wider frame, it can pack a standard number of rounds in a magazine only as tall as a pack of cigarettes.</text>
+	</string>
+
+	<string id="st_mag_spectre_9x19_casket">
+		<text>Магазин на 50 патронов 9x19 Spectre M4</text>
+	</string>
+	<string id="st_mag_spectre_9x19_casket_descr">
+		<text>
+			Четырехрядный магазин на 50 патронов для Spectre M4. Обладает большой огневой мощью, но очень тяжелый, а наличие четырехрядного магазина затрудняет быструю загрузку патронов.
+		</text>
+	</string>
+
+</string_table>

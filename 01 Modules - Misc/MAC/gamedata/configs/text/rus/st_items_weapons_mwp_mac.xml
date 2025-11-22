@@ -19,4 +19,22 @@
 		%c[d_purple] Х %c[ui_gray_2] глушитель 9 мм </text>
 	</string>
 
+    <string id="st_mag_mac10_11.43x23_fmj">
+		<text>—тандартный магазин .45 ACP MAC 10</text>
+	</string>
+	<string id="st_mag_mac10_11.43x23_fmj_descr">
+		<text>
+            —тандартный магазин дл€ MAC 10 smg. ¬мещает 30 патронов калибра .45 ACP. ѕри высокой скорострельности пистолета они быстро заканчиваютс€.
+		</text>
+	</string>
+
+	<string id="st_mag_mac11_9x19_fmj">
+		<text>—тандартный магазин 9x19 MAC 11</text>
+	</string>
+	<string id="st_mag_mac11_9x19_fmj_descr">
+		<text>
+            ћагазин на 32 патрона дл€ компактного пистолета MAC 11. ѕри высокой скорострельности этого пистолета магазин может закончитьс€ в течение нескольких коротких секунд.
+		</text>
+	</string>
+
 </string_table>
