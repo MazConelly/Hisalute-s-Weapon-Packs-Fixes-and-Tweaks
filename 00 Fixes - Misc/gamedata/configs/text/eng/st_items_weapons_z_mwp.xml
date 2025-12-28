@@ -98,15 +98,22 @@
 	<string id="st_wpn_groza_545">
 		<text>OTs-14-2A Groza</text>
 	</string>
+	<string id="st_wpn_groza_545_s">
+		<text>Groza 2A</text>
+	</string>
 	<string id="st_wpn_groza_545_descr">
-		<text>The OTs-14-2A is an experimental model of the "Groza" bullpup assault rifle, chambered in 5.45x39mm. It was never fully developed due to a preference for the superior performance of 7.62x39mm through the given barrel length. This is a custom zone creation, emulating the experimental variant by meticulously replacing the barrel and allowing the gun to fire the more common 5.45x39mm cartridge. It has also been modified to use the more widely available PSO-1 scope.\n
+		<text>The OTs-14-2A is an experimental model of the "Groza" bullpup assault rifle, chambered in 5.45x39mm. It was never fully developed due to a preference for the superior performance of 7.62x39mm through the given barrel length.\n
+		This is a custom zone creation, emulating the experimental variant by meticulously replacing the barrel and allowing the gun to fire the more common 5.45x39mm cartridge. It has also been modified to use the more widely available PSO-1 scope.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] PSO-1 scope\n
 		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher (integrated)</text>
 	</string>
 
 	<string id="st_wpn_groza_tactical">
-		<text>Groza Tactical</text>
+		<text>OTs-14-4A Groza Tactical</text>
+	</string>
+	<string id="st_wpn_groza_tactical_s">
+		<text>Groza 4A Tactical</text>
 	</string>
 	<string id="st_wpn_groza_tactical_descr">
 		<text>A rare variant of the OTs-14 Groza bullpup rifle, tailored for covert operations within the zone. This weapon features an integrated suppressor and Picatinny rails that facilitate the mounting of a variety of optics, but no longer possesses an integrated grenade launcher. The gun has also been chambered in the common 5.45x39mm cartridge to allow for simpler resupplying over potentially long expeditions. It is the preferred weapon of some military stalkers.\n

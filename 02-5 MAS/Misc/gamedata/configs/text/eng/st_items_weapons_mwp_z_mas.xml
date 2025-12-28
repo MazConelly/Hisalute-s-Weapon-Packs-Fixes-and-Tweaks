@@ -1,6 +1,130 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
 
+<!-- 	<string id="st_wpn_aa12_cust_descr">
+		<text>The AA-12 (Auto Assault-12), originally designed and known as the Atchisson Assault Shotgun, is an automatic combat shotgun developed in 1972 by Maxwell Atchisson. The most prominent feature is its constant recoil system, reducing felt recoil. The current 2005 version has been developed over 18 years since the patent was sold to Military Police Systems, Inc. The original design was the basis of several later weapons, including the USAS-12 combat shotgun. The shotgun fires in fully automatic mode only. However, the relatively low cyclic rate of fire of around 300 rounds per minute enables the shooter to fire semi-automatically de facto with brief trigger pulls. It is fed from either an 8-shell box magazine, or a 20- or 32-shell drum magazine.\n
+		This example includes a low magnification optic, as well as a couple other additional accessories.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] • %c[ui_gray_2] Comes with AC11090 scope\n
+		%c[d_purple] • %c[ui_gray_2] ATG suppressor</text>
+	</string> -->
+
+	<string id="st_wpn_ak_trophy_descr">
+		<text>A legendary weapon, it was previously owned by a legendary stalker who was said to be able to sneak anywhere, through any anomaly field and past any enemy. It is said that the previous owner used this weapon to kill mutants that were more dangerous than anyone else has ever seen.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A suppressor</text>
+	</string>
+
+	<string id="st_wpn_ak47_cheeki_descr">
+		<text>The AK-47 can be described as a hybrid of previous rifle technology. Mikhail Kalashnikov designed this automatic rifle combining the best features of the American M1 and the German StG44. The Kalashnikov is a gas operated 7.62x39 assault rifle and by far the most prolific small arm of the 2nd half of the 20th century. It had been and still is, in more or less modified form, manufactured in dozens of countries and has been used in hundreds of conflicts since its introduction.\n
+		The 100 round magazine attached to this gun has a reputation for being impractical and unreliable, it is most often seen in the hands of those more concerned with showing off than practicality.\n 
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] PBS-4 suppressor</text>
+	</string>
+
+	<string id="st_wpn_ak74u_cool_descr">
+		<text>The AKS-74U was intended for use mainly by Spetsnaz units, airborne infantry, rear-echelon support units and armoured vehicle crews, who require a compact but relatively powerful individual automatic weapon. The AKS-74U is significantly more manoeuvrable in tight quarters than the AKS-74, but a significant decline in muzzle velocity resulted in a decrease in effective range. This is a rare variant, preferred by some of the elites within the zone and found only in their hands. The only way to obtain one of these rifles is to take it from the hands of its previous owner, a status symbol within the Zone.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] Comes with OKP-7 sight\n
+		%c[d_purple] • %c[ui_gray_2] PBS-4 suppressor</text>
+	</string>
+
+	<string id="st_wpn_cbj_descr">
+		<text>Saab CBJ-MS PDW is a Swedish submachine gun designed for personal defence weapon (PDW) role. It is a small and compact submachine gun of modular construction that can be chambered in 9x19mm and 6.5x25mm CBJ ammunition, but ambitious zone technicians have rechambered this particular weapon to 5.7x28mm FN. It is a blowback-operated, selective fire submachine gun which is based on the Israeli Uzi submachine gun. Among it's features is unusual equipment for an SMG such as a bipod, 100-round magazine, frontal grip which can also act like spare magazine housing and an optics rail. The CBJ is relatively lightweight at 2.8kg, but compared to modern PDWs with polymer parts it is heaviest of them all. In The Zone the CBJ is very rare, only a few came with Mercenary squads who use these weapons to improve their firepower.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
+	</string>
+
+<!-- 	<string id="st_wpn_desert_eagle_bigben_descr">
+		<text>A custom form of Desert Eagle, taking a gun that is already powerful and reworking it to fire rifle bullets. How this is accomplished is not known, but these guns are a favorite of certain type of Scientist.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
+	</string> -->
+
+	<string id="st_wpn_g36_heavy_descr">
+        <text>The MG36 is the Light Machine Gun variant of the H&amp;K G36 Assault Rifle. It is fitted with a 100 round Beta C-Mag magazine, a heavy barrel and a bipod, it fires the standard 5.56mm NATO cartridge like the other variants of the G36 family. The MG36E is the export version of the MG36, it lacks the distinctive dual sight, but allows the mounting of alternate optics.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor</text>
+    </string>
+
+<!-- 	<string id="st_wpn_g18c_descr">
+		<text>The Glock 18C is a 9x19mm machine pistol based on the Glock 17, a modern polymer-framed, striker-fired pistol developed in the late 1970s in Austria. It has a fire selector mounted by default which has two positions, semi and full-auto, which, due to non-modified action, fires with extremely high cyclic rate of 1200RPM. The G18C additionally has a ported barrel to act as compensator to reduce muzzle rise in fully-automatic mode. The Glock 18 was adopted by multiple countries' militaries, special forces units and police departments. Glock 18 machine pistols are not available to civilians and are usually much more expensive than standard Glock pistols.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Some small sights may be attached\n
+		%c[d_purple] • %c[ui_gray_2] GemTech suppressor</text>
+	</string> -->
+
+<!-- 	<string id="st_wpn_hpsa_2022_descr">
+		<text>The FN High Power is a 9x19mm pistol from FN Herstal, released in 2022 and representing the first "Browning Hi-Power" produced by FN since Hi-Power production ceased in 2018. The High Power is not a simple Hi-Power clone, featuring multiple improvements such as an increased 17 round capacity, ambidextrous controls, as well as changes preventing hammer bite. These changes, among others have resulted in a lack of parts commonality and magazine incompatibility with older Hi-Powers. Internally the gun differs from the original Hi-Power, though care has been taken to mimic the external appearance.\n
+		While the original owner of this pistol had modifications made to allow for the mounting of an optic, the high cost of this weapon and that process led to the installation of a cheap and rather difficult to use reflex sight.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] • %c[ui_gray_2] Comes with cheap reflex sight\n
+		%c[d_purple] • %c[ui_gray_2] 9x19 compatible suppressor (after modification)</text>
+	</string> -->
+
+	<string id="st_wpn_m4a1_desert_descr">
+		<text>The Mk18 is a special shortened carbine with commando-length barrel for improved handling and lower weight. The Mk18 is in essence an M4A1 carbine outfitted with Close Quarter Battle Receiver (CQBR) - a replacement upper receiver featuring a 10.3" (262mm) barrel. The shorter barrel makes the weapon significantly more compact and easier to use in and around vehicles and tight confined spaces. The Mk18 is praised for its light weight and short dimensions, making it very easy to handle. It has its drawbacks, however. The short barrel provides insufficient velocity for the bullet to display ideal wounding characteristics. Nonetheless, the Mk18 is a very good weapon in its niche and while it lacks universality of 14"-20"-barreled rifles it remains highly effective when used in suitable situations.\n
+		This specific gun has been further specialized for CQC operations, featuring a 60 round quad stack magazine, increased rate of fire, and holographic sight. These features have increased its weight and decreased handling, though the increased firepower more than makes up for the cost.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] • %c[ui_gray_2] Comes with EOTech sight\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor</text>
+	</string>
+
+<!-- 	<string id="st_wpn_remington870_slug_descr">
+		<text>Remington 870 is an American gun, first introduced in 1950 by Remington Arms. Due to its characteristic recharge is one of the most famous pump-action rifles in the world. Produced in various versions, it is suitable for both the military and the police, for hunters and athletes, as well as for self-defense. This 870 has been customized for hunting with slugs, featuring a rifled barrel and a Picatinny rail for small and medium sized optics, allowing for better stabilization and accuracy but precluding the ability to shoot buckshot.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
+	</string> -->
+
+	<string id="st_wpn_saiga_m3_descr">
+		<text>The Saiga semi-automatic rifles are a family of Russian semi-automatic rifles manufactured by Kalashnikov Concern (formerly Izhmash), which also manufactures the original AK-47 and its variants, Saiga-12 shotguns and Dragunov sniper rifle. Saiga rifles are a sport version of the Kalashnikov rifle, and are marketed for hunting and civilian use. This is a custom 5.45 example, fitted with a Picatinny rail, 555mm barrel and automatic firing mechanism.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher (after modification)\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A suppressor</text>
+	</string>
+
+	<string id="st_wpn_spas12_slug_descr">
+		<text>The SPAS-12 is a dual-mode shotgun, designed for combat and anti-riot measures. It is employed by many special military and police units around the world. With its distinctive heat shield and folding stock, the SPAS-12 is an iconic firearm. Notable for its reliability and tactical flexibility. Despite its heavy weight, complex mechanism and considerable cost, it is in demand in the Zone due to its effectiveness against mutants.\n
+		This model has a rifled bore which greatly increases its accuracy when firing slugs. However, using shot is not possible.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
+	</string>
+
+	<string id="st_wpn_spectre_descr">
+		<text>The Spectre M4 is a 9x19mm submachine gun developed in 1980s by Italian manufacturer SITES for use by counter-terrorist and police units. It has a compact design and high rate of fire. Very short barrel and compact size place it close to weapons such as MP5K or Kiparis. High-capacity magazines hold 50 rounds of 9x19mm rounds, which allows for prolonged shooting, even though the weapon shoots very rapidly at 850 rounds per minute. Overally, the Spectre is a very compact submachine gun/machine pistol hybrid, but it's capacity and firepower is pretty high. In The Zone, Spectre submachine guns are sometimes available on black market and are well liked for their great handling, low weight and compact size, making it very good weapon for scavengers and artifact hunters who don't need a fighting weapon and just want something light to carry on them for personal defense from mutants and bandits at close range.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
+	</string>
+
+	<string id="st_wpn_svd_ghillie_descr">
+		<text>Originally intended for designated marksmen in every basic Soviet infantry unit, the Dragunov SVD was not designed for specialised sniper teams. Relatively light for a sniper rifle but well-balanced and having semiautomatic fire, its precision is good but not exceptional. It has an effective range of up to 800 metres.\n
+		This model has had ghillie camouflage attached, making harder to locate and identify the user.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount</text>
+	</string>
+
+	<string id="st_wpn_svdk_descr">
+		<text>The SVDK is a Russian precision rifle from the SVD rifle family originally chambered for the 9.3x64mm 7N33 cartridge. It was created to deal with targets which are too hard for standard 7.62x54mmR sniper rifles like SV-98 or SVD, such as assault troops in heavy body armor or enemy snipers behind cover. This is an experimental model, chambered in .338 Lapua Magnum in order to improve its efficiency against long range targets. It borrows some aspects from the SVCh-8.6, another SVD derived modern sniper rifle, also firing .338 Lapua Magnum.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] KZRZP suppressor</text>
+	</string>
+
+	<string id="st_wpn_vbr_descr">
+		<text>The VBR-PDW is a double-action personal defense weapon chambered for 7.92?24mm rounds, designed and manufactured by VBR-Belgium. It is a select-fire weapon with a retractable buttstock and integrated foregrip. It also has three in-built sights; iron sights, as well as two flip-up aperture sights. It can also be chambered in 9x19mm Parabellum. The weapon takes standard double-stacked Glock magazines. This gun has been rechambered to 5.7x28mm, providing an alternative to the FN Five-seveN.\n 
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] • %c[ui_gray_2] 5.7x28 compatible suppressor</text>
+	</string>
+
 	<string id="st_wpn_vepr_ar_descr">
 		<text>The Vepr was the first indigenous Ukranian assault rifle, it was announced in 2003 and designed by the State Space Agency of Ukraine. It was made to replace the AKM and AK-74 in Ukranian service and was proclaimed to possess revolutionary upgrades over the AK-74. Practically, the rifle is a bullpup conversion of the AKM and boasts similar performance to the AK-74M. The bullpup configuration results in a more compact rifle, however this comes with ergonomical drawbacks and a heavy trigger pull. While it never saw widespread use, limited numbers found their way into the hands of servicemen and are a rare sight in the Zone.\n
 		A few of these rifles were also converted to the 7.62x39mm cartridge, accepting standard AKM magazines.\n
@@ -20,191 +144,6 @@
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n
 		%c[d_purple] • %c[ui_gray_2] PBS-1 suppressor</text>
-	</string>
-
-	<string id="st_wpn_cbj_descr">
-		<text>Saab CBJ-MS PDW is a Swedish submachine gun designed for personal defence weapon (PDW) role. It is a small and compact submachine gun of modular construction that can be chambered in 9x19mm and 6.5x25mm CBJ ammunition, but ambitious zone technicians have rechambered this particular weapon to 5.7x28mm FN. It is a blowback-operated, selective fire submachine gun which is based on the Israeli Uzi submachine gun. Among it's features is unusual equipment for an SMG such as a bipod, 100-round magazine, frontal grip which can also act like spare magazine housing and an optics rail. The CBJ is relatively lightweight at 2.8kg, but compared to modern PDWs with polymer parts it is heaviest of them all. In The Zone the CBJ is very rare, only a few came with Mercenary squads who use these weapons to improve their firepower.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
-	</string>
-
-	<string id="st_wpn_spectre_descr">
-		<text>The Spectre M4 is a 9x19mm submachine gun developed in 1980s by Italian manufacturer SITES for use by counter-terrorist and police units. It has a compact design and high rate of fire. Very short barrel and compact size place it close to weapons such as MP5K or Kiparis. High-capacity magazines hold 50 rounds of 9x19mm rounds, which allows for prolonged shooting, even though the weapon shoots very rapidly at 850 rounds per minute. Overally, the Spectre is a very compact submachine gun/machine pistol hybrid, but it's capacity and firepower is pretty high. In The Zone, Spectre submachine guns are sometimes available on black market and are well liked for their great handling, low weight and compact size, making it very good weapon for scavengers and artifact hunters who don't need a fighting weapon and just want something light to carry on them for personal defense from mutants and bandits at close range.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
-	</string>
-
-	<string id="st_wpn_mp9_57_descr">
-		<text>The MP9 is a compact and versatile selective-fire submachine gun renowned for its reliability and ergonomic design by Brugger and Thomet, as a development of the Steyr TMP. It has gained popularity as a reliable firearm in military and law enforcement circles. It is made of polymer and also corrosion-resistant, with a stock that folds to the right side of the weapon, and an integrated Picatinny rail. Its design and ease of operability allows the user to holster the weapon like a machine pistol or personal defense weapon for rapid deployment in self-defence.\n
-		The MP9-N is a further refined variant, firing at an increased fire rate. It is effective as PDW or for concealed carry for security and bodyguards.\n
-		To augment its role as a PDW, certain technicians with more skill than sense have converted some of these guns to 5.7x28. The result is a surprisingly effective, low cost alternative to the P90.\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] 5.7x28 compatible suppressor</text>
-	</string>
-	<string id="st_wpn_mp9_57_tac_descr">
-		<text>The MP9 is a compact and versatile selective-fire submachine gun renowned for its reliability and ergonomic design by Brugger and Thomet, as a development of the Steyr TMP. It has gained popularity as a reliable firearm in military and law enforcement circles. It is made of polymer and also corrosion-resistant, with a stock that folds to the right side of the weapon, and an integrated Picatinny rail. Its design and ease of operability allows the user to holster the weapon like a machine pistol or personal defense weapon for rapid deployment in self-defence.\n
-		The MP9-N is a further refined variant, firing at an increased fire rate. It is effective as PDW or for concealed carry for security and bodyguards.\n
-		To augment its role as a PDW, certain technicians with more skill than sense have converted some of these guns to 5.7x28. The result is a surprisingly effective, low cost alternative to the P90.\n
-		A laser pointer module has been attached to this particular gun.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] 5.7x28 Suppressor</text>
-	</string>
-	<string id="st_wpn_mp9_n_descr">
-		<text>The MP9 is a compact and versatile selective-fire submachine gun renowned for its reliability and ergonomic design by Brugger and Thomet, as a development of the Steyr TMP. It has gained popularity as a reliable firearm in military and law enforcement circles. It is made of polymer and also corrosion-resistant, with a stock that folds to the right side of the weapon, and an integrated Picatinny rail. Its design and ease of operability allows the user to holster the weapon like a machine pistol or personal defense weapon for rapid deployment in self-defence.\n
-		The MP9-N is a further refined variant, firing at an increased fire rate. It is effective as PDW or for concealed carry for security and bodyguards.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] Rifle Dynamics ISG Sound Suppressor</text>
-	</string>
-	<string id="st_wpn_mp9_j_descr">
-		<text>The MP9 is a compact and versatile selective-fire submachine gun renowned for its reliability and ergonomic design by Brugger and Thomet, as a development of the Steyr TMP. It has gained popularity as a reliable firearm in military and law enforcement circles. It is made of polymer and also corrosion-resistant, with a stock that folds to the right side of the weapon, and an integrated Picatinny rail. Its design and ease of operability allows the user to holster the weapon like a machine pistol or personal defense weapon for rapid deployment in self-defence.\n
-		The MP9-N is a further refined variant, firing at an increased fire rate. It is effective as PDW or for concealed carry for security and bodyguards.\n
-		A laser pointer module has been attached to this particular gun.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] Rifle Dynamics ISG Sound Suppressor</text>
-	</string>
-
-	<string id="st_wpn_m4a1_desert_descr">
-		<text>The Mk18 is a special shortened carbine with commando-length barrel for improved handling and lower weight. The Mk18 is in essence an M4A1 carbine outfitted with Close Quarter Battle Receiver (CQBR) - a replacement upper receiver featuring a 10.3" (262mm) barrel. The shorter barrel makes the weapon significantly more compact and easier to use in and around vehicles and tight confined spaces. The Mk18 is praised for its light weight and short dimensions, making it very easy to handle. It has its drawbacks, however. The short barrel provides insufficient velocity for the bullet to display ideal wounding characteristics. Nonetheless, the Mk18 is a very good weapon in its niche and while it lacks universality of 14"-20"-barreled rifles it remains highly effective when used in suitable situations.\n
-		This specific gun has been further specialized for CQC operations, featuring a 60 round quad stack magazine, increased rate of fire, and holographic sight. These features have increased its weight and decreased handling, though the increased firepower more than makes up for the cost.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] Comes with EOTech sight\n
-		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor</text>
-	</string>
-
-	<string id="st_wpn_vbr_descr">
-		<text>The VBR-PDW is a double-action personal defense weapon chambered for 7.92?24mm rounds, designed and manufactured by VBR-Belgium. It is a select-fire weapon with a retractable buttstock and integrated foregrip. It also has three in-built sights; iron sights, as well as two flip-up aperture sights. It can also be chambered in 9x19mm Parabellum. The weapon takes standard double-stacked Glock magazines. This gun has been rechambered to 5.7x28mm, providing an alternative to the FN Five-seveN.\n 
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] 5.7x28 compatible suppressor</text>
-	</string>
-
-<!-- 	<string id="st_wpn_g18c_descr">
-		<text>The Glock 18C is a 9x19mm machine pistol based on the Glock 17, a modern polymer-framed, striker-fired pistol developed in the late 1970s in Austria. It has a fire selector mounted by default which has two positions, semi and full-auto, which, due to non-modified action, fires with extremely high cyclic rate of 1200RPM. The G18C additionally has a ported barrel to act as compensator to reduce muzzle rise in fully-automatic mode. The Glock 18 was adopted by multiple countries' militaries, special forces units and police departments. Glock 18 machine pistols are not available to civilians and are usually much more expensive than standard Glock pistols.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Some small sights may be attached\n
-		%c[d_purple] • %c[ui_gray_2] GemTech suppressor</text>
-	</string> -->
-
-<!-- 	<string id="st_wpn_remington870_slug_descr">
-		<text>Remington 870 is an American gun, first introduced in 1950 by Remington Arms. Due to its characteristic recharge is one of the most famous pump-action rifles in the world. Produced in various versions, it is suitable for both the military and the police, for hunters and athletes, as well as for self-defense. This 870 has been customized for hunting with slugs, featuring a rifled barrel and a Picatinny rail for small and medium sized optics, allowing for better stabilization and accuracy but precluding the ability to shoot buckshot.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
-	</string> -->
-
-	<string id="st_wpn_saiga_bp_descr">
-		<text>This is a custon bullpup configuration shotgun, derived from a Saiga-12S. This gun originated as some gunsmith's personal project, how it got into the Zone is anyone's guess. Several modifications were made, including the relocation of the charging handle to the left side of the receiver. As a result of these modifications, this gun features slightly improved accuracy and less felt recoil than a conventional Saiga, though its cyclic rate has beeen reduced as a result. Its small size also improves its suitability to close quarters operations, though the bullpup configuration may feel awkward to some.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] Comes with PBS-1 sight</text>
-	</string>
-
-	<string id="st_wpn_ak74u_cool_descr">
-		<text>The AKS-74U was intended for use mainly by Spetsnaz units, airborne infantry, rear-echelon support units and armoured vehicle crews, who require a compact but relatively powerful individual automatic weapon. The AKS-74U is significantly more manoeuvrable in tight quarters than the AKS-74, but a significant decline in muzzle velocity resulted in a decrease in effective range. This is a rare variant, preferred by some of the elites within the zone and found only in their hands. The only way to obtain one of these rifles is to take it from the hands of its previous owner, a status symbol within the Zone.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n
-		%c[d_purple] • %c[ui_gray_2] Comes with OKP-7 sight\n
-		%c[d_purple] • %c[ui_gray_2] PBS-4 suppressor</text>
-	</string>
-
-	<string id="st_wpn_hk51_descr">
-		<text>The HK51 is a shortened variant of G3 battle rifle. Contrary to popular belief, it was not developed by Heckler and Koch, but Fleming Arms for British Special Forces. The HK51's short size improves handling but reduces reliability and makes the rifle more prone to overheating. The short barrel also results in a brighter muzzle flash and louder sound signature, together with increased recoil, which is already pretty high due to powerful 7.62x51mm round. The round also loses some muzzle velocity, lowering its power. The HK51 got adopted by SAS and SBS, but because of its faults it was withdrawn following the introduction of HK53 carbines using 5.56x45mm rounds that were more suitable for commando-length (~9-12.5" barrel) carbines. HK51 was later introduced into free market in semi-automatic variant, made from HK91 rifles (a civilian semi-auto variant of G3) and adapted to use MP5 furniture.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor</text>
-	</string>
-
-<!-- 	<string id="st_wpn_desert_eagle_bigben_descr">
-		<text>A custom form of Desert Eagle, taking a gun that is already powerful and reworking it to fire rifle bullets. How this is accomplished is not known, but these guns are a favorite of certain type of Scientist.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
-	</string> -->
-
-<!-- 	<string id="st_wpn_aa12_cust_descr">
-		<text>The AA-12 (Auto Assault-12), originally designed and known as the Atchisson Assault Shotgun, is an automatic combat shotgun developed in 1972 by Maxwell Atchisson. The most prominent feature is its constant recoil system, reducing felt recoil. The current 2005 version has been developed over 18 years since the patent was sold to Military Police Systems, Inc. The original design was the basis of several later weapons, including the USAS-12 combat shotgun. The shotgun fires in fully automatic mode only. However, the relatively low cyclic rate of fire of around 300 rounds per minute enables the shooter to fire semi-automatically de facto with brief trigger pulls. It is fed from either an 8-shell box magazine, or a 20- or 32-shell drum magazine.\n
-		This example includes a low magnification optic, as well as a couple other additional accessories.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] Comes with AC11090 scope\n
-		%c[d_purple] • %c[ui_gray_2] ATG suppressor</text>
-	</string> -->
-
-	<string id="st_wpn_g36_heavy_descr">
-        <text>The MG36 is the Light Machine Gun variant of the H&amp;K G36 Assault Rifle. It is fitted with a 100 round Beta C-Mag magazine, a heavy barrel and a bipod, it fires the standard 5.56mm NATO cartridge like the other variants of the G36 family. The MG36E is the export version of the MG36, it lacks the distinctive dual sight, but allows the mounting of alternate optics.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor</text>
-    </string>
-
-	<string id="st_wpn_svd_ghillie_descr">
-		<text>Originally intended for designated marksmen in every basic Soviet infantry unit, the Dragunov SVD was not designed for specialised sniper teams. Relatively light for a sniper rifle but well-balanced and having semiautomatic fire, its precision is good but not exceptional. It has an effective range of up to 800 metres.\n
-		This model has had ghillie camouflage attached, making harder to locate and identify the user.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount</text>
-	</string>
-
-	<string id="st_wpn_svdk_descr">
-		<text>The SVDK is a Russian precision rifle from the SVD rifle family originally chambered for the 9.3x64mm 7N33 cartridge. It was created to deal with targets which are too hard for standard 7.62x54mmR sniper rifles like SV-98 or SVD, such as assault troops in heavy body armor or enemy snipers behind cover. This is an experimental model, chambered in .338 Lapua Magnum in order to improve its efficiency against long range targets. It borrows some aspects from the SVCh-8.6, another SVD derived modern sniper rifle, also firing .338 Lapua Magnum.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n
-		%c[d_purple] • %c[ui_gray_2] KZRZP suppressor</text>
-	</string>
-
-<!-- 	<string id="st_wpn_hpsa_2022_descr">
-		<text>The FN High Power is a 9x19mm pistol from FN Herstal, released in 2022 and representing the first "Browning Hi-Power" produced by FN since Hi-Power production ceased in 2018. The High Power is not a simple Hi-Power clone, featuring multiple improvements such as an increased 17 round capacity, ambidextrous controls, as well as changes preventing hammer bite. These changes, among others have resulted in a lack of parts commonality and magazine incompatibility with older Hi-Powers. Internally the gun differs from the original Hi-Power, though care has been taken to mimic the external appearance.\n
-		While the original owner of this pistol had modifications made to allow for the mounting of an optic, the high cost of this weapon and that process led to the installation of a cheap and rather difficult to use reflex sight.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] Comes with cheap reflex sight\n
-		%c[d_purple] • %c[ui_gray_2] 9x19 compatible suppressor (after modification)</text>
-	</string> -->
-
-	<string id="st_wpn_spas12_slug_descr">
-		<text>The SPAS-12 is a dual-mode shotgun, designed for combat and anti-riot measures. It is employed by many special military and police units around the world. With its distinctive heat shield and folding stock, the SPAS-12 is an iconic firearm. Notable for its reliability and tactical flexibility. Despite its heavy weight, complex mechanism and considerable cost, it is in demand in the Zone due to its effectiveness against mutants.\n
-		This model has a rifled bore which greatly increases its accuracy when firing slugs. However, using shot is not possible.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
-	</string>
-
-	<string id="st_wpn_scar_l_descr">
-		<text>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for SOCOM to satisfy the requirements of the SCAR competition. This family of rifle consist of two types, the SCAR-H and SCAR-L. The SCAR-L (Light) is chambered in 5.56x45mm NATO cartridge.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor</text>
-	</string>
-
-	<string id="st_wpn_ak47_cheeki_descr">
-		<text>The AK-47 can be described as a hybrid of previous rifle technology. Mikhail Kalashnikov designed this automatic rifle combining the best features of the American M1 and the German StG44. The Kalashnikov is a gas operated 7.62x39 assault rifle and by far the most prolific small arm of the 2nd half of the 20th century. It had been and still is, in more or less modified form, manufactured in dozens of countries and has been used in hundreds of conflicts since its introduction.\n
-		The 100 round magazine attached to this gun has a reputation for being impractical and unreliable, it is most often seen in the hands of those more concerned with showing off than practicality.\n 
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n
-		%c[d_purple] • %c[ui_gray_2] PBS-4 suppressor</text>
-	</string>
-
-	<string id="st_wpn_saiga_m3_descr">
-		<text>The Saiga semi-automatic rifles are a family of Russian semi-automatic rifles manufactured by Kalashnikov Concern (formerly Izhmash), which also manufactures the original AK-47 and its variants, Saiga-12 shotguns and Dragunov sniper rifle. Saiga rifles are a sport version of the Kalashnikov rifle, and are marketed for hunting and civilian use. This is a custom 5.45 example, fitted with a Picatinny rail, 555mm barrel and automatic firing mechanism.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher (after modification)\n
-		%c[d_purple] • %c[ui_gray_2] TGP-A suppressor</text>
-	</string>
-
-	<string id="st_wpn_ak_trophy_descr">
-		<text>A legendary weapon, it was previously owned by a legendary stalker who was said to be able to sneak anywhere, through any anomaly field and past any enemy. It is said that the previous owner used this weapon to kill mutants that were more dangerous than anyone else has ever seen.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n
-		%c[d_purple] • %c[ui_gray_2] TGP-A suppressor</text>
-	</string>
-
-	<string id="st_wpn_mk48_descr">
-		<text>The Mk 48 (Mark 48), or Maximi is a lightweight belt-fed machine gun, firing 7.62x51mm NATO cartridges from a disintegrating belt of ammunition. It is manufactured by Fabrique Nationale Manufacturing, Inc., a division of FN Herstal based in the United States. The Mk 48 has been developed in conjunction with the U.S. Special Operations Command (USSOCOM), which has adopted the weapon and started its fielding process, beginning with special operations units. The design is based on an early 7.62x51mm NATO prototype of the FN Minimi - Maximi, modified to be a scaled-up version of the 5.56 mm Mk 46 Mod 0. Compared to older M60 and M240 based designs, the MK48 provides increased portability, though with slightly decreased performance. Receiver lifespan is only half that of the M240B, though reliability is still higher than the M60.\n
-		This gun is also equipped with a lighter paratrooper style stock.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
-		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor</text>
 	</string>
 
 </string_table>

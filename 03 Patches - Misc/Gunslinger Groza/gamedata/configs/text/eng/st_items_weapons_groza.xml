@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_guns_groza">
+		<text>OTs-14-4A Groza</text>
+	</string>
+	<string id="st_wpn_guns_groza_s">
+		<text>Groza 4A</text>
+	</string>
+	<string id="st_wpn_groza_guns_descr">
+		<text>The OTs-14-4A "Groza-4" ('Storm') is a Russian selective fire bullpup assault rifle with a grenade launcher, chambered for the 9?39mm subsonic cartridge. The OTs-14 Groza line was developed in the 1990s at the Central Design and Research Bureau of Sporting and Hunting Arms. It saw limited use in the Second Chechen War and Russo-Georgian War, and later by Russian police.\n
+		Highly valued by the military and stalkers due to its ability to reliably hit both armored and sheltered enemies. It can be assembled in 4 different configurations, depending on the combat mission.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] scope PO4o34\n
+		%c[d_purple] • %c[ui_gray_2] GP-25 under-barrel grenade launcher\n \n</text>
+	</string>
+
+	<string id="st_wpn_groza_guns_nimble">
+		<text>OTs-14-1A-01 Groza-1</text>
+	</string>
+	<string id="st_wpn_groza_guns_nimble_s">
+		<text>Groza 1A-01</text>
+	</string>
+	<string id="st_wpn_groza_guns_nimble_descr">
+		<text>The OTs-14-1A is a Groza model chambered in 7.62?39mm, using the same magazines and parts as the AK-47 & AKM assault rifles, with more hitting power and range than the subsonic version and using cheaper ammunition readily available from supplies. It was later adopted by the Army in 1998 for its Airborne, Combat Engineering, and Spetsnaz troops, but its funding was later cancelled.\n
+		This is a OTs-14-1A-01 carbine Variant with a short barrel and a vertical foregrip, which acts to stabilize the weapon when used in full auto. The foregrip is also used to act as a flash hider.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] scope PO4o34, Night Sight PN-23, ELCAN SpecterDR, Acog, Barsca AC10632, Cobra 8-18, Aimpoint PRO, March Tactical 3-24x42 FFP, OKP-7, AimpointMicro, Aimpoint, C-More, Aimpoint CompM4s, Docter, Deltapoint Pro, Eotech, Eotech 553, Kemper, Meprolight, Rakurs, RMR\n</text>
+	</string>
+</string_table>
