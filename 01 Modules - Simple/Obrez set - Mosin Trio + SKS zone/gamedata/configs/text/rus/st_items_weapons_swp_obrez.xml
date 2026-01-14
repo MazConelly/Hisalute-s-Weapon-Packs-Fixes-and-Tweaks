@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_wpn_avt40">
+		<text>ABT-40</text>
+	</string>
+	<string id="st_wpn_avt40_descr">
+		<text>АВТ-40 - советская автоматическая винтовка, созданная на базе СВТ-40. Она была разработана в связи с нехваткой пулеметов, но повышенная нагрузка при автоматическом огне часто приводила к поломкам. Производство было относительно недолгим, после лета 1943 года не было выпущено ни одного автомата. \n \n
+		%c[ui_gray_2]НАВЕСНОЕ ОБОРУДОВАНИЕ: \n
+		%c[d_purple]• %c[ui_gray_2] прицел ПУ специальный\n \n</text>
+	</string>
+
+	<string id="st_wpn_avt40_short">
+		<text>Обрез ABT-40</text>
+	</string>
+	<string id="st_wpn_avt40_descr">
+		<text>АВТ-40 - советская автоматическая винтовка, созданная на базе СВТ-40. Она была разработана в связи с нехваткой пулеметов, но повышенная нагрузка при автоматическом огне часто приводила к поломкам. Производство было относительно недолгим, после лета 1943 года не было выпущено ни одного автомата. Ствол этой винтовки был укорочен, что позволяет использовать ее в качестве пистолета, газоотводная трубка также была отрегулирована для поддержания автоматики. В результате укороченного ствола значительно снижается точность и дульная скорость. \n \n</text>
+	</string>
+
+<!--     <string id="st_wpn_mosin_short">
+		<text>Обрез Винтовка Мосина</text>
+	</string>
+	<string id="st_wpn_mosin_short_descr">
+		<text>Слегка потёртая винтовка Мосина. 7,62-мм винтовка Мосина обр. 1891/30 производилась в период с 1930 по 1945 годы как стандартное оружие советской пехоты. Также она успешно применялась во время Великой Отечественной войны в роли снайперской с установленным 4-кратным оптическим прицелом ПЕ или 3.5-кратным ПУ. Из-за обилия этих винтовок и относительного дефицита пистолетов, обрезанные Мосин-Наганты часто использовались теми, кому требовалось небольшое, скрытое оружие. Укороченный ствол приводит к значительному снижению точности и дульной скорости. \n \n </text>
+	</string> -->
+
+	<string id="st_wpn_sks_short">
+		<text>Обрез СКС-45</text>
+	</string>
+	<string id="st_wpn_sks_short_descr">
+		<text>Советский самозарядный карабин конструкции Сергея Симонова принят на вооружение в 1949 году. Заменённый в начале 1950-х годов на переднем крае войсковой службы автоматом АК, он остался в запасе на десятилетия и до сих пор используется в качестве парадно-церемониального оружия. Ствол винтовки укорочен, что позволяет использовать ее в качестве пистолета, газоотводная трубка также была отрегулирована для поддержания полуавтоматического режима. В результате укороченного ствола значительно снижается точность и дульная скорость. \n \n</text>
+	</string>
+
+	<string id="st_wpn_svt40_short">
+		<text>Обрез СВТ-40</text>
+	</string>
+	<string id="st_wpn_svt40_short_descr">
+		<text>7,62-мм самозарядная винтовка системы Токарева образца 1940 годов, была принята на вооружение РККА на смену 7,62-мм снайперской винтовке образца 1891/30 гг. в 1940 году. Винтовка работает по принципу отвода газов из канала ствола с коротким ходом газового поршня. Запирание осуществляется перекосом затвора в вертикальной плоскости. Ложа составная. Ударно-спусковой механизм - курковый. Предохранитель блокирует спусковой крючок. Снайперские винтовки СВТ-40 использовались, в основном, для стрельбы по удалённым целям, появляющимся в поле зрения снайпера на короткий срок. Ствол винтовки укорочен, что позволяет использовать ее в качестве пистолета, газоотводная трубка также была отрегулирована для поддержания полуавтоматического режима. В результате укороченного ствола значительно снижается точность и дульная скорость.\n \n </text>
+	</string>
+
+
+<!-- Armor modkits changes for vanilla guns -->
+
+	<string id="st_wpn_mosin_descr">
+		<text>The "Russian 3-line" rifle is a very well-known rifle of the Second World War. This model is a basic version of the Mosin with a gently worn action. The M1891/30 was produced for standard issue to all Soviet infantry from 1930 to 1945. It was extremely successful in the war as a sniper rifle when it was equipped with a 4x PE or a 3.5x PU scope. Now very common in the Zone due to its ubiquitous nature within Eastern Europe.\n
+		%c[ui_gray_2]ATTACHMENTS:\n%c[d_purple]• %c[ui_gray_2] PU scope\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith modification kit</text>
+	</string>
+
+	<string id="st_wpn_sks_descr">
+		<text>The SKS, designed by S. G. Simonov is one of the first weapons chambered for the 7.62x39mm round. Replaced in Soviet front-line service by the AK-47 in the early 1950s, it remained in second-line service for decades and is still used as a ceremonial arm today.\n
+		%c[ui_gray_2]ATTACHMENTS:\n%c[d_purple]• %c[ui_gray_2] PU scope\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith, and Replacement modification kits\n
+		%c[d_purple] • %c[ui_gray_2] Modern: Gunsmith modification kit</text>
+	</string>
+
+	<string id="st_wpn_svt40_descr">
+		<text>The SVT-40 is a surplus semi-automatic rifle designed by F. V. Tokarev, chambered in the 7.62x54mmR round. It saw widespread use in the Red Army and Wehrmacht during WWII.\n
+		%c[ui_gray_2]ATTACHMENTS:\n%c[d_purple]• %c[ui_gray_2] PU special scope\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith, and Replacement modification kits\n
+		%c[d_purple] • %c[ui_gray_2] Modern: Gunsmith modification kit</text>
+	</string>
+
+</string_table>

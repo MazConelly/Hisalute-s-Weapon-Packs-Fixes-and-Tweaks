@@ -1,0 +1,75 @@
+; [wpn_mosin_short]:wpn_mosin
+; $spawn                  	= "weapons\mosin_short"
+; parent_section          	= wpn_mosin_short
+
+; slot                    	= 1
+; animation_slot          	= 1
+; single_handed           	= 1
+
+; icons_texture               = ui\ui_icon_swp
+; inv_grid_width    			= 3
+; inv_grid_x        			= 0
+; inv_grid_y        			= 18
+; inv_name					= st_wpn_mosin_short
+; inv_name_short				= st_wpn_mosin_short
+; description					= st_wpn_mosin_short_descr
+
+; kind                        = w_pistol
+; inv_weight					= 2.3
+; cost              	 		= 11560
+
+; hud                     	= wpn_mosin_short_hud
+; visual                  	= dynamics\weapons\wpn_mosin\wpn_mosin_short.ogf
+; position                	= -0.026, -0.107, 0.00
+; shell_particles	 			= weapons\762x54
+
+; scopes_sect                 = scope_mosin_short
+; scope_status            	= 0;2
+; hit_power					= 0.86, 0.86, 0.86, 0.86
+; fire_distance				= 500
+; bullet_speed				= 645
+
+; time_to_aim					= 1.0
+; ;zoom_dof					= 0.5, 1.0, 350
+; control_inertion_factor		= 1.78f
+; fire_dispersion_base		= 0.82
+
+; misfire_start_condition		= 0.75
+; misfire_start_prob          = 0.03
+; misfire_end_condition		= 0.25
+; misfire_end_prob            = 0.1
+
+; condition_queue_shot_dec	= 0.0045
+; condition_shot_dec      	= 0.0045
+
+; cam_dispersion          	= 5
+; cam_dispersion_inc			= 5
+; cam_step_angle_horz			= 2.04
+
+; [wpn_mosin_short_hud]:wpn_mosin_hud
+; item_visual	= dynamics\weapons\wpn_mosin\wpn_mosin_short_hud.ogf
+
+
+; hands_position		    = -0.051500,-0.203490,0.077000
+; hands_position_16x9		= -0.051500,-0.203490,0.077000
+; hands_orientation	    = 2.799999,4.249998,0.000000
+; hands_orientation_16x9	= 2.799999,4.249998,0.000000
+
+; aim_hud_offset_pos	    = -0.107,0.117000,-0.114500
+; aim_hud_offset_pos_16x9	= -0.107,0.117000,-0.114500
+; aim_hud_offset_rot	    = 0.071500,0.050000,0.000000
+; aim_hud_offset_rot_16x9	= 0.071500,0.050000,0.000000
+
+; lowered_hud_offset_pos		= 0,0.1,0
+; lowered_hud_offset_pos_16x9	= 0,0.1,0
+; lowered_hud_offset_rot		= 0.3,-0.1,0.1
+; lowered_hud_offset_rot_16x9	= 0.3,-0.1,0.1
+
+; ;anm_bore		= m1891_idle_bore
+
+; fire_point	= 0,0.07204,0.42
+
+; [scope_mosin_short]
+; scope_name	= wpn_addon_scope_pu
+; scope_x		= 31
+; scope_y		= -23

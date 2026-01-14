@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_wpn_avt40">
+		<text>AVT-40</text>
+	</string>
+	<string id="st_wpn_avt40_descr">
+		<text>The AVT-40 is a Soviet automatic rifle developed from the SVT-40. It was developed due to a shortage of machine guns, but the increased strain of automatic fire often caused breakages. Production was relatively brief, none were made after the summer of 1943.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple]• %c[ui_gray_2] PU special scope
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith modification kit</text>
+	</string>
+
+	<string id="st_wpn_avt40_short">
+		<text>AVT-40 (sawn-off)</text>
+	</string>
+	<string id="st_wpn_avt40_short_descr">
+		<text>The AVT-40 is a Soviet automatic rifle developed from the SVT-40. It was developed due to a shortage of machine guns, but the increased strain of automatic fire often caused breakages. Production was relatively brief, none were made after the summer of 1943. This rifle has had its barrel shortened, allowing it to act as a pistol, the gas tube has also been adjusted to maintain automatic operation. The shortened barrel results in greatly decreased accuracy and muzzle velocity.</text>
+	</string>
+
+<!--     <string id="st_wpn_mosin_short">
+		<text>Mosin-Nagant (sawn-off)</text>
+	</string>
+	<string id="st_wpn_mosin_short_descr">
+		<text>A basic version of the Mosin-Nagant with slightly worn interiors. The M1891/30 was produced for standard issue to all Soviet infantry from 1930 to 1945. It was extremely successful in World War II as a sniper rifle when it was equipped with a 4x PE or a 3.5x PU scope. Due to an abundance of these rifles and a relative scarcity of pistols, sawn-off Mosin-Nagants were often used by those who needed a small, concealable weapon. The shortened barrel results in greatly decreased accuracy and muzzle velocity.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Replacement modification kit</text>
+	</string> -->
+
+    <string id="st_wpn_sks_short">
+		<text>SKS (sawn-off)</text>
+	</string>
+	<string id="st_wpn_sks_short_descr">
+		<text>The SKS is one of the first weapons chambered for the 7.62x39mm round. Replaced in Soviet front-line service by the AK-47 in the early 1950s, it remained in second-line service for decades and is still used as a ceremonial arm today. This rifle has had its barrel shortened, allowing it to act as a pistol, the gas tube has also been adjusted to maintain semi-automatic operation. The shortened barrel results in greatly decreased accuracy and muzzle velocity.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Replacement modification kit</text>
+	</string>
+
+	<string id="st_wpn_svt40_short">
+		<text>SVT-40 (sawn-off)</text>
+	</string>
+	<string id="st_wpn_svt40_short_descr">
+		<text>The SVT-40 is a surplus semi-automatic rifle chambered in the 7.62x54mmR round. It saw widespread use in the Red Army and Wehrmacht during WWII. This rifle has had its barrel shortened, allowing it to act as a pistol, the gas tube has also been adjusted to maintain semi-automatic operation. The shortened barrel results in greatly decreased accuracy and muzzle velocity.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Replacement modification kit</text>
+	</string>
+
+<!-- Armor modkits changes for vanilla guns -->
+
+
+	<string id="st_wpn_mosin_descr">
+		<text>The "Russian 3-line" rifle is a very well-known rifle of the Second World War. This model is a basic version of the Mosin with a gently worn action. The M1891/30 was produced for standard issue to all Soviet infantry from 1930 to 1945. It was extremely successful in the war as a sniper rifle when it was equipped with a 4x PE or a 3.5x PU scope. Now very common in the Zone due to its ubiquitous nature within Eastern Europe.\n
+		%c[ui_gray_2]ATTACHMENTS:\n%c[d_purple]• %c[ui_gray_2] PU scope\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith modification kit</text>
+	</string>
+
+	<string id="st_wpn_sks_descr">
+		<text>The SKS, designed by S. G. Simonov is one of the first weapons chambered for the 7.62x39mm round. Replaced in Soviet front-line service by the AK-47 in the early 1950s, it remained in second-line service for decades and is still used as a ceremonial arm today.\n
+		%c[ui_gray_2]ATTACHMENTS:\n%c[d_purple]• %c[ui_gray_2] PU scope\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith, and Replacement modification kits\n
+		%c[d_purple] • %c[ui_gray_2] Modern: Gunsmith modification kit</text>
+	</string>
+
+	<string id="st_wpn_svt40_descr">
+		<text>The SVT-40 is a surplus semi-automatic rifle designed by F. V. Tokarev, chambered in the 7.62x54mmR round. It saw widespread use in the Red Army and Wehrmacht during WWII.\n
+		%c[ui_gray_2]ATTACHMENTS:\n%c[d_purple]• %c[ui_gray_2] PU special scope\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith, and Replacement modification kits\n
+		%c[d_purple] • %c[ui_gray_2] Modern: Gunsmith modification kit</text>
+	</string>
+
+</string_table>

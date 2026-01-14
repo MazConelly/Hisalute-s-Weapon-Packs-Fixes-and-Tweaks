@@ -1,0 +1,109 @@
+!![scope_avt_short]
+!![scope_mosin_short]
+!![scope_sks_short]
+!![scope_svt_short]
+
+![wpn_mosin_short]
+!scopes_sect
+scopes = pu
+scope_status = 0
+
+[wpn_mosin_short_pu]:wpn_mosin_short
+$spawn			= "weapons\mosin_short_pu"
+parent_section	= wpn_mosin_short_pu
+
+1icon_layer		= pu
+1icon_layer_x	= 68
+1icon_layer_y	= -18
+
+inv_weight		= 2.5
+
+hud				= wpn_mosin_short_pu_hud
+; visual			= dynamics\weapons\wpn_mosin\wpn_mosin_pu.ogf
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_mosin_pu
+scope_zoom_factor	= 18.5
+zoom_rotate_time	= 0.25
+
+[wpn_mosin_short_pu_hud]:wpn_mosin_short_hud
+item_visual = anomaly_weapons\wpn_mosin\wpn_mosin_short_hud.ogf
+
+
+![wpn_sks_short]
+!scopes_sect
+scopes = pu
+scope_status = 0
+
+[wpn_sks_short_pu]:wpn_sks_short
+$spawn			= "weapons\sks_short_pu"
+parent_section	= wpn_sks_short_pu
+
+1icon_layer		= pu
+1icon_layer_x	= 68
+1icon_layer_y	= -18
+
+inv_weight		= 2.9
+
+hud				= wpn_sks_short_pu_hud
+visual			= dynamics\weapons\wpn_sks\wpn_sks.ogf
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_sks_pu
+scope_zoom_factor	= 18.5
+zoom_rotate_time	= 0.25
+
+[wpn_sks_short_pu_hud]:wpn_sks_short_pu
+item_visual = anomaly_weapons\wpn_sks\wpn_sks_short_hud.ogf
+
+
+![wpn_svt40_short]
+scopes = pu
+scope_status = 0
+!scopes_sect
+
+[wpn_svt40_short_pu]:wpn_svt40_short
+parent_section	= wpn_svt40_short
+
+hud				= wpn_svt40_short_pu_hud
+visual			= dynamics\weapons\wpn_svt40\wpn_svt40_short.ogf
+
+1icon_layer		= pu
+1icon_layer_x	= 55
+1icon_layer_y	= -18
+
+inv_weight		= 3.45
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_svt_pu
+scope_zoom_factor	= 18.5
+zoom_rotate_time	= 0.25
+
+[wpn_svt40_short_pu_hud]:wpn_svt40_short_hud
+item_visual = anomaly_weapons\wpn_svt40\wpn_svt40_short_hud.ogf
+
+
+![wpn_avt40_short]
+scopes = pu
+scope_status = 0
+!scopes_sect
+
+[wpn_avt40_short_pu]:wpn_avt40_short
+parent_section	= wpn_avt40_short
+
+hud				= wpn_avt40_short_pu_hud
+visual			= dynamics\weapons\wpn_svt40\wpn_avt40_short.ogf
+
+1icon_layer		= pu
+1icon_layer_x	= 55
+1icon_layer_y	= -18
+
+inv_weight		= 3.45
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_svt_pu
+scope_zoom_factor	= 18.5
+zoom_rotate_time	= 0.25
+
+[wpn_avt40_short_pu_hud]:wpn_avt40_short_hud
+item_visual = anomaly_weapons\wpn_svt40\wpn_avt40_short_hud.ogf
