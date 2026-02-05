@@ -1,0 +1,306 @@
+;=============================================================
+;=================== VEPR 12 drum	=====================
+;=============================================================
+[wpn_vepr12_drum]:identity_immunities,weapon_probability,default_weapon_params,wpn_saiga_sounds
+GroupControlSection			= spawn_group
+$npc						= on
+$prefetch					= 8
+$spawn						= "weapons\vepr12_drum"
+scheduled					= off
+cform						= skeleton
+parent_section				= wpn_vepr12_drum
+
+class						= WP_AK74
+slot						= 2
+animation_slot				= 2
+ef_main_weapon_type			= 1
+ef_weapon_type				= 9
+hand_dependence				= 1
+single_handed				= 0
+
+icons_texture				= ui\ui_icon_mwp
+inv_grid_height				= 2
+inv_grid_width				= 5
+inv_grid_x					= 11
+inv_grid_y					= 9
+inv_name					= st_wpn_vepr12_drum
+inv_name_short				= st_wpn_vepr12_drum
+description					= st_wpn_vepr12_drum_descr
+
+kind						= w_shotgun
+inv_weight					= 5.38
+cost						= 39550
+repair_type					= shotgun 
+weapon_class				= shotgun
+hud							= wpn_vepr12_drum_hud
+visual						= dynamics\weapons\wpn_vepr12\wpn_vepr12.ogf
+position					= -0.026, -0.175, 0.0
+orientation					= 0, 0, 0
+fire_point					= 0, 0.218, 0.656
+fire_point2					= 0, 0.161, 0.583
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+strap_position				= -0.26,-0.10,0.05
+strap_orientation			= -15,-9,110
+ph_mass						= 4
+
+flame_particles				= weapons\generic_weapon05
+smoke_particles				= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
+
+shell_point					= 0, 0.138, 0.07
+shell_particles				= weapons\12ga
+
+light_disabled				= false
+light_color					= 0.6, 0.5, 0.3
+light_range					= 6.0
+light_time					= 0.2
+light_var_color				= 0.05
+light_var_range				= 0.5
+
+upgrades					= up_gr_firstab_protecta, up_gr_seconab_protecta, up_gr_thirdab_protecta, up_gr_fourtab_protecta
+installed_upgrades			=
+upgrade_scheme				= upgrade_scheme_protecta
+upgr_icon_x					= 1450
+upgr_icon_y					= 1350
+upgr_icon_width				= 300
+upgr_icon_height			= 100
+	
+fire_modes					= 1
+ammo_class					= ammo_12x70_buck, ammo_12x70_buck_bad, ammo_12x70_buck_verybad, ammo_12x76_zhekan, ammo_12x76_zhekan_bad, ammo_12x76_zhekan_verybad, ammo_12x76_dart, ammo_12x76_dart_bad, ammo_12x76_dart_verybad, ammo_12x70_buck_self
+ammo_current				= 48
+ammo_elapsed				= 0
+ammo_limit					= 56
+ammo_mag_size				= 20
+startup_ammo				= 90
+
+scopes						= 1p29, kobra, ps01 ;pso
+scope_status				= 0
+scope_zoom_factor			= 0
+
+silencer_name				= wpn_sil_pbs1
+silencer_status				= 2
+silencer_x					= 215
+silencer_y					= 11
+silencer_light_color		= 0.6, 0.5, 0.3
+silencer_light_range		= 0.01
+silencer_light_time			= 0.2
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_smoke_particles	= weapons\generic_shoot_00
+
+;silencer_bullet_speed		= 290
+;silencer_fire_distance		= 550
+;silencer_hit_power			= 0.77
+
+grenade_class				= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad, ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybadp
+grenade_launcher_name		= wpn_addon_grenade_launcher
+grenade_launcher_status		= 0
+grenade_launcher_x			= 116
+grenade_launcher_y			= 15
+launch_speed				= 0
+
+hit_impulse					= 40
+hit_power					= 0.78, 0.78, 0.78, 0.78
+hit_type					= fire_wound
+fire_distance				= 300
+bullet_speed				= 325
+rpm							= 400
+rpm_empty_click				= 200
+
+zoom_dof					= 0.5, 1.0, 180
+zoom_enabled				= true
+zoom_rotate_time			= 0.25
+reload_dof					= 0, 0.5, 5, 1.7
+control_inertion_factor		= 2.3f
+crosshair_inertion			= 9.0
+fire_dispersion_base		= 0.67
+fire_dispersion_condition_factor	= 0.001
+
+misfire_probability			= 0.005
+misfire_start_condition		= 0.7
+misfire_start_prob			= 0.009
+misfire_end_condition		= 0.13
+misfire_end_prob			= 0.13
+
+condition_queue_shot_dec	= 0.0020
+condition_shot_dec			= 0.0020
+
+cam_return					= 0
+cam_relax_speed				= 20
+cam_dispersion				= 6.98
+cam_dispersion_frac			= 1.2
+cam_dispersion_inc			= 0.2
+cam_max_angle				= 50.0
+cam_max_angle_horz			= 50.0
+cam_step_angle_horz			= 2.87
+zoom_cam_relax_speed		= 10
+zoom_cam_dispersion			= 6.13
+zoom_cam_dispersion_frac	= 0.9
+zoom_cam_dispersion_inc		= 0.18
+zoom_cam_max_angle			= 70.0
+zoom_cam_max_angle_horz		= 70.0
+zoom_cam_step_angle_horz	= 2.41
+
+;cam_dispersion				= 5.0
+;cam_dispersion_frac		= 1.0
+;cam_dispersion_inc			= 1.5
+;cam_max_angle				= 30.0
+;cam_max_angle_horz			= 30.0
+;cam_relax_speed			= 20
+;cam_return					= 0
+;cam_step_angle_horz		= 5.0
+;zoom_cam_dispersion		= 5.0
+;zoom_cam_dispersion_frac	= 0.7
+;zoom_cam_dispersion_inc	= 1.5
+;zoom_cam_max_angle			= 15.0
+;zoom_cam_max_angle_horz	= 15.0
+;zoom_cam_relax_speed		= 10
+;zoom_cam_step_angle_horz	= 5.0
+
+PDM_disp_accel_factor		= 2.0
+PDM_disp_base				= 0.5
+PDM_disp_crouch				= 1.0
+PDM_disp_crouch_no_acc		= 1.0
+PDM_disp_vel_factor			= 2.0
+
+cam_relax_speed_ai			= 360
+zoom_cam_relax_speed_ai		= 120.75
+holder_fov_modifier			= 1.0
+holder_range_modifier		= 1.0
+min_radius					= 0
+max_radius					= 500
+hit_probability_gd_novice	= 1.00
+hit_probability_gd_stalker	= 1.00
+hit_probability_gd_veteran	= 1.00
+hit_probability_gd_master	= 1.00
+
+kill_msg_height				= 20
+kill_msg_width				= 80
+kill_msg_x					= 91
+kill_msg_y					= 104
+
+snd_reload					= weapons\vepr12\vepr_reload
+
+[wpn_vepr12_drum_hud]:hud_base
+item_visual				= dynamics\weapons\wpn_vepr12\wpn_vepr12_hud.ogf
+attach_place_idx		= 0
+zoom_hide_crosshair		= true
+
+item_position			= 0,0.004,0
+item_orientation		= -16.2,-1.820898,7.220154
+
+hands_position			= -0.13,-0.175,0.055
+hands_position_16x9		= -0.13,-0.175,0.055
+;hands_position_16x9	= -0.128000,-0.206500,0.073500
+hands_orientation		= -0.55,0.85,-4.2
+hands_orientation_16x9	= -0.55,0.85,-4.2
+;hands_orientation_16x9	= 0.350000,2.749998,-4.200000
+
+aim_hud_offset_pos		= -0.08355,0.0541,-0.235
+aim_hud_offset_pos_16x9	= -0.08355,0.0541,-0.235
+;aim_hud_offset_pos_16x9= -0.086550,0.086600,0.019000
+aim_hud_offset_rot		= 0.0313,-0.0061,-0.006
+aim_hud_offset_rot_16x9	= 0.0313,-0.0061,-0.006
+;aim_hud_offset_rot_16x9= 0.061300,0.011400,-0.006000
+
+gl_hud_offset_pos		= 0,0,0
+gl_hud_offset_pos_16x9	= 0,0,0
+gl_hud_offset_rot		= 0,0,0
+gl_hud_offset_rot_16x9	= 0,0,0
+
+lean_hud_offset_pos		= 0,0,0
+lean_hud_offset_rot		= 0,0,0
+
+anm_show		= vepr12_baraban_draw_1
+anm_hide		= vepr12_baraban_holster_1
+anm_idle		= vepr12_baraban_idle
+anm_idle_sprint	= vepr12_baraban_sprint_1
+anm_idle_moving	= vepr12_baraban_moving
+anm_shots		= vepr12_baraban_shoot, shoot
+anm_reload		= vepr12_baraban_reload_1, reload_1
+anm_idle_aim	= vepr12_baraban_idle_aim
+anm_bore		= vepr12_baraban_idle_aim
+
+shell_point	= 0.028,0.078,0.183
+shell_dir	= 0,1,0
+shell_bone	= wpn_body
+
+fire_point	= -0.011,0.037545,0.642951
+fire_bone	= wpn_body
+fire_point2	= 0,-0.028,0.678
+fire_bone2	= wpn_body
+
+[wpn_vepr12_drum_1p29]:wpn_vepr12_drum
+;$spawn				= "weapons\wpn_vepr12_1p29"
+1icon_layer			= 1p29
+1icon_layer_x		= 65
+1icon_layer_y		= 5
+
+hud					= wpn_vepr12_drum_1p29_hud
+visual				= dynamics\weapons\wpn_vepr12\wpn_vepr12_1p29.ogf
+
+inv_weight			= 6.18
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_1p29
+scope_zoom_factor	= 15
+zoom_rotate_time	= 0.3
+
+[wpn_vepr12_drum_1p29_hud]:wpn_vepr12_drum_hud
+item_visual				= dynamics\weapons\wpn_vepr12\wpn_vepr12_1p29_hud.ogf
+;anm_reload				= vepr12_baraban_reload_1, reload_1
+
+aim_hud_offset_pos		= -0.08355,0.0341,-0.2
+aim_hud_offset_pos_16x9	= -0.08355,0.0341,-0.2
+
+[wpn_vepr12_drum_kobra]:wpn_vepr12_drum
+;$spawn				= "weapons\vepr_kobra"
+hud					= wpn_vepr12_drum_kobra_hud
+visual				= dynamics\weapons\wpn_vepr12\wpn_vepr12_kobra.ogf
+;scope_zoom_factor	= 56.4
+1icon_layer			= kobra
+1icon_layer_x		= 65
+1icon_layer_y		= 0
+
+inv_weight			= 5.78
+
+[wpn_vepr12_drum_kobra_hud]:wpn_vepr12_drum_hud
+item_visual				= dynamics\weapons\wpn_vepr12\wpn_vepr12_kobra_hud.ogf
+;anm_reload				= vepr12_baraban_reload_1, reload_1
+
+aim_hud_offset_pos		= -0.0863,0.057100,-0.24000
+aim_hud_offset_pos_16x9	= -0.0863,0.057100,-0.24000
+aim_hud_offset_rot		= 0.046300,0.011400,-0.006000
+aim_hud_offset_rot_16x9	= 0.046300,0.011400,-0.006000
+
+hands_position			= -0.127500,-0.206000,0.073500
+hands_position_16x9		= -0.127500,-0.206000,0.073500
+hands_orientation		= 0.350000,2.749998,-4.200000
+hands_orientation_16x9	= 0.350000,2.749998,-4.200000
+
+[wpn_vepr12_drum_ps01]:wpn_vepr12_drum
+1icon_layer			= ps01
+1icon_layer_x		= 32
+1icon_layer_y		= 1
+
+;$spawn				= "weapons\wpn_vepr_pso"
+hud					= wpn_vepr12_drum_ps01_hud
+
+inv_weight			= 6.005
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_pso1
+scope_zoom_factor	= 15
+
+zoom_rotate_time	= 0.3
+
+[wpn_vepr12_drum_ps01_hud]:wpn_vepr12_drum_hud
+;item_visual			= dynamics\weapons\wpn_vepr12\wpn_vepr12_hud.ogf
+;anm_reload				= vepr12_baraban_reload_1, reload_1
+hands_position_16x9		= -0.127500,-0.206000,0.110000
+hands_orientation_16x9	= 0.350000,2.749998,-4.200000
+
+aim_hud_offset_pos		= -0.08355,0.0641,-0.235
+aim_hud_offset_pos_16x9	= -0.08355,0.0641,-0.235

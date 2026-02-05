@@ -10,10 +10,10 @@
 		<text>A ridiculous 100 round 7.62x39 double stack AK magazine. Extremely impractical and unreliable, it is almost unheard of to be able to load these magazines past half capacity without significant issue. These are best suited as no more than a decoration. By some miracle, this particular one works perfectly.</text>
 	</string>
 
-    <string id="st_mag_ak_trophy_7.62x54">
+    <string id="st_mag_ak74_trophy_7.62x54">
 		<text>30 round 7.62x54 Trophy AK Magazine</text>
 	</string>
-	<string id="st_mag_ak_trophy_7.62x54_descr">
+	<string id="st_mag_ak74_trophy_7.62x54_descr">
 		<text>A 30 round magazine that can hold 7.62x54 rounds of all types. How full length 7.62x54 rounds are able to fit inside what appears to be a regular 5.45x39 magazine is yet another reflection of this weapon and its previous holder's legendary status.</text>
 	</string>
 

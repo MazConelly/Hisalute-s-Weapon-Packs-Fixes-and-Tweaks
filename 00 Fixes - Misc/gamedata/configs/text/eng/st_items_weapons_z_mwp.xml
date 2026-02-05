@@ -4,6 +4,9 @@
 	<string id="st_wpn_aek919k">
 		<text>AEK-919K Kashtan</text>
 	</string>
+	<string id="st_wpn_aek919k_s">
+		<text>AEK-919K</text>
+	</string>
 	<string id="st_wpn_aek919k_descr">
 		<text>The AEK-919K Kashtan is a Russian select-fire submachine gun, chambered for the 9x19mm Parabellum and 9x18mm Makarov rounds, developed by the Kovrov Mechanical Plant. The AEK-919 is offered as a weapon for certain categories of personnel (crews of aircraft and combat vehicles), as well as special forces of law enforcement agencies. Its compact size has led some to utilize it as a sidearm, where its increased controllability comes at the cost of handling and weight.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
@@ -25,16 +28,17 @@
 		<text>AKS-74UN OKP-7</text>
 	</string>
 	<string id="st_wpn_ak74u_cool_descr">
-		<text>The AKS-74U was intended for use mainly by Spetsnaz units, airborne infantry, rear-echelon support units and armoured vehicle crews, who require a compact but relatively powerful individual automatic weapon. The AKS-74U is significantly more manoeuvrable in tight quarters than the AKS-74, but a significant decline in muzzle velocity resulted in a decrease in effective range. This is a rare variant, preferred by some of the elites within the zone and found only in their hands. The only way to obtain one of these rifles is to take it from the hands of its previous owner, a status symbol within the Zone.\n
+		<text>The AKS-74U was intended for use mainly by Spetsnaz units, airborne infantry, rear-echelon support units and armoured vehicle crews, who require a compact but relatively powerful individual automatic weapon. The AKS-74U is significantly more manoeuvrable in tight quarters than the AKS-74, but a significant decline in muzzle velocity resulted in a decrease in effective range.\n
+		This is a rare variant with a set of 60 round magazines and an integrated OKP-7 sight, preferred by some of the elites within the zone and found only in their hands. The only way to obtain one of these rifles is to take it from the hands of its previous owner, a status symbol within the Zone.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] OKP-7 sight (integrated)\n
 		%c[d_purple] • %c[ui_gray_2] PBS-4 suppressor</text>
 	</string>
 
-	<string id="st_wpn_ak_trophy">
+	<string id="st_wpn_ak74_trophy">
 		<text>Trophy AK</text>
 	</string>
-	<string id="st_wpn_ak_trophy_descr">
+	<string id="st_wpn_ak74_trophy_descr">
 		<text>A legendary weapon, it was previously owned by a legendary stalker who was said to be able to sneak anywhere, through any anomaly field and past any enemy. It is said that the previous owner used this weapon to kill mutants that were more dangerous than anyone else has ever seen.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] EKP-8-02 Kobra, 1P29, PSO-1 scopes\n
@@ -66,6 +70,9 @@
 	<string id="st_wpn_fn2000_gl">
 		<text>FN F2000 GL</text>
 	</string>
+	<string id="st_wpn_fn2000_gl_s">
+		<text>F2000 GL</text>
+	</string>
 	<string id="st_wpn_fn2000_gl_descr">
 		<text>From the late 1980s to early 1990s, FN Herstal began to develop a new rifle. The aim was to produce a modern and modular weapon resulting in the FN F2000 rifle, first displayed to the public in 2001. The F2000 offers all of the popular features of the modern assault rifle such as a compact bullpup layout, ambidextrous handling and a modular design with plenty of options and addons available. So far, the FN F2000 rifle has found only a few buyers, including the Armed Forces of Slovenia and Belgian Special Operations Forces.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
@@ -83,16 +90,6 @@
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
 		%c[d_purple] • %c[ui_gray_2] 9x40 scope (integrated)</text>
-	</string>
-
-	<string id="st_wpn_g36_heavy">
-		<text>MG36E</text>
-	</string>
-	<string id="st_wpn_g36_heavy_descr">
-		<text>The MG36 is the Light Machine Gun variant of the H&amp;K G36 Assault Rifle. It is fitted with a 100 round Beta C-Mag magazine, a heavy barrel and a bipod, it fires the standard 5.56mm NATO cartridge like the other variants of the G36 family. The MG36E is the export version of the MG36, it lacks the distinctive dual sight, but allows the mounting of alternate optics.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] ACOG sight\n
-		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor</text>
 	</string>
 
 	<string id="st_wpn_groza_545">
@@ -157,10 +154,13 @@
 		%c[d_purple] • %c[ui_gray_2] Leupold 3-9x36 scope (integrated)</text>
 	</string>
 
-	<string id="st_wpn_m4a1_desert">
+	<string id="st_wpn_mk18_desert">
 		<text>MK18 CQBR (camouflaged)</text>
 	</string>
-	<string id="st_wpn_m4a1_desert_descr">
+	<string id="st_wpn_mk18_desert_s">
+		<text>MK18 CQBR</text>
+	</string>
+	<string id="st_wpn_mk18_desert_descr">
 		<text>The Mk18 is a special shortened carbine with commando-length barrel for improved handling and lower weight. The Mk18 is in essence an M4A1 carbine outfitted with Close Quarter Battle Receiver (CQBR) - a replacement upper receiver featuring a 10.3" (262mm) barrel. The shorter barrel makes the weapon significantly more compact and easier to use in and around vehicles and tight confined spaces. The Mk18 is praised for its light weight and short dimensions, making it very easy to handle. It has its drawbacks, however. The short barrel provides insufficient velocity for the bullet to display ideal wounding characteristics. Nonetheless, the Mk18 is a very good weapon in its niche and while it lacks universality of 14"-20"-barreled rifles it remains highly effective when used in suitable situations.\n
 		This specific gun has been further specialized for CQC operations, featuring a 60 round quad stack magazine, increased rate of fire, and holographic sight. These features have increased its weight and decreased handling, though the increased firepower more than makes up for the cost.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
@@ -174,6 +174,17 @@
 	<string id="st_wpn_mg36_descr">
 		<text>The MG36 is the Light Machine Gun variant of the H&amp;K G36 Assault Rifle. It is fitted with a 100 round Beta C-Mag magazine, a heavy barrel and a bipod, it fires the standard 5.56mm NATO cartridge like the other variants of the G36 family.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor</text>
+	</string>
+
+	<string id="st_wpn_mg36e">
+		<text>MG36E</text>
+	</string>
+	<string id="st_wpn_mg36e_descr">
+		<text>The MG36 is the Light Machine Gun variant of the H&amp;K G36 Assault Rifle. It is fitted with a 100 round Beta C-Mag magazine, a heavy barrel and a bipod, it fires the standard 5.56mm NATO cartridge like the other variants of the G36 family.\n
+		The MG36E is the export version of the MG36, it lacks the distinctive dual sight, but allows the mounting of alternate optics.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] ACOG sight\n
 		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor</text>
 	</string>
 
@@ -201,6 +212,18 @@
 		<text>This Soviet legacy is the most common pistol in the Zone and is one of the best compact self-defence handguns available. It is small, highly reliable, easy to use and maintain in working order. It also suffers from several drawbacks, including short range, low firing accuracy and poor stopping power, while also losing out to modern pistols in its class in terms of weight and magazine size. In 1951, the Pistol Makarova was selected because of its simplicity, easy manufacturing, accuracy, and reasonable stopping power. This gun features an 80 round drum, which was made to allow for sustained firepower with a single hand, typically in a police role alongside a shield.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] 9x19 compatible suppressor</text>
+	</string>
+
+	<string id="st_wpn_psg1a1">
+		<text>HK PSG-1 A1</text>
+	</string>
+	<string id="st_wpn_psg1a1_s">
+		<text>PSG-1 A1</text>
+	</string>
+	<string id="st_wpn_psg1a1_descr">
+		<text>The PSG-1 is a precision rifle based on the G3 battle rifle. It was designed from the beginning as a police sniper rifle for maximum precision. It boasts very high accuracy, but is also extremely expensive, leading to limited sales and a cessation of production in 2010. After the 1972 Munich massacre, Germany needed a semi-automatic rifle that would provide highest precision possible, eventually resulting in this gun and the WA2000. Mechanically it is just like the G3, though with features lending to higher precision. The PSG-1's accuracy is close to that of bolt-action sniper rifles, which is exceptional for a semi-automatic weapon. The rifle's weight, price and rather delicate construction makes it unsuitable for military use, leading to the development of the MSG90, with improvements aimed towards military conditions. The PSG-1A1 variant features 2 main improvements, an adjustment to the charging handle's position to prevent interference with optics, and an update to a Schmidt &amp; Bender 3–12?50 Police Marksman II scope. \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Schmidt &amp; Bender 3-12x50 scope (integrated)</text>
 	</string>
 
 	<string id="st_wpn_remington870_slug">
@@ -232,18 +255,23 @@
 		%c[d_purple] • %c[ui_gray_2] PBS-1 suppressor</text>
 	</string>
 
-	<string id="st_wpn_rspartan">
+	<string id="st_wpn_remington_spr453">
+		<text>Remington SPR 453 (auto)</text>
+	</string>
+	<string id="st_wpn_remington_spr453_S">
 		<text>SPR 453 (auto)</text>
 	</string>
-	<string id="st_wpn_rspartan_descr">
-		<text>The Remington Spartan 453, also known as the SPR 453, is a gas operated semi-automatic shotgun. It is an American import of the Russian-made Baikal MP-153, manufactured by Izhevsk Mechanical Plant in Izhevsk, Russia, marketed and distributed by Remington Arms. Aftermarket modifications have enabled this gun to achieve fully automatic fire. While the substantial recoil, high cyclic rate and low capacity of this gun limits its practicality, it still remains devastating in close quarters.</text>
+	<string id="st_wpn_remington_spr453_descr">
+		<text>The Remington Spartan 453, also known as the SPR 453, is a gas operated semi-automatic shotgun. It is an American import of the Russian-made Baikal MP-153, manufactured by Izhevsk Mechanical Plant in Izhevsk, Russia, marketed and distributed by Remington Arms.\n
+		Aftermarket modifications have enabled this gun to achieve fully automatic fire. While the substantial recoil, high cyclic rate and low capacity of this gun limits its practicality, it still remains devastating in close quarters.</text>
 	</string>
 
 	<string id="st_wpn_saiga_m3">
 		<text>Saiga-MK 5.45 v.30 (custom)</text>
 	</string>
 	<string id="st_wpn_saiga_m3_descr">
-		<text>The Saiga semi-automatic rifles are a family of Russian semi-automatic rifles manufactured by Kalashnikov Concern (formerly Izhmash), which also manufactures the original AK-47 and its variants, Saiga-12 shotguns and Dragunov sniper rifle. Saiga rifles are a sport version of the Kalashnikov rifle, and are marketed for hunting and civilian use. This is a custom 5.45 example, fitted with a telescopic scope, 555mm barrel and automatic firing mechanism.\n
+		<text>The Saiga semi-automatic rifles are a family of Russian semi-automatic rifles manufactured by Kalashnikov Concern (formerly Izhmash), which also manufactures the original AK-47 and its variants, Saiga-12 shotguns and Dragunov sniper rifle. Saiga rifles are a sport version of the Kalashnikov rifle, and are marketed for hunting and civilian use.\n
+		This is a custom 5.45 example, fitted with a telescopic scope, 5.45mm barrel and automatic firing mechanism.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher (after modification)\n
 		%c[d_purple] • %c[ui_gray_2] Leupold Mark 4 scope (integrated)\n
@@ -260,6 +288,18 @@
 		%c[d_purple] • %c[ui_gray_2] ACOG scope (integrated)</text>
 	</string>
 
+	<string id="st_wpn_sr9_tc">
+		<text>HK SR9 TC</text>
+	</string>
+	<string id="st_wpn_sr9_tc_s">
+		<text>SR9 TC</text>
+	</string>
+	<string id="st_wpn_sr9_tc_descr">
+		<text>The Heckler and Koch SR9 is a series of hunting and target rifles derived from the Heckler &amp; Koch HK91 incorporating parts from the PSG-1 and MSG-90 marksman rifles. In its original configuration it had a thumbhole buttstock, but the SR9 TC (Target Competition) variant replaces this with a PSG-1 adjustable butstock, also including the PSG-1 sniper trigger group and handgrip. As only limited numbers of SR9 TC rifles were produced, it is likely this is a reproduction, created with aftermarket parts and made to better mimic the appearance of the original PSG-1. This rifle's accuracy is not to the level of a true PSG-1, however it is significantly lighter and more durable, allowing it to better function as a DMR.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Hensoldt ZF PSG-1 6x42 scope (integrated)</text>
+	</string>
+
 	<string id="st_wpn_svd_ghillie">
 		<text>SVD Ghillie</text>
 	</string>
@@ -274,7 +314,8 @@
 		<text>SVDK .338</text>
 	</string>
 	<string id="st_wpn_svdk_descr">
-		<text>The SVDK is a Russian precision rifle from the SVD rifle family originally chambered for the 9.3x64mm 7N33 cartridge. It was created to deal with targets which are too hard for standard 7.62x54mmR sniper rifles like SV-98 or SVD, such as assault troops in heavy body armor or enemy snipers behind cover. This is an experimental model, chambered in .338 Lapua Magnum in order to improve its efficiency against long range targets. It borrows some aspects from the SVCh-8.6, another SVD derived modern sniper rifle, also firing .338 Lapua Magnum.\n
+		<text>The SVDK is a Russian precision rifle from the SVD rifle family originally chambered for the 9.3x64mm 7N33 cartridge. It was created to deal with targets which are too hard for standard 7.62x54mmR sniper rifles like SV-98 or SVD, such as assault troops in heavy body armor or enemy snipers behind cover.\n
+		This is an experimental model, chambered in .338 Lapua Magnum in order to improve its efficiency against long range targets. It borrows some aspects from the SVCh-8.6, another SVD derived modern sniper rifle, also firing .338 Lapua Magnum.\n
 		This model has been equipped with an old 1PN58 optic, though its night vision capability has been disabled without further upgrades.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] 1PN58 scope (integrated)\n 
@@ -283,6 +324,9 @@
 
 	<string id="st_wpn_svu_sniper">
 		<text>OTs-03A SVU-A (military)</text>
+	</string>
+	<string id="st_wpn_svu_sniper_s">
+		<text>SVU-A (military)</text>
 	</string>
 	<string id="st_wpn_svu_sniper_descr">
 		<text>The SVU-A is a variant of the SVU rifle capable of automatic fire, designed on a request from the Russian Interior Ministry. Although the weapon is generally not suited for close-combat situations, the automatic fire has proven itself to be a reliable emergency solution for exposed marksmen.\n
