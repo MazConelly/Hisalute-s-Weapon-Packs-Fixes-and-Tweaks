@@ -4,12 +4,18 @@
 	<string id="st_wpn_sten">
 		<text>Sten Mk II</text>
 	</string>
+	<string id="st_wpn_sten_s">
+		<text>Sten MkII</text>
+	</string>
 	<string id="st_wpn_sten_descr">
 		<text>The Sten is a select fire, blowback-operated weapon with a side-mounted magazine which was used extensively by British and Commonwealth forces throughout World War II and during the Korean War. The Sten paired a simple design with a low production cost, facilitating mass production to meet the demand for submachine guns.</text>
 	</string>
 
 	<string id="st_wpn_sten_mkiis">
 		<text>Sten Mk II(S)</text>
+	</string>
+	<string id="st_wpn_sten_mkiis_s">
+		<text>Sten MkII S</text>
 	</string>
 	<string id="st_wpn_sten_mkiis_descr">
 		<text>The Sten Mk II(S) ("Special-Purpose") was an integrally suppressed version of the Mk II. It was designed in 1943 and incorporated a ported barrel, lowering the velocity of shots fired to below the speed of sound without special ammunition. The suppressor heated up rapidly when the weapon was fired, and a canvas cover was laced around the suppressor for protection for the firer's supporting hand. Automatic fire was discouraged, as it can quickly wear out internal components, many of these guns had their selector switches welded to a single shot configuration. Original models of these guns are rare compared to the standard Mk II and can fetch decent prices if in good condition. The simplicity of these guns, have however lead them to be manufactured or converted from non-suppressed Stens, at relatively low effort and cost for those without access to more modern suppressed firearms.</text>
@@ -18,12 +24,18 @@
 	<string id="st_wpn_sten_mkv">
 		<text>Sten Mk V</text>
 	</string>
+	<string id="st_wpn_sten_mkv_s">
+		<text>Sten MkV</text>
+	</string>
 	<string id="st_wpn_sten_mkv_descr">
 		<text>The Sten is a family of British submachine guns chambered in 9x19mm and used extensively by British and Commonwealth forces throughout World War II and shortly after. They had a simple design and very low production cost, making them effective insurgency weapons for resistance groups. There were six variants of Sten submachine gun. The Mk II, the most common and well-known variant, was also most widely made, with about 2 million made during the war. The Mk V was one of the final and most refined versions of the Sten, made for paratroopers and special forces. It had wooden stock, front grip and also a bayonet mount, an uncommon feature for a submachine gun. Over four million Stens in various versions and configurations were produced. Many were homemade by partisans, freedom fighters and criminals. The Sten served for many years, eventually being replaced in many Commonwealth Countries by the Sterling, which shares a similar side mounted magazine configuration.</text>
 	</string>
 
 	<string id="st_wpn_sten_mkii_762">
 		<text>Sten Mk II 7.62x25</text>
+	</string>
+	<string id="st_wpn_sten_mkii_762_s">
+		<text>Sten MkII 7.62</text>
 	</string>
 	<string id="st_wpn_sten_mkii_762_descr">
 		<text>The Sten Mark II is the most common variant of the Sten, with two million units produced. While originally chambered in 9x19mm, the simple construction of the Sten allows it to be rechambered to 7.62x25mm Tokarev through a simple barrel replacement and minor feed modifications. The most significant source of the rechambered Mark II was China, where they were known as the M38, which were typically fed from PPS-43 magazines and further simplified to an automatic-only configuration.\n

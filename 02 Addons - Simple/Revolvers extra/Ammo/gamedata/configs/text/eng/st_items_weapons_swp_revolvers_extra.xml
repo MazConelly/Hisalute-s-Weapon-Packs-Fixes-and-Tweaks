@@ -5,6 +5,9 @@
 	<string id="st_wpn_colt_king_cobra">
 		<text>Colt King Cobra</text>
 	</string>
+	<string id="st_wpn_colt_king_cobra_s">
+		<text>King Cobra</text>
+	</string>
 	<string id="st_wpn_colt_king_cobra_descr">
 		<text>Colt King Cobra is a medium frame double-action revolver featuring a six round cylinder, designed and produced by the Colt's Manufacturing Company and marketed to law enforcement agencies and civilian firearms enthusiasts. Available in blued and stainless steel finishes in a variety of barrel lengths and chambered for centerfire .357 Magnum ammunition.\n
 		Like all .357 Magnum revolvers, the Colt King Cobra can chamber and fire the shorter .38 Special cartridge.
@@ -14,6 +17,9 @@
     <string id="st_wpn_ruger_redhawk_45">
 		<text>Ruger Redhawk .45 ACP/.45 Colt</text>
 	</string>
+    <string id="st_wpn_ruger_redhawk_45_s">
+		<text>Ruger Redhawk .45</text>
+	</string>
 	<string id="st_wpn_ruger_redhawk_45_descr">
 		<text> The Ruger Redhawk is a DA/SA, large-frame revolver that was first introduced in 1979 by Sturm Ruger and Company. Made from high-grade steel, it is available in a stainless steel finish. The Redhawk is reinforced to handle extra stress of high-pressure loads, making it very popular for use by handloaders as it is able to handle the most powerful .45 Colt and .44 Magnum loads easily.\n
 		This model was designed to fire both .45 Long Colt and .45 ACP, though the rarity of .45 Colt in the zone has led .45 ACP to become dominant, however, due to the cartridge's shorter length it somewhat reduces the gun's accuracy. \n</text>
@@ -21,6 +27,9 @@
 
     <string id="st_wpn_ruger_redhawk_44">
 		<text>Ruger Redhawk .44 Magnum</text>
+	</string>
+    <string id="st_wpn_ruger_redhawk_44_s">
+		<text>Ruger Redhawk .44</text>
 	</string>
 	<string id="st_wpn_ruger_redhawk_44_descr">
 		<text> The Ruger Redhawk is a DA/SA, large-frame revolver that was first introduced in 1979 by Sturm Ruger and Company. Made from high-grade steel, it is available in a stainless steel finish. The Redhawk is reinforced to handle extra stress of high-pressure loads, making it very popular for use by handloaders as it is able to handle the most powerful .45 Colt and .44 Magnum loads easily.\n
@@ -30,6 +39,9 @@
     <string id="st_wpn_ruger_redhawk_44_sniper">
 		<text>Ruger Redhawk .44 Magnum (scoped)</text>
 	</string>
+    <string id="st_wpn_ruger_redhawk_44_sniper_s">
+		<text>Ruger Redhawk .44</text>
+	</string>
 	<string id="st_wpn_ruger_redhawk_44_sniper_descr">
 		<text> The Ruger Redhawk is a DA/SA, large-frame revolver that was first introduced in 1979 by Sturm Ruger and Company. Made from high-grade steel, it is available in a stainless steel finish. The Redhawk is reinforced to handle extra stress of high-pressure loads, making it very popular for use by handloaders as it is able to handle the most powerful .45 Colt and .44 Magnum loads easily.\n
 		This model features a low power integrated scope and is chambered in .44 Magnum, granting it greater power, distance, and range. Though your hand won't appreciate the recoil.</text>
@@ -37,6 +49,9 @@
 
 	<string id="st_wpn_sw500">
 		<text>Smith and Wesson SW500</text>
+	</string>
+	<string id="st_wpn_sw500_s">
+		<text>SW500</text>
 	</string>
 	<string id="st_wpn_sw500_descr">
 		<text> The Smith and Wesson Model 500 is a five-shot, double/single action large-bore revolver originally firing the .500SW Magnum cartridge - the most powerful handgun cartridge in existence. The advanced design of the firearm helps in counteracting the recoil felt by the shooter. This includes the sheer weight of the firearm, use of rubber grips, the forward balance, and the use of a compensator. Nonetheless, the gun produces immense recoil. \n
@@ -46,6 +61,9 @@
 	<string id="st_wpn_sw500_12">
 		<text>Smith and Wesson SW500 (modified)</text>
 	</string>
+	<string id="st_wpn_sw500_12_s">
+		<text>SW500 12.7</text>
+	</string>
 	<string id="st_wpn_sw500_12_descr">
 		<text> The Smith and Wesson Model 500 is a five-shot, double/single action large-bore revolver originally firing the .500SW Magnum cartridge - the most powerful handgun cartridge in existence. The advanced design of the firearm helps in counteracting the recoil felt by the shooter. This includes the sheer weight of the firearm, use of rubber grips, the forward balance, and the use of a compensator. Nonetheless, the gun produces immense recoil. \n
 		Due to the rarity of .500SW Magnum in the Zone, ambitious gunsmiths have created modified copies, taking inspiration from the Russian RSh-12 revolver and converting the weapon to fire the subsonic 12.7×55mm STs-130 cartridge shared by the ASh-12.7. These modifications have reduced the weapon's durability and lowered its potency, but the gun retains overwhelming power. \n</text>
@@ -53,6 +71,9 @@
 
 	<string id="st_wpn_taurus_m44">
 		<text>Taurus Model 44</text>
+	</string>
+	<string id="st_wpn_taurus_m44_s">
+		<text>Taurus 44</text>
 	</string>
 	<string id="st_wpn_taurus_m44_descr">
 		<text>The Taurus Model 44 is a 6-round double action revolver chambered in .44 Magnum cartridge, developed and produced by Taurus in Brazil. It is considered a reliable and relatively well made revolver, but it's durability and barrel life is considerably lower than that of high-end guns.</text>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_lr300_sniper_50">
+		<text>Sniper LR-300ML - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_lr300_sniper_50_s">
+		<text>Sniper LR-300ML .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_lr300_sniper_50_descr">
+		<text>While the regular LR-300 is best suited to close range engagements, this particular gun has been modified for longer range fire, increasing accuracy but decreasing rate of fire. This gun has also been attached with an integral suppressor, grenade launcher and telescopic optic. It can be assumed that this gun was going to be used as a cheap analog to the sniper rifle.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor (integrated)\n
+		%c[d_purple] • %c[ui_gray_2] Trijicon TARS Scope (integrated)\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher (integrated)</text>
+	</string>
+
+	<string id="st_wpn_m16a4_sniper_50">
+		<text>SAM-R - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m16a4_sniper_50_s">
+		<text>SAM-R .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_m16a4_sniper_50_descr">
+		<text>The US Squad Advanced Marksman Rifle (SAM-R) is a heavily modified M16-series rifle intended to provide increased accuracy at longer ranges, giving infantry squads greater firepower. It is basically an M16A4 outfitted with heavier, accurized, stainless-steel barrel, two-stage match trigger and a high-power Leupold scope. The barrel is free-floating with special type of handguard which doesn't come into contact with barrel.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor\n
+		%c[d_purple] • %c[ui_gray_2] Leupold 3-9x36 scope (integrated)</text>
+	</string>
+
+	<string id="st_wpn_mk18_desert_50">
+		<text>MK18 CQBR (camouflaged) - .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_mk18_desert_50">
+		<text>MK18 CQBR .50 Beowulf</text>
+	</string>
+	<string id="st_wpn_mk18_desert_50_descr">
+		<text>The Mk18 is a special shortened carbine with commando-length barrel for improved handling and lower weight. The Mk18 is in essence an M4A1 carbine outfitted with Close Quarter Battle Receiver (CQBR) - a replacement upper receiver featuring a 10.3" (262mm) barrel. The shorter barrel makes the weapon significantly more compact and easier to use in and around vehicles and tight confined spaces. The Mk18 is praised for its light weight and short dimensions, making it very easy to handle. It has its drawbacks, however. The short barrel provides insufficient velocity for the bullet to display ideal wounding characteristics. Nonetheless, the Mk18 is a very good weapon in its niche and while it lacks universality of 14"-20"-barreled rifles it remains highly effective when used in suitable situations.\n
+		This specific gun has been further specialized for CQC operations, featuring a 60 round quad stack magazine, increased rate of fire, and holographic sight. These features have increased its weight and decreased handling, though the increased firepower more than makes up for the cost.\n
+		Afer replacing some parts, this rifle now utilizes the .50 Beowulf ammunition. This increases damage, but reduces its range severely and its recoil becomes very hard to control. Its magazine capacity is also reduced from 60 to 30 rounds.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] EOTech sight (integrated)\n
+		%c[d_purple] • %c[ui_gray_2] .50 Beowulf suppressor</text>
+	</string>
+
+</string_table>

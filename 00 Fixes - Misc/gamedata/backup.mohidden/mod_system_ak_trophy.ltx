@@ -5,11 +5,10 @@
 GroupControlSection			= spawn_group
 $npc						= on
 $prefetch					= 8
-$spawn						= "weapons\ak-74"
+$spawn						= "weapons\ak74_trophy"
 scheduled					= off
 cform						= skeleton
-parent_section				= wpn_ak_trophy
-icons_texture				= ui\ui_icon_mwp
+parent_section				= wpn_ak74_trophy
 
 class						= WP_AK74
 slot						= 2
@@ -22,13 +21,14 @@ single_handed				= 0
 default_to_ruck				= false
 sprint_allowed				= true
 
+icons_texture				= ui\ui_icon_mwp
 inv_grid_height				= 2
 inv_grid_width				= 5
 inv_grid_x					= 6
 inv_grid_y					= 18
-inv_name					= st_wpn_ak_trophy
-inv_name_short				= st_wpn_ak_trophy
-description					= st_wpn_ak_trophy_descr
+inv_name					= st_wpn_ak74_trophy
+inv_name_short				= st_wpn_ak74_trophy
+description					= st_wpn_ak74_trophy_descr
 
 kind						= w_rifle
 inv_weight					= 3.3
@@ -36,7 +36,7 @@ cost						= 46950
 repair_type					= rifle_7
 weapon_class				= assault_rifle
 
-hud							= wpn_ak_trophy_hud
+hud							= wpn_ak74_trophy_hud
 visual						= dynamics\weapons\wpn_ak74\wpn_ak74_grip.ogf
 position					= -0.026, -0.175, 0.0
 orientation					= 0, 0, 0
@@ -52,8 +52,8 @@ flame_particles				= weapons\generic_weapon05
 smoke_particles				= weapons\generic_shoot_00
 grenade_flame_particles		= weapons\generic_weapon01
 
-shell_point					= 0, 0.216, 0.174
-shell_dir					= 0, 0, 0.4
+shell_point					= 0,0.216,0.174
+shell_dir					= 0,0,0.4
 shell_particles				= weapons\545x39
 
 light_disabled				= false
@@ -72,7 +72,7 @@ upgr_icon_width				= 300
 upgr_icon_height			= 100
 
 fire_modes					= 1, -1
-ammo_class					= ammo_pkm_100, ammo_pkm_100_bad, ammo_pkm_100_verybad, ammo_7.62x54_7h1, ammo_7.62x54_7h1_bad, ammo_7.62x54_7h1_verybad, ammo_7.62x54_ap, ammo_7.62x54_ap_bad, ammo_7.62x54_ap_verybad, ammo_7.62x54_7h14, ammo_7.62x54_7h14_bad, ammo_7.62x54_7h14_verybad ;, ammo_7.62x54_ap, ammo_7.62x54_ap_bad, ammo_7.62x54_ap_verybad
+ammo_class					= ammo_pkm_100, ammo_pkm_100_bad, ammo_pkm_100_verybad, ammo_7.62x54_7h1, ammo_7.62x54_7h1_bad, ammo_7.62x54_7h1_verybad, ammo_7.62x54_ap, ammo_7.62x54_ap_bad, ammo_7.62x54_ap_verybad, ammo_7.62x54_7h14, ammo_7.62x54_7h14_bad, ammo_7.62x54_7h14_verybad
 ammo_elapsed				= 30
 ammo_mag_size				= 30
 startup_ammo				= 90
@@ -176,7 +176,7 @@ snd_reload_misfire1	= weapons\trophy_ak\ak74_unjam2
 snd_reload_misfire2	= weapons\trophy_ak\ak74_unjam3
 snd_reload_misfire3	= weapons\trophy_ak\ak74_unjam4
 
-[wpn_ak_trophy_hud]:hud_base
+[wpn_ak74_trophy_hud]:hud_base
 item_visual			= dynamics\weapons\wpn_ak74\wpn_ak74_grip_hud.ogf
 attach_place_idx	= 0
 zoom_hide_crosshair	= true
@@ -184,15 +184,15 @@ zoom_hide_crosshair	= true
 item_position		= 0,0,0
 item_orientation	= 0,0,0
 
-aim_hud_offset_pos		= -0.0815,0.0285,-0.19
-aim_hud_offset_pos_16x9	= -0.0815,0.0285,-0.19
-aim_hud_offset_rot		= 0.016,0.0346,-0.0047
-aim_hud_offset_rot_16x9	= 0.016,0.0346,-0.0047
-
 hands_position			= 0.0195,-0.00672,-0.04
 hands_position_16x9		= 0.0195,-0.00672,-0.04
 hands_orientation		= 2,1.319,-0.3
 hands_orientation_16x9	= 2,1.319,-0.3
+
+aim_hud_offset_pos		= -0.0815,0.0285,-0.19
+aim_hud_offset_pos_16x9	= -0.0815,0.0285,-0.19
+aim_hud_offset_rot		= 0.016,0.0346,-0.0047
+aim_hud_offset_rot_16x9	= 0.016,0.0346,-0.0047
 
 gl_hud_offset_pos		= -0.06, 0.013, 0
 gl_hud_offset_pos_16x9	= -0.0266, 0.0165, 0
@@ -217,9 +217,9 @@ anm_idle_aim_moving		= ak74_ins_vgrip_idle_moving, idle, 0.75
 anm_bore				= ak74_ins_vgrip_idle_moving, idle, 0.1
 anm_reload_misfire		= ak74_ins_vgrip_misfire, misfire
 
+shell_bone	= wpn_body
 shell_point	= 0.02,0.04,0.131
 shell_dir	= 0,1,0
-shell_bone	= wpn_body
 
 fire_point	= 0,0,0
 fire_bone	= muzzle
@@ -227,14 +227,14 @@ fire_point2	= 0,0,0
 fire_bone2	= zatvor
 
 ;------------------------------------------------------------------------------------------------
-[wpn_ak_trophy_1p29]:wpn_ak_trophy
+[wpn_ak74_trophy_1p29]:wpn_ak74_trophy
 1icon_layer			= 1p29
 1icon_layer_x		= 53
 1icon_layer_y		= 1
 
 inv_weight			= 4.23
 
-hud					= wpn_ak_trophy_1p29_hud
+hud					= wpn_ak74_trophy_1p29_hud
 visual				= dynamics\weapons\wpn_ak74\wpn_ak74_grip_1p29.ogf
 
 scope_status		= 1
@@ -244,8 +244,8 @@ scope_zoom_factor	= 15
 
 zoom_rotate_time		= 0.25
 
-[wpn_ak_trophy_1p29_hud]:wpn_ak_trophy_hud
-item_visual				= dynamics\weapons\wpn_ak74\wpn_ak74_grip_1p29_hud.ogf
+[wpn_ak74_trophy_1p29_hud]:wpn_ak74_trophy_hud
+item_visual	= dynamics\weapons\wpn_ak74\wpn_ak74_grip_1p29_hud.ogf
 
 aim_hud_offset_pos		= -0.0815,0.0,-0.19
 aim_hud_offset_pos_16x9	= -0.0815,0.0,-0.19
@@ -255,30 +255,7 @@ gl_hud_offset_pos_16x9	= -0.01005, 0.0114, 0
 gl_hud_offset_rot		= -0.07, 0.023, 0
 gl_hud_offset_rot_16x9	= -0.06, -0.012, 0
 ;------------------------------------------------------------------------------------------------
-[wpn_ak_trophy_ps01]:wpn_ak_trophy
-1icon_layer			= ps01
-1icon_layer_x		= 53
-1icon_layer_y		= 1
-
-inv_weight			= 4.03
-
-hud					= wpn_ak_trophy_pso1_hud
-visual				= dynamics\weapons\wpn_ak74\wpn_ak74_grip_pso2.ogf
-
-scope_status		= 1
-scope_dynamic_zoom	= off
-scope_texture		= wpn_crosshair_pso1
-scope_zoom_factor	= 15
-
-zoom_rotate_time	= 0.25
-
-[wpn_ak_trophy_pso1_hud]:wpn_ak_trophy_hud
-item_visual				= dynamics\weapons\wpn_ak74\wpn_ak74_grip_pso2_hud.ogf
-
-aim_hud_offset_pos		= -0.07,0.0245,-0.19
-aim_hud_offset_pos_16x9	= -0.07,0.0245,-0.19
-;------------------------------------------------------------------------------------------------
-[wpn_ak_trophy_kobra]:wpn_ak_trophy
+[wpn_ak74_trophy_kobra]:wpn_ak74_trophy
 1icon_layer		= kobra
 1icon_layer_x	= 85
 1icon_layer_y	= 3
@@ -288,8 +265,31 @@ inv_weight		= 3.83
 hud				= wpn_trophy_ak_kobra_hud
 visual			= dynamics\weapons\wpn_ak74\wpn_ak74_grip_kobra.ogf
 
-[wpn_trophy_ak_kobra_hud]:wpn_trophy_ak_hud
-item_visual				= dynamics\weapons\wpn_ak74\wpn_ak74_grip_kobra_hud.ogf
+[wpn_trophy_ak_kobra_hud]:wpn_ak74_trophy_hud
+item_visual	= dynamics\weapons\wpn_ak74\wpn_ak74_grip_kobra_hud.ogf
 
 aim_hud_offset_pos		= -0.0862,-0.0125,-0.19
 aim_hud_offset_pos_16x9	= -0.0862,-0.0125,-0.19
+;------------------------------------------------------------------------------------------------
+[wpn_ak74_trophy_ps01]:wpn_ak74_trophy
+1icon_layer			= ps01
+1icon_layer_x		= 53
+1icon_layer_y		= 1
+
+inv_weight			= 4.03
+
+hud					= wpn_ak74_trophy_pso1_hud
+visual				= dynamics\weapons\wpn_ak74\wpn_ak74_grip_pso2.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_pso1
+scope_zoom_factor	= 15
+
+zoom_rotate_time	= 0.25
+
+[wpn_ak74_trophy_pso1_hud]:wpn_ak74_trophy_hud
+item_visual	= dynamics\weapons\wpn_ak74\wpn_ak74_grip_pso2_hud.ogf
+
+aim_hud_offset_pos		= -0.07,0.0245,-0.19
+aim_hud_offset_pos_16x9	= -0.07,0.0245,-0.19

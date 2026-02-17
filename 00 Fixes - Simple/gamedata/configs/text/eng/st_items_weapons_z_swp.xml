@@ -20,6 +20,9 @@
     <string id="st_wpn_m1903">
 		<text>Springfield M1903A1 Marine Sniper</text>
 	</string>
+    <string id="st_wpn_m1903_s">
+		<text>M1903A1</text>
+	</string>
 	<string id="st_wpn_m1903_descr">
 		<text>The Springfield M1903 is an American bolt-action rifle originally chambered in .30-06 Springfield, serving as the US military service rifle before it was replaced by the famed M1 Garand. It was adopted in 1903 and fought in both World Wars, seeing use among the USMC in WWII due to an insufficient supply of Garands. It also saw use as sniper rifle, equipped with 2.5x or 8x scopes until the early Vietnam war. Two sniper variants were made, the M1903A1 "Marine" with 7.8x Unertl scope and M1903A4 with 2.5x scope. The Marine variant is considered to be a much better rifle, not only due to its high-power optic, but also its high quality finish and superior accuracy. Today Springfield rifles are used as target or hunting rifles all around the world. In Europe Springfields are very rare, nonetheless they are sometimes seen.\n
 		This specimen was rechambered to .308 Winchester likely as .308 ammunition is cheaper and easier to obtain.\n 
@@ -49,6 +52,9 @@
     <string id="st_wpn_ruger_redhawk_45">
 		<text>Ruger Redhawk .45 ACP/.45 Colt</text>
 	</string>
+    <string id="st_wpn_ruger_redhawk_45_s">
+		<text>Ruger Redhawk</text>
+	</string>
 	<string id="st_wpn_ruger_redhawk_45_descr">
 		<text> The Ruger Redhawk is a DA/SA, large-frame revolver that was first introduced in 1979 by Sturm Ruger and Company. Made from high-grade steel, it is available in a stainless steel finish. The Redhawk is reinforced to handle extra stress of high-pressure loads, making it very popular for use by handloaders as it is able to handle the most powerful .45 Colt and .44 Magnum loads easily. This model was designed to fire both .45 Long Colt and .45 ACP, though the rarity of .45 Colt in the zone has led .45 ACP to become dominant, however, due to the cartridge's shorter length it somewhat reduces the gun's accuracy.\n
 		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
@@ -58,6 +64,9 @@
     <string id="st_wpn_ruger_redhawk_357_sniper">
 		<text>Ruger Redhawk .357 (scoped)</text>
 	</string>
+    <string id="st_wpn_ruger_redhawk_357_sniper_s">
+		<text>Ruger Redhawk</text>
+	</string>
 	<string id="st_wpn_ruger_redhawk_357_sniper_descr">
 		<text> The Ruger Redhawk is a DA/SA, large-frame revolver that was first introduced in 1979 by Sturm Ruger and Company. Made from high-grade steel, it is available in a stainless steel finish. The Redhawk is reinforced to handle extra stress of high-pressure loads, making it very popular for use by handloaders as it is able to handle the most powerful .45 Colt and .44 Magnum loads easily.\n
 		This model is chambered in the common .357 magnum cartridge and features a low power integrated scope.</text>
@@ -65,6 +74,9 @@
 
 	<string id="st_wpn_sw500">
 		<text>Smith and Wesson SW500 (modified)</text>
+	</string>
+	<string id="st_wpn_sw500_s">
+		<text>SW500</text>
 	</string>
 	<string id="st_wpn_sw500_descr">
 		<text> The Smith and Wesson Model 500 is a five-shot, double/single action large-bore revolver originally firing the .500SW Magnum cartridge - the most powerful handgun cartridge in existence. The advanced design of the firearm helps in counteracting the recoil felt by the shooter. This includes the sheer weight of the firearm, use of rubber grips, the forward balance, and the use of a compensator. Nonetheless, the gun produces immense recoil.\n
@@ -81,8 +93,11 @@
     <string id="st_wpn_vepr134">
 		<text>Molot Vepr 7.62 (scoped)</text>
 	</string>
+    <string id="st_wpn_vepr134_s">
+		<text>Vepr 7.62</text>
+	</string>
 	<string id="st_wpn_vepr134_descr">
-		<text> The Vepr (Ukrainian: "Wild Boar") is a semi-auto civilian hunting rifle based on RPK light machine gun and produced by Molot factory from Russia. Veprs found their way to The Zone as Stalkers often took their hunting rifles there, instead of buying military weapons on black market. They are well liked and sometimes preferred over AKs due to their higher accuracy and range.\n
+		<text>The Vepr (Ukrainian: "Wild Boar") is a semi-auto civilian hunting rifle based on RPK light machine gun and produced by Molot factory from Russia. Veprs found their way to The Zone as Stalkers often took their hunting rifles there, instead of buying military weapons on black market. They are well liked and sometimes preferred over AKs due to their higher accuracy and range.\n
 		This variant is chambered in 7.62x39mm.\n
 		%c[ui_gray_2]ATTACHMENTS:\n 
 		%c[d_purple] • %c[ui_gray_2] Zeiss 3-9x32 scope (integrated)</text>
@@ -91,8 +106,11 @@
 	<string id="st_wpn_vepr134_camo">
 		<text>Molot Vepr 5.45 (scoped)</text>
 	</string>
+	<string id="st_wpn_vepr134_camo_s">
+		<text>Vepr 5.45</text>
+	</string>
 	<string id="st_wpn_vepr134_camo_descr">
-		<text> The Vepr (Ukrainian: "Wild Boar") is a semi-auto civilian hunting rifle based on RPK light machine gun and produced by Molot factory from Russia. Veprs found their way to The Zone as Stalkers often took their hunting rifles there, instead of buying military weapons on black market. They are well liked and sometimes preferred over AKs due to their higher accuracy and range.\n
+		<text>The Vepr (Ukrainian: "Wild Boar") is a semi-auto civilian hunting rifle based on RPK light machine gun and produced by Molot factory from Russia. Veprs found their way to The Zone as Stalkers often took their hunting rifles there, instead of buying military weapons on black market. They are well liked and sometimes preferred over AKs due to their higher accuracy and range.\n
 		This variant is chambered in 5.45x39mm and features lower recoil and improved accuracy.\n
 		%c[ui_gray_2]ATTACHMENTS:\n 
 		%c[d_purple] • %c[ui_gray_2] Zeiss 3-9x32 scope (integrated)</text>
@@ -101,16 +119,22 @@
     <string id="st_wpn_w70">
 		<text>Winchester Model 70 - 7.92</text>
 	</string>
+    <string id="st_wpn_w70_s">
+		<text>Winchester 70 7.92</text>
+	</string>
 	<string id="st_wpn_w70_descr">
 		<text>The Winchester 70 is a bolt action hunting rifle and one of the most common hunting rifles in the world. It has been held in high regard by shooters since it was introduced in 1936, earning the moniker "The Rifleman's Rifle". The action has some design similarities to Mauser designs and it is a development of the earlier Winchester Model 54. It is available in multiple calibers and variants. the rifle is usually fed by a non-detachable internal magazine, with capacity varying based on caliber. Most common chamberings allowing 5 rounds, though larger rounds can reduce this to 4 or 3. While original 7.92mm rifles are exceedingly rare, made only for testing purposes and by special order, some after market conversions do exist.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple]• %c[ui_gray_2] Leupold VX-II 3-9x variable magnification scope (integrated)</text>
 	</string>
 
-    <string id="st_wpn_winchester1892">
+    <string id="st_wpn_winchester1894">
 		<text>Winchester Model 1894</text>
 	</string>
-	<string id="st_wpn_winchester1892_descr">
+    <string id="st_wpn_winchester1894_s">
+		<text>Winchester 1894</text>
+	</string>
+	<string id="st_wpn_winchester1894_descr">
 		<text>The Winchester Model 1894 rifle (also known as the Winchester 94 or Model 94) is a lever-action repeating rifle that became one of the most famous and popular hunting rifles of all time. It was designed by John Browning in 1894 and originally chambered to fire two metallic black powder cartridges, the .32-40 Winchester and .38-55 Winchester.\n
 		This variant is chambered in .357 Magnum.</text>
 	</string>

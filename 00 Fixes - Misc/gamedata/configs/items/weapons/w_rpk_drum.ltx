@@ -1,4 +1,20 @@
 ;=============================================================
+;=================== RPK Drum sounds =====================
+;=============================================================
+[wpn_rpk74_tac_sounds]:wpn_rpk_sounds
+snd_bore			= weapons\no_sound
+snd_draw			= weapons\generic_draw
+snd_empty			= weapons\gen_empty, 0.5
+snd_holster			= weapons\generic\rifle_holster
+snd_reload			= weapons\rpk74\rpk_2_reload
+snd_reload_empty	= weapons\rpk74\rpk_2_reload
+snd_reload_grenade	= weapons\gen_grenload, 1.0, 0.8
+snd_shoot			= wpn_rpk_snd_shoot
+snd_shoot_grenade	= weapons\gen_grenshoot
+;snd_silncer_shot	= wpn_rpk74_snd_silncer_shot
+snd_switch			= weapons\groza_switch, 1.0, 0.5
+
+;=============================================================
 ;=================== RPK Drum =====================
 ;=============================================================
 [wpn_rpk_drum]:weapon_probability,default_weapon_params,wpn_rpk74_tac_sounds
