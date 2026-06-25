@@ -1,15 +1,14 @@
 ;=============================================================
-;=================== Beretta 93r Raffica	=====================
+;=================== Beretta 93r Raffica =====================
 ;=============================================================
-[wpn_beretta_93r]:identity_immunities,weapon_probability,default_weapon_params
+[wpn_beretta93r]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection		= spawn_group
 $npc					= on
 $prefetch				= 8
-$spawn					= "weapons\beretta_93r"
+$spawn					= "weapons\beretta93r"
 scheduled				= off 
 cform					= skeleton
-icons_texture			= ui\ui_icon_mwp
-parent_section			= wpn_beretta_93r
+parent_section			= wpn_beretta93r
 
 class					= WP_LR300
 slot					= 1
@@ -21,20 +20,21 @@ hand_dependence			= 1
 default_to_ruck			= false
 sprint_allowed			= true
 
+icons_texture			= ui\ui_icon_mwp
 inv_grid_width			= 2
 inv_grid_height			= 1
 inv_grid_x				= 18
 inv_grid_y				= 12
-inv_name				= st_wpn_beretta_93r
-inv_name_short			= st_wpn_beretta_93r
-description				= st_wpn_beretta_93r_descr
+inv_name				= st_wpn_beretta93r
+inv_name_short			= st_wpn_beretta93r
+description				= st_wpn_beretta93r_descr
 
 kind					= w_pistol
 inv_weight				= 1.17
 cost					= 15440
 repair_type				= pistol
 
-hud						= wpn_beretta_93r_hud
+hud						= wpn_beretta93r_hud
 visual					= dynamics\weapons\wpn_m93r\wpn_raffica_alt.ogf
 position				= -0.021, -0.085, 0.0
 orientation				= 0, 0, 0
@@ -177,7 +177,7 @@ snd_silncer_shot1	= weapons\93r\m92_sil2
 snd_silncer_shot2	= weapons\93r\m92_sil3
 snd_silncer_shot3	= weapons\93r\m92_sil4
 
-[wpn_beretta_93r_hud]:hud_base
+[wpn_beretta93r_hud]:hud_base
 item_visual			= dynamics\weapons\wpn_m93r\wpn_raffica_alt_hud.ogf
 attach_place_idx	= 0
 zoom_hide_crosshair	= true

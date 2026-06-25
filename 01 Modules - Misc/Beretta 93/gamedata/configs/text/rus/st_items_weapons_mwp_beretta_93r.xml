@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
 
-	<string id="st_wpn_beretta_93r">
+	<string id="st_wpn_beretta93r">
 		<text>Beretta 93R</text>
 	</string>
-	<string id="st_wpn_beretta_93r_descr">
+	<string id="st_wpn_beretta93r_descr">
 		<text>Beretta 93R (итал. Raffica — оружейная очередь) — итальянский автоматический пистолет, разработанный компанией Beretta на основе самозарядного пистолета Beretta 92 в 1970-х годах для правоохранительных органов и военных. Особенность это пистолета заключается в том, что помимо одиночного огня он способен вести автоматический огонь очередями по три выстрела. \n \n
 		%c[ui_gray_2]НАВЕСНОЕ ОБОРУДОВАНИЕ: \n
 		%c[d_purple] • %c[ui_gray_2] глушитель 9 мм </text>

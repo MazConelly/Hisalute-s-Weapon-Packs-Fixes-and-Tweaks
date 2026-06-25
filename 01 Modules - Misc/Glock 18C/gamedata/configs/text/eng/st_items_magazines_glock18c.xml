@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_glock_33_9x19_fmj">
+		<text>Extended 9x19 Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_33_9x19_fmj_descr">
+		<text>Extended 33 round Glock magazine. Most useful for automatic Glock models, or pistol caliber carbines that accept Glock magazines.</text>
+	</string>
+
+	<string id="st_mag_glock_33_9x18_fmj">
+		<text>Extended 9x18 Glock Magazine</text>
+	</string>
+	<string id="st_mag_glock_33_9x18_fmj_descr">
+		<text>Extended 33 round Glock magazine, modified to load 9x18. This allows a Glock to provide more firepower than many SMGs.</text>
+	</string>
+
+</string_table>
