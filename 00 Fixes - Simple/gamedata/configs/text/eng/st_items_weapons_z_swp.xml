@@ -53,7 +53,7 @@
 		<text>Ruger Redhawk .45 ACP/.45 Colt</text>
 	</string>
     <string id="st_wpn_ruger_redhawk_45_s">
-		<text>Ruger Redhawk</text>
+		<text>Ruger Redhawk .45</text>
 	</string>
 	<string id="st_wpn_ruger_redhawk_45_descr">
 		<text> The Ruger Redhawk is a DA/SA, large-frame revolver that was first introduced in 1979 by Sturm Ruger and Company. Made from high-grade steel, it is available in a stainless steel finish. The Redhawk is reinforced to handle extra stress of high-pressure loads, making it very popular for use by handloaders as it is able to handle the most powerful .45 Colt and .44 Magnum loads easily. This model was designed to fire both .45 Long Colt and .45 ACP, though the rarity of .45 Colt in the zone has led .45 ACP to become dominant, however, due to the cartridge's shorter length it somewhat reduces the gun's accuracy.\n
@@ -65,7 +65,7 @@
 		<text>Ruger Redhawk .357 (scoped)</text>
 	</string>
     <string id="st_wpn_ruger_redhawk_357_sniper_s">
-		<text>Ruger Redhawk</text>
+		<text>Ruger Redhawk .357</text>
 	</string>
 	<string id="st_wpn_ruger_redhawk_357_sniper_descr">
 		<text> The Ruger Redhawk is a DA/SA, large-frame revolver that was first introduced in 1979 by Sturm Ruger and Company. Made from high-grade steel, it is available in a stainless steel finish. The Redhawk is reinforced to handle extra stress of high-pressure loads, making it very popular for use by handloaders as it is able to handle the most powerful .45 Colt and .44 Magnum loads easily.\n
@@ -85,6 +85,9 @@
 
     <string id="st_wpn_shorty">
 		<text>Serbu Super-Shorty</text>
+	</string>
+    <string id="st_wpn_shorty_s">
+		<text>Super-Shorty</text>
 	</string>
 	<string id="st_wpn_shorty_descr">
 		<text>The Serbu Super-Shorty is a compact, stockless, 12 gauge pump-action shotgun. This one is based on a Mossberg 500 receiver and features a spring-loaded, folding foregrip. The Super-shorty is a shotgun that is used exclusively for personal defense, as it doesn't have enough range and velocity to be used effectively for hunting. It can however deal very high damage in short range and bring down most attackers in one well placed shot. It is regarded as a very effective weapon against mutants who rely on ambushes and quick leaps to attack their victim. Most stalkers prefer cheaper double-barrel sawn-off shotguns for this task, but the Serbu Super-Shorty has better handling and slightly higher capacity.</text>
@@ -141,6 +144,9 @@
 
     <string id="st_wpn_zm92">
 		<text>Zastava M92</text>
+	</string>
+    <string id="st_wpn_zm92_s">
+		<text>M92</text>
 	</string>
 	<string id="st_wpn_zm92_descr">
 		<text>The Zastava M92 is a carbine developed and manufactured by Serbian Zastava Arms. The M92 is a shortened version of the Zastava M70 assault rifle, which is a modified copy of the Soviet AKM assault rifle. Unlike most rifle rounds which would otherwise experience a loss of velocity out of a shorter barrel, the 7.62x39mm round loses very little velocity when compared to a full length barrel. This makes it an excellent round for short-barrel rifles. The short barrel of the M92 may not lose enough velocity to even make a considerable difference when compared to the M70.\n

@@ -1,5 +1,5 @@
 ;=============================================================
-;================== Vepr 134 normie and camo	=================
+;================== Vepr 134 normie and camo =================
 ;=============================================================
 [wpn_vepr134]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection		= spawn_group
@@ -21,11 +21,11 @@ single_handed			= 0
 default_to_ruck			= false
 sprint_allowed			= true
 
-icons_texture			= ui\ui_icon_swp
+icons_texture			= ui\ui_icon_vepr134
 inv_grid_height			= 2
 inv_grid_width			= 6
 inv_grid_x				= 0
-inv_grid_y				= 1
+inv_grid_y				= 0
 inv_name				= st_wpn_vepr134
 inv_name_short			= st_wpn_vepr134_s
 description				= st_wpn_vepr134_descr
@@ -217,22 +217,20 @@ fire_bone2	= wpn_body
 
 ;=====================================================================================================================================================
 [wpn_vepr134_camo]:wpn_vepr134
-$spawn			= "weapons\vepr134_camo"
-parent_section	= wpn_vepr134_camo
+$spawn				= "weapons\vepr134_camo"
+parent_section		= wpn_vepr134_camo
 
-hud				= wpn_vepr134_camo_hud
-visual			= dynamics\weapons\wpn_vepr134\wpn_vepr_134_camo.ogf
+hud					= wpn_vepr134_camo_hud
+visual				= dynamics\weapons\wpn_vepr134\wpn_vepr_134_camo.ogf
 
-icons_texture	= ui\ui_icon_swp
-inv_name		= st_wpn_vepr134_camo
-inv_name_short	= st_wpn_vepr134_camo_s
-description		= st_wpn_vepr134_camo_descr
+icons_texture		= ui\ui_icon_vepr134_camo
+inv_name			= st_wpn_vepr134_camo
+inv_name_short		= st_wpn_vepr134_camo_s
+description			= st_wpn_vepr134_camo_descr
 
-cost			= 43190
+cost				= 43190
 
 upgrades			= up_gr_firstab_rpk74, up_gr_seconab_rpk74, up_gr_thirdab_rpk74, up_gr_fourtab_rpk74, up_gr_fifthab_rpk74, up_gr_fifthcd_rpk74
-inv_grid_x			= 0
-inv_grid_y			= 3
 upgr_icon_x			= 0
 upgr_icon_y			= 200
 upgr_icon_width		= 300
@@ -241,7 +239,7 @@ upgr_icon_height	= 100
 ammo_class			= ammo_5.45x39_fmj, ammo_5.45x39_fmj_bad, ammo_5.45x39_fmj_verybad, ammo_5.45x39_ep, ammo_5.45x39_ep_bad, ammo_5.45x39_ep_verybad, ammo_5.45x39_ap, ammo_5.45x39_ap_bad, ammo_5.45x39_ap_verybad
 
 hit_power			= 0.53, 0.53, 0.53, 0.53
-fire_distance		= 600 ;1140
+fire_distance		= 1140
 bullet_speed		= 1010
 rpm					= 500
 

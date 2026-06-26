@@ -9,7 +9,6 @@ $prefetch				= 8
 $spawn					= "weapons\m1carbine"
 scheduled				= off
 cform					= skeleton
-icons_texture			= ui\ui_icon_swp
 parent_section			= wpn_m1carbine
 
 class					= WP_LR300
@@ -23,10 +22,11 @@ single_handed			= 0
 default_to_ruck			= false
 sprint_allowed			= true
 
+icons_texture			= ui\ui_icon_m1carbine
 inv_grid_height			= 1
 inv_grid_width			= 5
-inv_grid_x				= 6
-inv_grid_y				= 1
+inv_grid_x				= 0
+inv_grid_y				= 0
 inv_name				= st_wpn_m1carbine_custom
 inv_name_short			= st_wpn_m1carbine_custom
 description				= st_wpn_m1carbine_custom_descr
@@ -93,7 +93,7 @@ grenade_launcher_status	= 0
 hit_impulse				= 28 ; 45
 hit_power				= 0.46, 0.46, 0.46, 0.46 ; 0.65, 0.65, 0.65, 0.65
 hit_type				= fire_wound
-fire_distance			= 400 ; 500
+fire_distance			= 500
 bullet_speed			= 715 ; 440
 rpm						= 850 ; 750
 rpm_empty_click			= 200
@@ -232,10 +232,11 @@ fire_bone2	= wpn_body
 $spawn					= "weapons\m1a1"
 parent_section			= wpn_m1a1
 
+icons_texture			= ui\ui_icon_m1a1carbine
 inv_grid_height			= 1
 inv_grid_width			= 4
-inv_grid_x				= 6
-inv_grid_y				= 2
+inv_grid_x				= 0
+inv_grid_y				= 0
 inv_name				= st_wpn_m1a1_custom
 inv_name_short			= st_wpn_m1a1_custom
 description				= st_wpn_m1a1_custom_descr
@@ -253,7 +254,7 @@ ammo_mag_size			= 30
 ;its supposed to be a custom using .357. LEt's raise the damage to that of the DEagle
 hit_impulse				= 45 ; 28
 hit_power				= 0.6, 0.6, 0.6, 0.6 ; 0.46, 0.46, 0.46, 0.46
-fire_distance			= 200 ;600
+fire_distance			= 600
 bullet_speed			= 440
 
 misfire_start_prob		= 0.0048
@@ -309,10 +310,13 @@ fire_point	= 0.0,0.011,-0,1
 [wpn_m1a1_og]:wpn_m1a1
 $spawn			= "weapons\m1a1_og"
 parent_section	= wpn_m1a1_og
+
 inv_name		= st_wpn_m1a1_og
 inv_name_short	= st_wpn_m1a1_og
 description		= st_wpn_m1a1_og_descr
+
 ammo_class		= ammo_3006_neko_fmj_m1, ammo_3006_neko_fmj_m2, ammo_3006_neko_ap, ammo_3006_neko_ap_m1917, ammo_3006_neko_sp, ammo_3006_neko_hp, ammo_3006_neko_match, ammo_3006_neko_api_m14, ammo_3006_neko_cast
+
 hit_impulse		= 40
 hit_power       = 1.21, 1.21, 1.21, 1.21
 fire_distance	= 274
@@ -323,10 +327,13 @@ bullet_speed	= 607
 [wpn_m1carbine_og]:wpn_m1carbine
 $spawn			= "weapons\m1carbine_og"
 parent_section	= wpn_m1carbine_og
+
 inv_name		= st_wpn_m1carbine_og
 inv_name_short	= st_wpn_m1carbine_og
 description		= st_wpn_m1carbine_og_descr
+
 ammo_class		= ammo_3006_neko_fmj_m1, ammo_3006_neko_fmj_m2, ammo_3006_neko_ap, ammo_3006_neko_ap_m1917, ammo_3006_neko_sp, ammo_3006_neko_hp, ammo_3006_neko_match, ammo_3006_neko_api_m14, ammo_3006_neko_cast
+
 hit_impulse		= 40
 hit_power       = 1.21, 1.21, 1.21, 1.21
 fire_distance	= 274

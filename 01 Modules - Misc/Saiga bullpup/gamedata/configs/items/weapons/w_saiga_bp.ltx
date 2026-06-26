@@ -9,7 +9,7 @@ $prefetch					= 4
 $spawn						= "weapons\saiga_bp"
 scheduled					= off
 cform						= skeleton
-icons_texture				= ui\ui_icon_mwp
+parent_section				= wpn_saiga_bp
 
 class						= WP_AK74 ;LR300
 slot						= 2
@@ -22,10 +22,11 @@ single_handed	 			= 0
 default_to_ruck		 		= false
 sprint_allowed				= true
 
+icons_texture				= ui\ui_icon_saiga_bp
 inv_grid_height				= 2
 inv_grid_width	 			= 4
-inv_grid_x		 			= 16
-inv_grid_y		 			= 4
+inv_grid_x		 			= 0
+inv_grid_y		 			= 0
 inv_name		 			= st_wpn_saiga_bp
 inv_name_short				= st_wpn_saiga_bp
 description					= st_wpn_saiga_bp_descr
@@ -38,10 +39,10 @@ weapon_class				= shotgun
 
 hud							= wpn_saiga_bp_hud
 visual 						= dynamics\weapons\wpn_pp2001\wpn_saiga_bp.ogf
-position					= -0.026, -0.125, -0.01
-orientation			 		= 0, 0, 0
-fire_point					= 0.0, 0.188, 0.392
-fire_point2			 		= 0.0, 0.188, 0.392
+position					= -0.026,-0.125,-0.01
+orientation			 		= 0,0,0
+fire_point					= 0.0,0.188,0.392
+fire_point2			 		= 0.0,0.188,0.392
 strap_bone0			 		= bip01_spine2
 strap_bone1			 		= bip01_spine1
 strap_orientation			= -10,-5,10
@@ -174,11 +175,11 @@ item_visual			= dynamics\weapons\wpn_pp2001\wpn_saiga_bp_hud.ogf
 attach_place_idx	= 0
 zoom_hide_crosshair	= true
 
-item_position		= 0.0, 0.0, 0.0
-item_orientation	= 0.0, 3.0, 0.0
+item_position		= 0.0,0.0,0.0
+item_orientation	= 0.0,3.0,0.0
 
-hands_position			= 0.0,-0.19, 0
-hands_position_16x9		= 0.0,-0.19, 0
+hands_position			= 0.0,-0.19,0
+hands_position_16x9		= 0.0,-0.19,0
 ;hands_position_16x9	= 0.015000,-0.233500,0.192499
 hands_orientation		= 0,0,0
 hands_orientation_16x9	= 0,0,0
@@ -187,39 +188,39 @@ hands_orientation_16x9	= 0,0,0
 aim_hud_offset_pos		= -0.11905,0.0352,-0.3
 aim_hud_offset_pos_16x9	= -0.11905,0.0352,-0.3
 ;aim_hud_offset_pos_16x9= -0.130100,0.049500,-0.234000
-aim_hud_offset_rot		= 0.05,0.0000, 0.0
-aim_hud_offset_rot_16x9	= 0.05,0.000, 0.0
+aim_hud_offset_rot		= 0.05,0.0,0.0
+aim_hud_offset_rot_16x9	= 0.05,0.0,0.0
 ;aim_hud_offset_rot_16x9= 0.020000,0.014400,0.000000
+
+lowered_hud_offset_pos		= 0.35,0.05,0.1
+lowered_hud_offset_pos_16x9	= 0.35,0.05,0.1
+lowered_hud_offset_rot		= 0.2,-1,0
+lowered_hud_offset_rot_16x9	= 0.2,-1,0
 
 gl_hud_offset_pos		= 0,0,0
 gl_hud_offset_pos_16x9	= 0,0,0
 gl_hud_offset_rot		= 0,0,0
 gl_hud_offset_rot_16x9	= 0,0,0
+grenade_bone		= grenade
 
 lean_hud_offset_pos	= 0,0,0
 lean_hud_offset_rot	= 0,0,0
-grenade_bone		= grenade
 
-anm_show		= pp2001_draw
 anm_hide		= pp2001_holster
 anm_idle		= pp2001_idle
-anm_idle_sprint	= pp2001_sprint
-anm_idle_moving	= pp2001_move
-anm_shots		= pp2001_shoot, shoot
-anm_reload		= pp2001_reload, reload
 anm_idle_aim	= pp2001_aim
+anm_idle_moving	= pp2001_move
+anm_idle_sprint	= pp2001_sprint
+anm_reload		= pp2001_reload, reload
+anm_shots		= pp2001_shoot, shoot
+anm_show		= pp2001_draw
 anm_bore		= pp2001_aim
 
 shell_point	= 0.0, 0.0, -0.15
 shell_dir	= 0.0, 1.0, 0.0
 shell_bone	= luska
 
-fire_point	= 0, 0, 0.1
 fire_bone	= muzzle
-fire_point2	= 0,0,0
 fire_bone2	= wpn_body
-
-lowered_hud_offset_pos_16x9	= 0.35,0.05,0.1
-lowered_hud_offset_pos		= 0.35,0.05,0.1
-lowered_hud_offset_rot_16x9	= 0.2,-1,0
-lowered_hud_offset_rot		= 0.2,-1,0
+fire_point	= 0,0,0.1
+fire_point2	= 0,0,0

@@ -1,5 +1,5 @@
 ;=============================================================
-;=========================== Ruger	===========================
+;=========================== Ruger ===========================
 ;=============================================================
 [wpn_ruger_redhawk_45]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection			= spawn_group
@@ -21,10 +21,10 @@ single_handed				= 1
 default_to_ruck				= false
 sprint_allowed				= true
 
-icons_texture				= ui\ui_icon_swp
+icons_texture				= ui\ui_icon_gp100
 inv_grid_height				= 1
 inv_grid_width				= 2
-inv_grid_x					= 11
+inv_grid_x					= 0
 inv_grid_y					= 0
 inv_name					= st_wpn_ruger_redhawk_45
 inv_name_short				= st_wpn_ruger_redhawk_45_s
@@ -86,7 +86,7 @@ grenade_launcher_status		= 0
 hit_impulse					= 40
 hit_power					= 0.55, 0.55, 0.55, 0.55
 hit_type					= fire_wound
-fire_distance				= 100
+fire_distance				= 400
 bullet_speed				= 440
 rpm							= 350
 rpm_empty_click				= 120
@@ -163,8 +163,8 @@ zoom_hide_crosshair	= true
 item_position		= 0,0.010,0
 item_orientation	= 0,-90,0
 
-hands_position			= 0.0,-0.165,0.0
-hands_position_16x9		= 0.0,-0.165,0.0
+hands_position			= 0, -0.165, -0.1723
+hands_position_16x9		= 0, -0.165, -0.1723
 hands_orientation		= 0,0,0
 hands_orientation_16x9	= 0,0,0
 
@@ -212,13 +212,26 @@ fire_bone	= muzzle
 fire_direction	= 0, 1, 0
 
 ;=============================================================
-;========================= Ruger scoped	=====================
+;========================= .357 Ruger scoped =====================
 ;=============================================================
 [wpn_ruger_redhawk_357_sniper]:wpn_ruger_redhawk_45
 $spawn				= "weapons\ruger_redhawk_357_sniper"
 parent_section		= wpn_ruger_redhawk_357_sniper
 
-icons_texture		= ui\ui_icon_swp
+icons_texture		= ui\ui_icon_gp100_sniper
+inv_grid_height		= 2
+inv_grid_width		= 3
+inv_grid_x			= 11
+inv_grid_y			= 1
+inv_name			= st_wpn_ruger_redhawk_357_sniper
+inv_name_short		= st_wpn_ruger_redhawk_357_sniper_s
+description			= st_wpn_ruger_redhawk_357_sniper_descr
+
+hud					= wpn_ruger_redhawk_357_sniper_hud
+
+inv_weight			= 1.986
+cost				= 26520
+
 scope_status		= 1
 scope_name			= wpn_addon_scope_pu
 ;1icon_layer		= wpn_addon_scope_pu
@@ -227,26 +240,14 @@ scope_name			= wpn_addon_scope_pu
 scope_zoom_factor	= 20
 scope_texture		= wpn_crosshair_zf9
 
-silencer_status		= 1
-
-hud					= wpn_ruger_redhawk_357_sniper_hud
-inv_name			= st_wpn_ruger_redhawk_357_sniper
-inv_name_short		= st_wpn_ruger_redhawk_357_sniper_s
-description			= st_wpn_ruger_redhawk_357_sniper_descr
-
-inv_grid_height		= 2
-inv_grid_width		= 3
-inv_grid_x			= 11
-inv_grid_y			= 1
-inv_weight			= 1.986
-cost				= 26520
-
 ammo_class			= ammo_357_hp_mag, ammo_357_hp_mag_bad, ammo_357_hp_mag_verybad
+
+silencer_status		= 1
 
 hit_impulse			= 45
 hit_power			= 0.6, 0.6, 0.6, 0.6
 hit_type			= fire_wound
-fire_distance		= 150
+fire_distance		= 400
 bullet_speed		= 530
 rpm					= 200
 rpm_empty_click		= 120
@@ -278,9 +279,9 @@ inv_name			= st_wpn_sw500
 inv_name_short		= st_wpn_sw500_s
 description			= st_wpn_sw500_descr
 
-icons_texture		= ui\ui_icon_swp
-inv_grid_x			= 11
-inv_grid_y			= 3
+icons_texture		= ui\ui_icon_sw500
+inv_grid_x			= 0
+inv_grid_y			= 0
 inv_grid_width		= 3
 inv_grid_height		= 1
 
@@ -301,7 +302,7 @@ scope_status		= 0
 hit_impulse			= 50
 hit_power			= 0.66, 0.66, 0.66, 0.66
 hit_type			= fire_wound
-fire_distance		= 125
+fire_distance		= 700
 bullet_speed		= 495
 rpm					= 240
 rpm_empty_click		= 120

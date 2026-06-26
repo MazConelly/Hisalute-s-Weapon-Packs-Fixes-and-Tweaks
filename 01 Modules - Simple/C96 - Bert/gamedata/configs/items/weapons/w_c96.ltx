@@ -19,11 +19,11 @@ single_handed				= 1
 default_to_ruck				= false
 sprint_allowed				= true
 
-icons_texture				= ui\ui_icon_swp
+icons_texture				= ui\ui_icon_mauserc96
 inv_grid_height				= 1
 inv_grid_width				= 2
-inv_grid_x					= 5
-inv_grid_y					= 17
+inv_grid_x					= 0
+inv_grid_y					= 0
 inv_name					= st_wpn_c96
 inv_name_short				= st_wpn_c96
 description					= st_wpn_c96_descr
@@ -91,7 +91,7 @@ launch_speed				= 0
 hit_impulse					= 24
 hit_power					= 0.46, 0.46, 0.46, 0.46
 hit_type					= fire_wound
-fire_distance				= 175 ;300
+fire_distance				= 300
 bullet_speed				= 350 ;339
 rpm							= 120 ;330
 rpm_empty_click				= 120
@@ -329,7 +329,7 @@ anm_sprint2walk_empty	= hands_c96_sprint2walk, idle_empty
 anm_sprint2walk_jammed	= hands_c96_sprint2walk, idle_jammed
 
 fire_bone	= muzzle
-fire_point	= 0, 0, 0
+fire_point	= 0,0,0
 
 ;------------------------------------------------------------------------------------------------
 ts_pattern_walk2sprint		= .+, anm_idle_sprint, anm_walk2sprint, 1
@@ -344,6 +344,7 @@ ts_strict_sprint2aim	= anm_idle_sprint, anm_idle_aim, anm_sprint2walk
 
 ts_strict_sprint2inspect		= anm_idle_sprint, anm_bore, anm_sprint2walk
 ts_strict_walk2sprint_inspect	= anm_walk2sprint, anm_bore, anm_sprint2walk
+
 ;=============================================================
 ;========================== Mauser C96 7.62mm Tokarev =======================
 ;=============================================================
@@ -424,11 +425,11 @@ single_handed				= 1
 default_to_ruck				= false
 sprint_allowed				= true
 
-icons_texture				= ui\ui_icon_swp
-inv_grid_height				= 1
+icons_texture 				= ui\ui_icon_mauserm712
 inv_grid_width				= 4
-inv_grid_x					= 5
-inv_grid_y					= 18
+inv_grid_height				= 1
+inv_grid_x					= 0
+inv_grid_y					= 0
 inv_name					= st_wpn_m712
 inv_name_short				= st_wpn_m712_s
 description					= st_wpn_m712_descr
@@ -494,7 +495,6 @@ grenade_launcher_status     = 0
 hit_impulse					= 24
 hit_power					= 0.46, 0.46, 0.46, 0.46
 hit_type					= fire_wound
-fire_distance				= 100
 bullet_speed				= 350 ;339
 rpm							= 1000
 rpm_empty_click				= 120
@@ -641,20 +641,20 @@ fire_direction	= 1, 0, 0
 $spawn			= "weapons\type80"
 parent_section	= wpn_type80
 
-inv_grid_x		= 5
-inv_grid_y		= 19
+icons_texture	= ui\ui_icon_type80
+inv_grid_x		= 0
+inv_grid_y		= 0
 inv_name		= st_wpn_type80
 inv_name_short	= st_wpn_type80
 description		= st_wpn_type80_descr
 
+cost			= 28010
 inv_weight		= 1.16
 
 ammo_class		= ammo_7.62x25_p, ammo_7.62x25_p_bad, ammo_7.62x25_p_verybad, ammo_7.62x25_ps, ammo_7.62x25_ps_bad, ammo_7.62x25_ps_verybad
 
 hit_impulse		= 26
 hit_power		= 0.47, 0.47, 0.47, 0.47
-fire_distance	= 100 ;400
+fire_distance	= 400
 bullet_speed	= 470
 rpm				= 850
-
-cost			= 28010

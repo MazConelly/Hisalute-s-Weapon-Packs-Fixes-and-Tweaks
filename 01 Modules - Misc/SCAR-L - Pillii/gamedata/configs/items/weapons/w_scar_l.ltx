@@ -5,11 +5,10 @@
 GroupControlSection				= spawn_group
 $npc							= on
 $prefetch						= 8
-$spawn							= "weapons\sig550"
+$spawn							= "weapons\scar_l"
 scheduled						= off
 cform							= skeleton
 parent_section					= wpn_scar_l
-icons_texture					= ui\ui_icon_mwp
 
 class							= WP_AK74
 slot							= 2
@@ -22,10 +21,11 @@ single_handed					= 0
 default_to_ruck					= false
 sprint_allowed					= true
 
+icons_texture					= ui\ui_icon_scar556
 inv_grid_height					= 2
 inv_grid_width					= 5
-inv_grid_x						= 6
-inv_grid_y						= 14
+inv_grid_x						= 0
+inv_grid_y						= 0
 inv_name						= st_wpn_scar_l
 inv_name_short					= st_wpn_scar_l
 description						= st_wpn_scar_l_descr
@@ -240,58 +240,70 @@ fire_point2	= 0,-0.017,0.692
 
 [wpn_scar_l_acog]:wpn_scar_l
 $spawn				= "weapons\scar_556_acog"
+hud					= wpn_scar_l_acog_hud
+visual				= dynamics\weapons\wpn_scar\wpn_scarl_acog.ogf
+
+inv_grid_y			= 2
+
 1icon_layer			= acog
 1icon_layer_x		= 89
 1icon_layer_y		= -7
-hud					= wpn_scar_l_acog_hud
-inv_grid_y			= 16
+
 inv_weight			= 3.67
+
 scope_zoom_factor	= 20
 scope_texture		= wpn_crosshair_acog
-visual				= dynamics\weapons\wpn_scar\wpn_scarl_acog.ogf
 
 [wpn_scar_l_acog_hud]:wpn_scar_l_hud
+item_visual				= dynamics\weapons\wpn_scar\wpn_scarl_acog_hud.ogf
 aim_hud_offset_pos		= -0.07980,0.043100,-0.251000
 aim_hud_offset_pos_16x9	= -0.07980,0.043100,-0.251000
 aim_hud_offset_rot		= 0.042500,0.008500,-0.011000
 aim_hud_offset_rot_16x9	= 0.042500,0.008500,-0.011000
-item_visual				= dynamics\weapons\wpn_scar\wpn_scarl_acog_hud.ogf
 
 [wpn_scar_l_c-more]:wpn_scar_l
 $spawn				= "weapons\scar_c-more"
+hud					= wpn_scar_l_c-more_hud
+visual				= dynamics\weapons\wpn_scar\wpn_scarl_c-more.ogf
+
+inv_grid_y			= 2
+
 1icon_layer			= c-more
 1icon_layer_x		= 90
 1icon_layer_y		= -6
-hud					= wpn_scar_l_c-more_hud
-inv_grid_y			= 16
+
 inv_weight			= 3.504
+
 scope_zoom_factor	= 0
-visual				= dynamics\weapons\wpn_scar\wpn_scarl_c-more.ogf
 
 [wpn_scar_l_c-more_hud]:wpn_scar_l_hud
+item_visual				= dynamics\weapons\wpn_scar\wpn_scarl_c-more_hud.ogf
 aim_hud_offset_pos		= -0.07900,0.043800,-0.32000
 aim_hud_offset_pos_16x9	= -0.07900,0.043800,-0.32000
 aim_hud_offset_rot		= 0.040000,0.007000,-0.011000
 aim_hud_offset_rot_16x9	= 0.040000,0.007000,-0.011000
-item_visual				= dynamics\weapons\wpn_scar\wpn_scarl_c-more_hud.ogf
 
 [wpn_scar_l_ac10632]:wpn_scar_l
 $spawn				= "weapons\scar_ac10632"
+hud					= wpn_scar_l_ac10632_hud
+visual				= dynamics\weapons\wpn_scar\wpn_scarl_coyote.ogf
+
+inv_grid_y			= 2
+
 1icon_layer			= ac10632
 1icon_layer_x		= 90
 1icon_layer_y		= -8
-hud					= wpn_scar_l_ac10632_hud
-inv_grid_y			= 16
+
 inv_weight			= 3.52
+
 scope_zoom_factor	= 0
-visual				= dynamics\weapons\wpn_scar\wpn_scarl_coyote.ogf
 
 [wpn_scar_l_ac10632_hud]:wpn_scar_l_hud
+item_visual				= dynamics\weapons\wpn_scar\wpn_scarl_coyote_hud.ogf
 aim_hud_offset_pos		= -0.07930,0.03970,-0.342500
 aim_hud_offset_pos_16x9	= -0.07930,0.03970,-0.342500
 aim_hud_offset_rot		= 0.040000,0.007000,-0.011000
 aim_hud_offset_rot_16x9	= 0.040000,0.007000,-0.011000
-item_visual				= dynamics\weapons\wpn_scar\wpn_scarl_coyote_hud.ogf
 
 [wpn_scar_l_eot]:wpn_scar_l
 $spawn				= "weapons\scar_556_eot"
@@ -305,27 +317,27 @@ scope_zoom_factor	= 0
 visual				= dynamics\weapons\wpn_scar\wpn_scarl_eot.ogf
 
 [wpn_scar_l_eot_hud]:wpn_scar_l_hud
+item_visual				= dynamics\weapons\wpn_scar\wpn_scarl_eot_hud.ogf
 aim_hud_offset_pos		= -0.079550,0.035450,-0.32000
 aim_hud_offset_pos_16x9	= -0.079550,0.035450,-0.32000
 aim_hud_offset_rot		= 0.040000,0.007000,-0.011000
 aim_hud_offset_rot_16x9	= 0.040000,0.007000,-0.011000
-item_visual				= dynamics\weapons\wpn_scar\wpn_scarl_eot_hud.ogf
 
 
 
 
 ;=============================================================
-;=================== Scar SC	=====================
+;=================== Scar SC =====================
 ;=============================================================
 [wpn_scar_sc]:wpn_scar_l
 $spawn					= "weapons\scar_sc"
 parent_section			= wpn_scar_sc
-; icons_texture			= ui\ui_icon_mwp
 
-; inv_grid_height		= 2
-; inv_grid_width		= 5
-; inv_grid_x			= 6
-; inv_grid_y			= 14
+; icons_texture			= ui\ui_icon_scar556
+; inv_grid_height			= 2
+; inv_grid_width			= 5
+; inv_grid_x				= 0
+; inv_grid_y				= 0
 inv_name				= st_wpn_scar_sc
 inv_name_short			= st_wpn_scar_sc
 description				= st_wpn_scar_sc_descr
@@ -363,15 +375,19 @@ hands_orientation_16x9	= 0.574314, 2.049736, 0.15
 
 [wpn_scar_sc_acog]:wpn_scar_sc
 $spawn				= "weapons\scar_sc_acog"
+hud					= wpn_scar_sc_acog_hud
+visual				= dynamics\weapons\wpn_scar\wpn_scar_sc_acog.ogf
+
+inv_grid_y			= 2
+
 1icon_layer			= acog
 1icon_layer_x		= 89
 1icon_layer_y		= -7
-hud					= wpn_scar_sc_acog_hud
-inv_grid_y			= 16
+
 inv_weight			= 3.45
+
 scope_zoom_factor	= 20
 scope_texture		= wpn_crosshair_acog
-visual				= dynamics\weapons\wpn_scar\wpn_scar_sc_acog.ogf
 
 [wpn_scar_sc_acog_hud]:wpn_scar_l_acog_hud
 item_visual	= dynamics\weapons\wpn_scar\wpn_scar_sc_acog_hud.ogf
@@ -383,14 +399,18 @@ aim_hud_offset_rot_16x9	= 0.0425, 0.0085, -0.011
 
 [wpn_scar_sc_c-more]:wpn_scar_sc
 $spawn				= "weapons\scar_sc_c-more"
+hud					= wpn_scar_sc_c-more_hud
+visual				= dynamics\weapons\wpn_scar\wpn_scar_sc_c-more.ogf
+
+inv_grid_y			= 2
+
 1icon_layer			= c-more
 1icon_layer_x		= 90
 1icon_layer_y		= -6
-hud					= wpn_scar_sc_c-more_hud
-inv_grid_y			= 2
+
 inv_weight			= 3.130
+
 scope_zoom_factor	= 0
-visual				= dynamics\weapons\wpn_scar\wpn_scar_sc_c-more.ogf
 
 [wpn_scar_sc_c-more_hud]:wpn_scar_l_c-more_hud
 item_visual	= dynamics\weapons\wpn_scar\wpn_scar_sc_c-more_hud.ogf
@@ -402,14 +422,18 @@ aim_hud_offset_rot_16x9	= 0.04, 0.007, -0.011
 
 [wpn_scar_sc_ac10632]:wpn_scar_sc
 $spawn				= "weapons\scar_sc_ac10632"
+hud					= wpn_scar_sc_ac10632_hud
+visual				= dynamics\weapons\wpn_scar\wpn_scar_sc_coyote.ogf
+
+inv_grid_y			= 2
+
 1icon_layer			= ac10632
 1icon_layer_x		= 90
 1icon_layer_y		= -8
-hud					= wpn_scar_sc_ac10632_hud
-inv_grid_y			= 16
+
 inv_weight			= 3.3
+
 scope_zoom_factor	= 0
-visual				= dynamics\weapons\wpn_scar\wpn_scar_sc_coyote.ogf
 
 [wpn_scar_sc_ac10632_hud]:wpn_scar_l_ac10632_hud
 item_visual	= dynamics\weapons\wpn_scar\wpn_scar_sc_coyote_hud.ogf
@@ -421,14 +445,18 @@ aim_hud_offset_rot_16x9	= 0.04, 0.007, -0.011
 
 [wpn_scar_sc_eot]:wpn_scar_sc
 $spawn				= "weapons\scar_sc_eot"
+visual				= dynamics\weapons\wpn_scar\wpn_scar_sc_eot.ogf
+hud					= wpn_scar_sc_eot_hud
+
+inv_grid_y			= 2
+
 1icon_layer			= eot
 1icon_layer_x		= 90
 1icon_layer_y		= -3
-hud					= wpn_scar_sc_eot_hud
-inv_grid_y			= 16
+
 inv_weight			= 3.4
+
 scope_zoom_factor	= 0
-visual				= dynamics\weapons\wpn_scar\wpn_scar_sc_eot.ogf
 
 [wpn_scar_sc_eot_hud]:wpn_scar_l_eot_hud
 item_visual	= dynamics\weapons\wpn_scar\wpn_scar_sc_eot_hud.ogf

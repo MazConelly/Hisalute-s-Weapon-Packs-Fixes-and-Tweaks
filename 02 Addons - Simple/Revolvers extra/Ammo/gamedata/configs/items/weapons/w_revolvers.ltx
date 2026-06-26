@@ -1,5 +1,5 @@
 ;=============================================================
-;========= Ruger, with changed positions =======
+;=========================== Ruger ===========================
 ;=============================================================
 [wpn_ruger_redhawk_45]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection			= spawn_group
@@ -21,10 +21,10 @@ single_handed				= 1
 default_to_ruck				= false
 sprint_allowed				= true
 
-icons_texture				= ui\ui_icon_swp
+icons_texture				= ui\ui_icon_gp100
 inv_grid_height				= 1
 inv_grid_width				= 2
-inv_grid_x					= 11
+inv_grid_x					= 0
 inv_grid_y					= 0
 inv_name					= st_wpn_ruger_redhawk_45
 inv_name_short				= st_wpn_ruger_redhawk_45_s
@@ -37,7 +37,7 @@ repair_type					= pistol
 
 hud							= wpn_ruger_redhawk_45_hud
 visual						= dynamics\weapons\wpn_metro_revolver\wpn_revolver.ogf
-position					= -0.021, -0.085, 0
+position					= -0.021, -0.085, 0.0
 orientation					= 0, 0, 0
 fire_point					= 0.0, 0.133, 0.22
 ph_mass						= 1
@@ -86,7 +86,7 @@ grenade_launcher_status		= 0
 hit_impulse					= 40
 hit_power					= 0.55, 0.55, 0.55, 0.55
 hit_type					= fire_wound
-fire_distance				= 100
+fire_distance				= 400
 bullet_speed				= 440
 rpm							= 350
 rpm_empty_click				= 120
@@ -230,7 +230,6 @@ ammo_class		= ammo_44magnum_fmj, ammo_44magnum_fmj_bad
 
 hit_impulse     = 70
 hit_power       = 1.29, 1.29, 1.29, 1.29
-fire_distance	= 150
 bullet_speed	= 396
 
 fire_dispersion_base	= 0.37
@@ -239,26 +238,25 @@ condition_shot_dec      = 0.00115
 condition_queue_shot_dec= 0.00115
 
 ;=============================================================
-;========================= .357 Ruger scoped	=====================
+;========================= .357 Ruger scoped =====================
 ;=============================================================
 [wpn_ruger_redhawk_357_sniper]:wpn_ruger_redhawk_45
 $spawn				= "weapons\ruger_redhawk_357_sniper"
 parent_section		= wpn_ruger_redhawk_357_sniper
 
-icons_texture		= ui\ui_icon_swp
+icons_texture		= ui\ui_icon_gp100_sniper
 inv_grid_height		= 2
 inv_grid_width		= 3
-inv_grid_x			= 11
-inv_grid_y			= 1
-
+inv_grid_x			= 0
+inv_grid_y			= 0
 inv_name			= st_wpn_ruger_redhawk_357_sniper
 inv_name_short		= st_wpn_ruger_redhawk_357_sniper_s
 description			= st_wpn_ruger_redhawk_357_sniper_descr
 
+hud					= wpn_ruger_redhawk_357_sniper_hud
+
 inv_weight			= 1.986
 cost				= 26520
-
-hud					= wpn_ruger_redhawk_357_sniper_hud
 
 scope_status		= 1
 scope_name			= wpn_addon_scope_pu
@@ -275,7 +273,6 @@ silencer_status		= 1
 hit_impulse			= 45
 hit_power			= 0.6, 0.6, 0.6, 0.6
 hit_type			= fire_wound
-fire_distance		= 150
 bullet_speed		= 530
 rpm					= 200
 rpm_empty_click		= 120
@@ -311,7 +308,6 @@ ammo_class		= ammo_44magnum_fmj, ammo_44magnum_fmj_bad
 
 hit_impulse     = 70
 hit_power       = 1.29, 1.29, 1.29, 1.29
-fire_distance	= 150
 bullet_speed	= 396
 
 fire_dispersion_base	= 0.37
@@ -335,11 +331,11 @@ inv_name			= st_wpn_sw500
 inv_name_short		= st_wpn_sw500_s
 description			= st_wpn_sw500_descr
 
-icons_texture		= ui\ui_icon_swp
-inv_grid_x			= 11
-inv_grid_y			= 3
-inv_grid_width		= 3
-inv_grid_height		= 1
+icons_texture		= ui\ui_icon_sw500
+inv_grid_x			= 0
+inv_grid_y			= 0
+inv_grid_width		= 0
+inv_grid_height		= 0
 
 inv_weight			= 2.26
 cost				= 50020
@@ -359,7 +355,7 @@ scope_status		= 0
 hit_impulse			= 90
 hit_power			= 2.0, 2.0, 2.0, 2.0
 hit_type			= fire_wound
-fire_distance		= 200
+fire_distance		= 700
 bullet_speed		= 632
 rpm					= 240
 rpm_empty_click		= 120
@@ -409,7 +405,6 @@ fire_point	= -0.1,0,0
 ;=============================================================
 ;========= Real SW 500, 12.7x55 modified, as per base MWP but its own gun =======
 ;=============================================================
-
 [wpn_sw500_12]:wpn_sw500
 $spawn			= "weapons\sw500_12"
 parent_section	= wpn_sw500_12
@@ -425,7 +420,7 @@ ammo_class		= ammo_12.7x55_fmj, ammo_12.7x55_fmj_bad, ammo_12.7x55_fmj_verybad, 
 
 hit_impulse		= 50
 hit_power		= 0.66, 0.66, 0.66, 0.66
-fire_distance	= 125
+fire_distance	= 500
 bullet_speed	= 495
 
 fire_dispersion_base	= 0.5
@@ -438,84 +433,6 @@ cam_dispersion			= 6.5
 ;=============================================================
 ;===================== Taurus Model 44=======================
 ;=============================================================
-
-[wpn_taurus44_snd_shoot]
-snd_1_layer		= weapons\_gunfire\mono\mp412\Close_1
-snd_1_layer1	= weapons\_gunfire\mono\mp412\Close_2
-snd_1_layer2	= weapons\_gunfire\mono\mp412\Close_3
-snd_1_layer3	= weapons\_gunfire\mono\mp412\Close_4
-snd_2_layer		= weapons\_shared\mono\357\mid_1
-snd_2_layer1	= weapons\_shared\mono\357\mid_2
-snd_2_layer2	= weapons\_shared\mono\357\mid_3
-snd_2_layer3	= weapons\_shared\mono\357\mid_4
-snd_2_layer4	= weapons\_shared\mono\357\mid_5
-snd_2_layer5	= weapons\_shared\mono\357\mid_6
-snd_2_layer6	= weapons\_shared\mono\357\mid_7
-snd_2_layer7	= weapons\_shared\mono\357\mid_8
-snd_3_layer		= weapons\_gunfire\mono\mp412\medium_distance
-snd_4_layer		= weapons\_shared\mono\reflectors\45\Reflector_1
-snd_4_layer1	= weapons\_shared\mono\reflectors\45\Reflector_2
-snd_4_layer2	= weapons\_shared\mono\reflectors\45\Reflector_3
-snd_4_layer3	= weapons\_shared\mono\reflectors\45\Reflector_4
-snd_5_layer		= weapons\_shared\mono\357\Far_1
-snd_5_layer1	= weapons\_shared\mono\357\Far_2
-snd_5_layer2	= weapons\_shared\mono\357\Far_3
-snd_5_layer3	= weapons\_shared\mono\357\Far_4
-snd_5_layer4	= weapons\_shared\mono\357\Far_5
-snd_5_layer5	= weapons\_shared\mono\357\Far_6
-snd_5_layer6	= weapons\_shared\mono\357\Far_7
-snd_5_layer7	= weapons\_shared\mono\357\Far_8
-snd_6_layer		= weapons\_shared\mono\357\Dist_1
-snd_6_layer1	= weapons\_shared\mono\357\Dist_2
-snd_6_layer2	= weapons\_shared\mono\357\Dist_3
-snd_6_layer3	= weapons\_shared\mono\357\Dist_4
-snd_6_layer4	= weapons\_shared\mono\357\Dist_5
-snd_6_layer5	= weapons\_shared\mono\357\Dist_6
-snd_6_layer6	= weapons\_shared\mono\357\Dist_7
-snd_6_layer7	= weapons\_shared\mono\357\Dist_8
-snd_7_layer		= weapons\_bass\bass_mid
-snd_8_layer		= weapons\mag44\mag44_mono_close1
-snd_8_layer1	= weapons\mag44\mag44_mono_close2
-snd_8_layer2	= weapons\mag44\mag44_mono_close3
-snd_8_layer3	= weapons\mag44\mag44_mono_close4
-
-[wpn_taurus44_snd_shoot_actor]
-snd_1_layer		= weapons\mag44\mag44_stereo_close1
-snd_1_layer1	= weapons\mag44\mag44_stereo_close2
-snd_1_layer2	= weapons\mag44\mag44_stereo_close3
-snd_1_layer3	= weapons\mag44\mag44_stereo_close4
-snd_2_layer		= weapons\_bass\bass_mid
-snd_3_layer		= weapons\_shared\stereo\reflectors\45\Reflector_1
-snd_3_layer1	= weapons\_shared\stereo\reflectors\45\Reflector_2
-snd_3_layer2	= weapons\_shared\stereo\reflectors\45\Reflector_3
-snd_3_layer3	= weapons\_shared\stereo\reflectors\45\Reflector_4
-snd_4_layer		= weapons\_cracks\stereo\small\crack_1
-snd_4_layer1	= weapons\_cracks\stereo\small\crack_2
-snd_4_layer2	= weapons\_cracks\stereo\small\crack_3
-snd_4_layer3	= weapons\_cracks\stereo\small\crack_4
-snd_4_layer4	= weapons\_cracks\stereo\small\crack_5
-snd_4_layer5	= weapons\_cracks\stereo\small\crack_6
-snd_4_layer6	= weapons\_cracks\stereo\small\crack_7
-snd_4_layer7	= weapons\_cracks\stereo\small\crack_8
-snd_5_layer		= weapons\_shared\stereo\Echo_1
-snd_5_layer1	= weapons\_shared\stereo\Echo_2
-snd_5_layer2	= weapons\_shared\stereo\Echo_3
-snd_5_layer3	= weapons\_shared\stereo\Echo_4
-snd_5_layer4	= weapons\_shared\stereo\Echo_5
-snd_5_layer5	= weapons\_shared\stereo\Echo_6
-snd_5_layer6	= weapons\_shared\stereo\Echo_7
-snd_5_layer7	= weapons\_shared\stereo\Echo_8
-snd_5_layer8	= weapons\_shared\stereo\Echo_9
-snd_5_layer9	= weapons\_shared\stereo\Echo_10
-snd_5_layer10	= weapons\_shared\stereo\Echo_11
-snd_5_layer11	= weapons\_shared\stereo\Echo_12
-snd_5_layer12	= weapons\_shared\stereo\Echo_13
-snd_5_layer13	= weapons\_shared\stereo\Echo_14
-snd_5_layer14	= weapons\_shared\stereo\Echo_15
-snd_5_layer15	= weapons\_shared\stereo\Echo_16
-snd_5_layer16	= weapons\_shared\stereo\Echo_17
-snd_5_layer17	= weapons\_shared\stereo\Echo_18
-
 [wpn_taurus_m44]:wpn_ruger_redhawk_45
 $spawn			= "weapons\taurus_m44"
 parent_section	= wpn_taurus_m44
@@ -537,7 +454,6 @@ ammo_class		= ammo_44magnum_fmj, ammo_44magnum_fmj_bad
 
 hit_impulse	 	= 70
 hit_power		= 1.29, 1.29, 1.29, 1.29
-fire_distance	= 200
 bullet_speed	= 396
 rpm				= 280
 
@@ -621,7 +537,6 @@ visual			= dynamics\weapons\wpn_colt_king\wpn_colt_king.ogf
 
 hit_impulse		= 45
 hit_power		= 0.6, 0.6, 0.6, 0.6
-fire_distance	= 150
 bullet_speed	= 460
 rpm				= 270
 

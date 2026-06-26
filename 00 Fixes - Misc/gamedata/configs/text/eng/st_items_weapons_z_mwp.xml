@@ -84,6 +84,9 @@
 	<string id="st_wpn_fnfalo">
 		<text>FN FALO</text>
 	</string>
+	<string id="st_wpn_fnfalo_s">
+		<text>FALO</text>
+	</string>
 	<string id="st_wpn_fnfalo_descr">
 		<text>The FN FALO (French, Fusil Automatique Lourd) is a Squad Automatic Weapon variant of the iconic FN FAL. Compared to the standard FAL, the FALO features a heavier barrel, bipod, and 30 round magazine. Unlike the FAL, the FALO only saw limited adoption, most notably by the Canadian military as the C2A1 and Australia as the L2A1. In its role the FALO was not very well liked, with both its comparatively light weight and 30 round capacity limiting its ability to provide accurate, sustained automatic fire. The FALO was eventually replaced in service by variants of the FN Minimi.\n
 		This particular gun has been modified to a pseudo DMR configuration, repositioning its bipod and mounting a variable power optic, however, its accuracy is lower than a purpose built DMR.\n
@@ -110,7 +113,7 @@
 		<text>OTs-14-4A Groza Tactical</text>
 	</string>
 	<string id="st_wpn_groza_tactical_s">
-		<text>Groza 4A Tactical</text>
+		<text>Groza 4A</text>
 	</string>
 	<string id="st_wpn_groza_tactical_descr">
 		<text>A rare variant of the OTs-14 Groza bullpup rifle, tailored for covert operations within the zone. This weapon features an integrated suppressor and Picatinny rails that facilitate the mounting of a variety of optics, but no longer possesses an integrated grenade launcher. The gun has also been chambered in the common 5.45x39mm cartridge to allow for simpler resupplying over potentially long expeditions. It is the preferred weapon of some military stalkers.\n
@@ -205,9 +208,6 @@
 	<string id="st_wpn_pm_drum">
 		<text>Makarov PM (drum magazine)</text>
 	</string>
-	<string id="st_wpn_pm_drum_s">
-		<text>PM (drum)</text>
-	</string>
 	<string id="st_wpn_pm_drum_descr">
 		<text>This Soviet legacy is the most common pistol in the Zone and is one of the best compact self-defence handguns available. It is small, highly reliable, easy to use and maintain in working order. It also suffers from several drawbacks, including short range, low firing accuracy and poor stopping power, while also losing out to modern pistols in its class in terms of weight and magazine size. In 1951, the Pistol Makarova was selected because of its simplicity, easy manufacturing, accuracy, and reasonable stopping power. This gun features an 80 round drum, which was made to allow for sustained firepower with a single hand, typically in a police role alongside a shield.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
@@ -221,7 +221,8 @@
 		<text>PSG-1 A1</text>
 	</string>
 	<string id="st_wpn_psg1a1_descr">
-		<text>The PSG-1 is a precision rifle based on the G3 battle rifle. It was designed from the beginning as a police sniper rifle for maximum precision. It boasts very high accuracy, but is also extremely expensive, leading to limited sales and a cessation of production in 2010. After the 1972 Munich massacre, Germany needed a semi-automatic rifle that would provide highest precision possible, eventually resulting in this gun and the WA2000. Mechanically it is just like the G3, though with features lending to higher precision. The PSG-1's accuracy is close to that of bolt-action sniper rifles, which is exceptional for a semi-automatic weapon. The rifle's weight, price and rather delicate construction makes it unsuitable for military use, leading to the development of the MSG90, with improvements aimed towards military conditions. The PSG-1A1 variant features 2 main improvements, an adjustment to the charging handle's position to prevent interference with optics, and an update to a Schmidt &amp; Bender 3–12?50 Police Marksman II scope. \n
+		<text>The PSG-1 is a precision rifle based on the G3 battle rifle, designed as a police sniper rifle for maximum precision. It boasts very high accuracy, but is also extremely expensive, leading to limited sales and a cessation of production in 2010. The PSG-1's accuracy is close to that of bolt-action sniper rifles, which is exceptional for a semi-automatic weapon. The rifle's weight, price and rather delicate construction makes it unsuitable for military use, leading to the development of the MSG90, with improvements aimed towards military conditions.\n
+		This PSG-1A1 variant features an adjustment to the charging handle's position to prevent interference with optics, and an update to a Schmidt &amp; Bender 3–12?50 Police Marksman II scope.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Schmidt &amp; Bender 3-12x50 scope (integrated)</text>
 	</string>
@@ -259,7 +260,7 @@
 		<text>Remington SPR 453 (auto)</text>
 	</string>
 	<string id="st_wpn_remington_spr453_S">
-		<text>SPR 453 (auto)</text>
+		<text>SPR 453</text>
 	</string>
 	<string id="st_wpn_remington_spr453_descr">
 		<text>The Remington Spartan 453, also known as the SPR 453, is a gas operated semi-automatic shotgun. It is an American import of the Russian-made Baikal MP-153, manufactured by Izhevsk Mechanical Plant in Izhevsk, Russia, marketed and distributed by Remington Arms.\n
@@ -313,6 +314,9 @@
 	<string id="st_wpn_svdk">
 		<text>SVDK .338</text>
 	</string>
+	<string id="st_wpn_svdk_s">
+		<text>SVDK</text>
+	</string>
 	<string id="st_wpn_svdk_descr">
 		<text>The SVDK is a Russian precision rifle from the SVD rifle family originally chambered for the 9.3x64mm 7N33 cartridge. It was created to deal with targets which are too hard for standard 7.62x54mmR sniper rifles like SV-98 or SVD, such as assault troops in heavy body armor or enemy snipers behind cover.\n
 		This is an experimental model, chambered in .338 Lapua Magnum in order to improve its efficiency against long range targets. It borrows some aspects from the SVCh-8.6, another SVD derived modern sniper rifle, also firing .338 Lapua Magnum.\n
@@ -326,7 +330,7 @@
 		<text>OTs-03A SVU-A (military)</text>
 	</string>
 	<string id="st_wpn_svu_sniper_s">
-		<text>SVU-A (military)</text>
+		<text>SVU-A</text>
 	</string>
 	<string id="st_wpn_svu_sniper_descr">
 		<text>The SVU-A is a variant of the SVU rifle capable of automatic fire, designed on a request from the Russian Interior Ministry. Although the weapon is generally not suited for close-combat situations, the automatic fire has proven itself to be a reliable emergency solution for exposed marksmen.\n
@@ -388,7 +392,7 @@
 		<text>HK VP70M (modified)</text>
 	</string>
 	<string id="st_wpn_vp70_s">
-		<text>VP70M (modified)</text>
+		<text>VP70M</text>
 	</string>
 	<string id="st_wpn_vp70_descr">
 		<text>The Volkspistole ("People's Pistol") 70 is a semi-automatic pistol chambered in 9x19mm, developed by Heckler and Koch. It was designed as a cheap semi-automatic pistol that could be quickly repurposed into a burst fire machine pistol/PDW with the addition of a polymer stock. The VP70 was a fairly revolutionary design with many modern features. It was the first mass-produced polymer pistol, predating the Glock 17 by 12 years and uses a spring-loaded striker, also featuring a high capacity 18 round double stack magazine. The VP70M is the military variant with provisions to attach a stock, within which a three round burst mechanism and selector switch is housed. When in burst mode, the cyclic rate of the pistol is a blistering 2200 rpm, though even with a stock it is difficult to control and of limited usefulness.\n
